@@ -1,0 +1,250 @@
+name: Validate FSH Files
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_sushi_validation:
+        description: 'Run SUSHI validation (comprehensive build test)'
+        required: false
+        default: false
+        type: boolean
+      fail_on_sushi_errors:
+        description: 'Fail workflow if SUSHI validation has errors'
+        required: false
+        default: false
+        type: boolean
+  pull_request:
+    paths:
+      - 'mal/input/fsh/**'
+      - 'mal/sushi-config.yaml'
+  push:
+    branches: [main]
+    paths:
+      - 'mal/input/fsh/**'
+      - 'mal/sushi-config.yaml'
+
+# CONFIGURATION: The "short name" of the IG and the folder must be the same
+env:
+  IG_SHORTNAME: mal
+  # IG: ${{ vars.IG_KORTNAVN }}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        
+    - name: Cache Node.js modules
+      uses: actions/cache@v4
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+          ${{ runner.os }}-
+
+    - name: Install fsh-sushi
+      run: npm install -g fsh-sushi
+
+    - name: Install hl7.fhir.no.basis-2.2.0-snapshots in local cache
+      run: |
+        echo "NPM install fhir r4 core 4.0.1 from package registry"
+        npm --registry https://packages.simplifier.net install hl7.fhir.r4.core@4.0.1
+        echo "NPM install fhir no-basis220 from https://github.com/HL7Norway/resources/"
+        curl -L -o hl7.fhir.no.basis-2.2.0-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.0-snapshots.tgz
+        npm install hl7.fhir.no.basis-2.2.0-snapshots.tgz
+        echo "Create .fhir packages cache directory for no-basis"
+        mkdir -p $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.0/package
+        echo "Copy local no-basis snapshot to .fhir package cache directory"
+        cp -r ./node_modules/hl7.fhir.no.basis/* $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.0/package
+
+
+    - name: Install fsh-validator
+      run: pip install -U git+https://github.com/glichtner/fsh-validator
+
+    - name: Run fsh-validator
+      run: |
+        cd ${{ env.IG_SHORTNAME }}/input/fsh/
+        echo "🔍 Running FSH validation..."
+        fsh-validator --all --log-path fsh-validator.log
+        echo "✅ FSH validation completed"
+        
+    - name: Run SUSHI validation
+      if: ${{ github.event.inputs.run_sushi_validation == 'true' }}
+      continue-on-error: true
+      timeout-minutes: 10
+      run: |
+        cd ${{ env.IG_SHORTNAME }}
+        echo "🍣 Running SUSHI build validation..."
+        # Try with --require-latest first, fallback without if it fails
+        if timeout 300 sushi . --require-latest 2>&1 | tee sushi-validation.log; then
+          echo "✅ SUSHI validation completed successfully"
+        else
+          echo "⚠️  SUSHI with --require-latest failed, trying without flag..."
+          timeout 300 sushi . 2>&1 | tee -a sushi-validation.log || true
+        fi
+        echo "✅ SUSHI validation step completed (check logs for details)"
+        
+    - name: Display validation results
+      if: always()
+      run: |
+        validation_failed=false
+        
+        # Display FSH validation results
+        cd ${{ env.IG_SHORTNAME }}/input/fsh/
+        if [ -f fsh-validator.log ]; then
+          echo "📊 FSH Validation Results:"
+          echo "=========================="
+          cat fsh-validator.log
+          
+          # Check if there are any errors
+          if grep -q "ERROR\|FATAL" fsh-validator.log; then
+            echo "❌ FSH validation failed with errors"
+            validation_failed=true
+          elif grep -q "WARN" fsh-validator.log; then
+            echo "⚠️  FSH validation completed with warnings"
+          else
+            echo "✅ FSH validation passed successfully"
+          fi
+        else
+          echo "⚠️  No FSH validation log found"
+        fi
+        
+        echo ""
+        
+        # Display SUSHI validation results if it was run
+        if [ "${{ github.event.inputs.run_sushi_validation }}" == "true" ]; then
+          cd ${{ github.workspace }}/${{ env.IG_SHORTNAME }}
+          if [ -f sushi-validation.log ]; then
+            echo "🍣 SUSHI Validation Results:"
+            echo "============================"
+            cat sushi-validation.log
+            
+            # Check if SUSHI had errors
+            if grep -q "error\|Error\|ERROR\|fatal\|Fatal\|FATAL" sushi-validation.log; then
+              echo "❌ SUSHI validation failed with errors"
+              if [ "${{ github.event.inputs.fail_on_sushi_errors }}" == "true" ]; then
+                echo "🚫 Workflow will fail due to SUSHI errors (fail_on_sushi_errors=true)"
+                validation_failed=true
+              else
+                echo "⚠️  Continuing despite SUSHI errors (fail_on_sushi_errors=false)"
+              fi
+            elif grep -q "warn\|Warn\|WARN" sushi-validation.log; then
+              echo "⚠️  SUSHI validation completed with warnings"
+            else
+              echo "✅ SUSHI validation passed successfully"
+            fi
+          else
+            echo "⚠️  SUSHI validation was enabled but no log found"
+          fi
+        else
+          echo "ℹ️  SUSHI validation was not enabled"
+        fi
+        
+        # Exit with error if any validation failed
+        if [ "$validation_failed" = true ]; then
+          exit 1
+        fi
+
+    - name: Upload validation artifacts
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: fsh-validation-results-${{ github.run_number }}
+        path: |
+          ${{ env.IG_SHORTNAME }}/input/fsh/fsh-validator.log
+          ${{ env.IG_SHORTNAME }}/sushi-validation.log
+          ${{ env.IG_SHORTNAME }}/input/fsh/**/*.fsh
+          
+    - name: Generate job summary
+      if: always()
+      run: |
+        echo "## 🔍 Validation Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # FSH Validation Summary
+        echo "### FSH Validator" >> $GITHUB_STEP_SUMMARY
+        
+        FSH_LOG_PATH="${{ github.workspace }}/${{ env.IG_SHORTNAME }}/input/fsh/fsh-validator.log"
+        if [ -f "$FSH_LOG_PATH" ]; then
+          fsh_error_count=$(grep -c "ERROR\|FATAL" "$FSH_LOG_PATH" || true)
+          fsh_warning_count=$(grep -c "WARN" "$FSH_LOG_PATH" || true)
+          
+          echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| FSH Errors | $fsh_error_count |" >> $GITHUB_STEP_SUMMARY
+          echo "| FSH Warnings | $fsh_warning_count |" >> $GITHUB_STEP_SUMMARY
+          
+          if [ $fsh_error_count -gt 0 ]; then
+            fsh_status="❌ **Failed**"
+          elif [ $fsh_warning_count -gt 0 ]; then
+            fsh_status="⚠️ **Passed with Warnings**"
+          else
+            fsh_status="✅ **Passed**"
+          fi
+        else
+          fsh_status="⚠️ **No Log Generated**"
+        fi
+        
+        # SUSHI Validation Summary (if enabled)
+        if [ "${{ github.event.inputs.run_sushi_validation }}" == "true" ]; then
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### SUSHI Validation" >> $GITHUB_STEP_SUMMARY
+          
+          SUSHI_LOG_PATH="${{ github.workspace }}/${{ env.IG_SHORTNAME }}/sushi-validation.log"
+          if [ -f "$SUSHI_LOG_PATH" ]; then
+            sushi_error_count=$(grep -c "error\|Error\|ERROR\|fatal\|Fatal\|FATAL" "$SUSHI_LOG_PATH" || true)
+            sushi_warning_count=$(grep -c "warn\|Warn\|WARN" "$SUSHI_LOG_PATH" || true)
+            
+            echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+            echo "| SUSHI Errors | $sushi_error_count |" >> $GITHUB_STEP_SUMMARY
+            echo "| SUSHI Warnings | $sushi_warning_count |" >> $GITHUB_STEP_SUMMARY
+            
+            if [ $sushi_error_count -gt 0 ]; then
+              sushi_status="❌ **Failed**"
+            elif [ $sushi_warning_count -gt 0 ]; then
+              sushi_status="⚠️ **Passed with Warnings**"
+            else
+              sushi_status="✅ **Passed**"
+            fi
+          else
+            sushi_status="⚠️ **No Log Generated**"
+          fi
+        else
+          sushi_status="⏭️ **Skipped** (not enabled)"
+        fi
+        
+        # Overall Summary
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Overall Status" >> $GITHUB_STEP_SUMMARY
+        echo "- **FSH Validation:** $fsh_status" >> $GITHUB_STEP_SUMMARY
+        echo "- **SUSHI Validation:** $sushi_status" >> $GITHUB_STEP_SUMMARY
+        
+        # Detailed Logs
+        if [ -f "$FSH_LOG_PATH" ]; then
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### FSH Validator Log" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat "$FSH_LOG_PATH" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ "${{ github.event.inputs.run_sushi_validation }}" == "true" ] && [ -f "$SUSHI_LOG_PATH" ]; then
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### SUSHI Validation Log" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat "$SUSHI_LOG_PATH" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+        fi
