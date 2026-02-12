@@ -39,11 +39,3 @@ $RECYCLE.BIN/
 
 # Windows - Windows Installer files
 *.lnk
-
-# FHIR IG Build Artifacts
-fsh-generated/
-output/
-temp/
-template/
-qa.html
-package-list.json

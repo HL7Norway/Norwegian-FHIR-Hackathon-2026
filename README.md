@@ -1,39 +1,13 @@
-![Under utvikling!](https://img.shields.io/badge/Status-Under%20utvikling-orange)
-[![ig-gh-pages](https://github.com/HL7Norway/ig-mal/actions/workflows/ig-gh-pages.yml/badge.svg)](https://github.com/HL7Norway/ig-mal/actions/workflows/ig-gh-pages.yml)
-[![Validate FSH Files](https://github.com/HL7Norway/ig-mal/actions/workflows/validate-fsh.yml/badge.svg)](https://github.com/HL7Norway/ig-mal/actions/workflows/validate-fsh.yml)
+# FHIR Hackathon 2026
 
-# Mal for implementasjonsguider (IG)
+Dato: TBD 2026  
+Sted: TBD  
+[Information and agenda](https://hl7norway.github.io/FHIR-hackathon-2026/currentbuild/)  
 
-Dette er en mal du kan bruke som utgangspunkt for en HL7 FHIR implementasjonsguide. Malen benytter FHIR Shorthand (FSH) for å definere profiler og GitHub Actions for automatisering, slik at all utvikling kan skje på GitHub.
+## Organization
 
-## ✨ Hva får du med malen?
+The Norwegian FHIR Hackathon 2026 takes place somewhere sometime 2026. The Norwegian FHIR hackathon is a collaborative effort of [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/) and [HL7 Norge](https://www.hl7.no/).
 
-- **FSH-profiler:** Eksempelprofiler basert på no-basis
-- **Automatisk validering:** FSH og SUSHI-validering via GitHub Actions  
-- **Automatisk publisering:** Bygg og publiser IG til GitHub Pages
-- **FTP/SFTP deployment:** Publiser til din egen web-server (noe eksperimentell)
-- **Dokumentasjonsstruktur:** Klar mappestruktur for innhold
-- **PlantUML-støtte:** Automatisk generering av diagrammer
+## About this repo
 
-## 🚀 Kom i gang på 5 minutter
-
-![Use this template](documentation/use-this-template.png)
-
-**Steg 1:** Klikk "Use this template" → "Create a new repository"
-
-**Steg 2:** Følg [setup-checklisten](documentation/setup-checklist.md) eller den [detaljerte oppsettsguiden](documentation/bruke-repo-som-mal.md)
-
-## 📚 Dokumentasjon
-
-Se malens [dokumentasjon for bruk, konfigurering og automatisering](documentation/README.md), inkludert:
-
-- [Hvordan bruke denne repoen som en mal for eget prosjekt](documentation/bruke-repo-som-mal.md)
-
-## 🎯 Beste praksis
-
-Følg beste praksis for implementasjonsguider. Utvalgte ressurser:
-
-
----
-
-> **Status:** Malen er under kontinuerlig utvikling. Se [plan og bidrag](CONTRIBUTING.md) for mer informasjon.
+This repo is used for planning, information and documentation of results from the Norwegian FHIR Hackathon 2026. All participants on the Hackathon is encuraged to document resuts as separate pages in the resulting Implementation Guide.  
