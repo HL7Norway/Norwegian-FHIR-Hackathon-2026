@@ -4,6 +4,8 @@
 
 ## Tilstede
 
+Nino, Bjørnar, Robert, Adam, Espen Øyvind, Michal, Tormod og Thomas
+
 ## Agenda
 
 * Konkretisere tracks
