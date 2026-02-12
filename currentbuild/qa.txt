@@ -3,7 +3,7 @@ Mal : Validation Results
 
 err = 0, warn = 12, info = 4
 IG Publisher Version: 2.1.0
-Generated Thu Feb 12 07:43:17 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.mal#0.1.0 (canonical = http://hl7.no/fhir/ig/mal)
+Generated Thu Feb 12 08:47:00 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.mal#0.1.0 (canonical = http://hl7.no/fhir/ig/mal)
  Build Errors : 0 / 4 / 0
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/mal/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.mal : 0 / 2 / 2
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/mal/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
