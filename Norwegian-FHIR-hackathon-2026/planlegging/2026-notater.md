@@ -13,7 +13,7 @@
 ## Notater
 
 
-<!--> Mal
+<!-- Mal
 ## 2026-
 
 ## Tilstede
@@ -22,4 +22,4 @@
 
 ## Notater
 
-<-->
+-->
