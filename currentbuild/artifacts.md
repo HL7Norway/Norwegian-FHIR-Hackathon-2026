@@ -1,4 +1,4 @@
-# Artifacts Summary - Mal v0.1.0
+# Artifacts Summary - Norwegian FHIR Hackathon 2026 v0.0.1
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -22,5 +22,5 @@ These are example instances that show what data produced and consumed by systems
 
 | | |
 | :--- | :--- |
-| [Pasient-1](Patient-Pasient-1.md) | Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon |
+| [Pasient-1](Patient-Pasient-1.md) | Eksempel på pasient med navn og fødselsnummer |
 

@@ -1,33 +1,27 @@
-Mal : Validation Results
+NorwegianFHIRHackathon2026 : Validation Results
 =========================================
 
-err = 0, warn = 12, info = 4
+err = 0, warn = 6, info = 4
 IG Publisher Version: 2.1.0
-Generated Thu Feb 12 08:47:00 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.mal#0.1.0 (canonical = http://hl7.no/fhir/ig/mal)
+Generated Thu Feb 12 09:26:00 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#0.0.1 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
  Build Errors : 0 / 4 / 0
- /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/mal/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.mal : 0 / 2 / 2
- /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/mal/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
- /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/mal/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 3
- /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/mal/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 5 / 2
+ /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2026 : 0 / 0 / 2
+ /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
+ /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 3
+ /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 0 / 2
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/ImplementationGuide-hl7.fhir.no.mal.json ==
-INFORMATION: ImplementationGuide/hl7.fhir.no.mal: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
-WARNING: ImplementationGuide/hl7.fhir.no.mal: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
-WARNING: ImplementationGuide/hl7.fhir.no.mal: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2026.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.no.hackathon.2026: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 == fsh-generated/resources/Patient-Pasient-1.json ==
+WARNING: Patient/Pasient-1: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
 == fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json ==
 INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mal-patient.json ==
 INFORMATION: StructureDefinition/mal-patient: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'FNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'FHN' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'DNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'HNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true

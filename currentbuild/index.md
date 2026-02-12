@@ -1,4 +1,4 @@
-# Home - Mal v0.1.0
+# Home - Norwegian FHIR Hackathon 2026 v0.0.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,42 +7,57 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal | *Version*:0.1.0 |
-| Draft as of 2026-02-12 | *Computable Name*:Mal |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.0.1 |
+| Draft as of 2026-02-12 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
-### Tittel
+### Norwegian FHIR Hackathon 2026
 
-Introduksjonstekst (husk at dette er en mal, og ALL tekst må endres - dette er kun et eksempel)
+The Norwegian FHIR Hackathon 2026 takes place somwhere sometime 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/) and [HL7 Norge](https://www.hl7.no/)
 
-### Mål
+### Why should you attend?
 
-Målet med denne implementasjonsguiden er å gi en standardisert måte å representere og utveksle helsedata på ved hjelp av HL7 FHIR. Guiden beskriver hvordan ulike FHIR-profiler og ressurser kan brukes for å oppnå interoperabilitet mellom helsesystemer.
+The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself.
 
-### Omfang
+During the Norwegian FHIR Hackathon you can:
 
-Denne implementasjonsguiden dekker følgende områder:
+Use cases for the Norwegian FHIR Hackathon is to be decided.
 
-* Pasientadministrasjon
-* Kliniske observasjoner
-* Medisinsk historikk
-* Behandlingsplaner
-* Laboratorieresultater
+> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software.
 
-### Brukstilfeller
+### Who should attend?
 
-#### Pasientregistrering
+The event will be of value to individuals working in the healthcare industry and software providers in healthcare.
 
-Denne guiden beskriver hvordan pasienter kan registreres i et helsesystem ved hjelp av FHIR `Patient`-ressursen. Eksempler inkluderer opprettelse, oppdatering og sletting av pasientdata.
+* Developers
+* Solution architects
+* Information architects
+* Enterprise architects
+* Project managers
 
-#### Kliniske observasjoner
+### Preparations for participants
 
-Guiden viser hvordan kliniske observasjoner som blodtrykk, puls og temperatur kan representeres ved hjelp av FHIR `Observation`-ressursen.
+* Basic knowledge of RESTful API's is usefull to be able to participate in testing and development
+* Knowledge of at least one of the following areas: 
+* Development of RESTful API clients/servers
+* Information modelling
+* Testing RESTful APIs
+* Using RESTful APIs using Postman
+ 
+* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided). HL7 also provides some great video resources for this purpose: 
+* [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
+* [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
+* [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
+ 
 
-### Figur
+### How to attend
 
-Eksempel på en figur laget med PlantUML.
+### Questions and contact
 
-![](test.svg)
+Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you got any questions regarding the event.
+
+### Other hackathons in the Nordics
+
+All the nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/)
 
 
 
@@ -51,13 +66,13 @@ Eksempel på en figur laget med PlantUML.
 ```json
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "hl7.fhir.no.mal",
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
-  "version" : "0.1.0",
-  "name" : "Mal",
-  "title" : "Mal",
+  "id" : "hl7.fhir.no.hackathon.2026",
+  "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
+  "version" : "0.0.1",
+  "name" : "NorwegianFHIRHackathon2026",
+  "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-02-12T08:45:04+00:00",
+  "date" : "2026-02-12T09:24:28+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -70,7 +85,7 @@ Eksempel på en figur laget med PlantUML.
       ]
     }
   ],
-  "description" : "Implementasjonsguide for å TODO",
+  "description" : "Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026",
   "jurisdiction" : [
     {
       "coding" : [
@@ -82,7 +97,7 @@ Eksempel på en figur laget med PlantUML.
       ]
     }
   ],
-  "packageId" : "hl7.fhir.no.mal",
+  "packageId" : "hl7.fhir.no.hackathon.2026",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [
@@ -109,12 +124,6 @@ Eksempel på en figur laget med PlantUML.
       "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
       "packageId" : "hl7.fhir.uv.extensions.r4",
       "version" : "5.2.0"
-    },
-    {
-      "id" : "hl7_fhir_no_basis",
-      "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
-      "packageId" : "hl7.fhir.no.basis",
-      "version" : "2.2.0"
     }
   ],
   "definition" : {
@@ -127,7 +136,7 @@ Eksempel på en figur laget med PlantUML.
           },
           {
             "url" : "value",
-            "valueString" : "2025+"
+            "valueString" : "2026+"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -244,7 +253,7 @@ Eksempel på en figur laget med PlantUML.
           },
           {
             "url" : "value",
-            "valueString" : "http://hl7.no/fhir/ig/mal/history.html"
+            "valueString" : "http://hl7.no/fhir/ig/hackathon/2026/history.html"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -456,7 +465,7 @@ Eksempel på en figur laget med PlantUML.
           },
           {
             "url" : "value",
-            "valueString" : "2025+"
+            "valueString" : "2026+"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -573,7 +582,7 @@ Eksempel på en figur laget med PlantUML.
           },
           {
             "url" : "value",
-            "valueString" : "http://hl7.no/fhir/ig/mal/history.html"
+            "valueString" : "http://hl7.no/fhir/ig/hackathon/2026/history.html"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -814,8 +823,8 @@ Eksempel på en figur laget med PlantUML.
           "reference" : "Patient/Pasient-1"
         },
         "name" : "Pasient-1",
-        "description" : "Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon",
-        "exampleCanonical" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"
+        "description" : "Eksempel på pasient med navn og fødselsnummer",
+        "exampleCanonical" : "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient"
       }
     ],
     "page" : {
@@ -838,6 +847,116 @@ Eksempel på en figur laget med PlantUML.
           ],
           "nameUrl" : "index.html",
           "title" : "Home",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "2026-changes.html"
+            }
+          ],
+          "nameUrl" : "2026-changes.html",
+          "title" : "2026 Changes",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "hack-agenda.html"
+            }
+          ],
+          "nameUrl" : "hack-agenda.html",
+          "title" : "Hack Agenda",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "ig-publishing.html"
+            }
+          ],
+          "nameUrl" : "ig-publishing.html",
+          "title" : "Ig Publishing",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "ig-publishing-results.html"
+            }
+          ],
+          "nameUrl" : "ig-publishing-results.html",
+          "title" : "Ig Publishing Results",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "practical-info.html"
+            }
+          ],
+          "nameUrl" : "practical-info.html",
+          "title" : "Practical Info",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "pre-agenda.html"
+            }
+          ],
+          "nameUrl" : "pre-agenda.html",
+          "title" : "Pre Agenda",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "resultater-okt.html"
+            }
+          ],
+          "nameUrl" : "resultater-okt.html",
+          "title" : "Resultater Okt",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "resultater-pmd.html"
+            }
+          ],
+          "nameUrl" : "resultater-pmd.html",
+          "title" : "Resultater Pmd",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "terminology.html"
+            }
+          ],
+          "nameUrl" : "terminology.html",
+          "title" : "Terminology",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "track-descriptions.html"
+            }
+          ],
+          "nameUrl" : "track-descriptions.html",
+          "title" : "Track Descriptions",
           "generation" : "markdown"
         }
       ]

@@ -1,27 +1,24 @@
 {
-  "package": "hl7.fhir.no.mal",
-  "version": "0.1.0",
+  "package": "hl7.fhir.no.hackathon.2026",
+  "version": "0.0.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
+        "url": "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove",
         "title": "Blodprøve"
       }
     ],
     "Patient": [
       {
-        "url": "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
+        "url": "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient",
         "title": "Pasient"
       }
     ]
   },
   "usage": {
-    "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
-      "Patient.name"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -33,12 +30,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/patient-citizenship": [
-      "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"

@@ -1,23 +1,23 @@
 [
   {
-    "id" : "hl7.fhir.no.mal",
+    "id" : "hl7.fhir.no.hackathon.2026",
     "type" : "ImplementationGuide",
-    "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
-    "version" : "0.1.0",
-    "name" : "Mal"
+    "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
+    "version" : "0.0.1",
+    "name" : "NorwegianFHIRHackathon2026"
   },
   {
     "id" : "mal-observation-blodprove",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
-    "version" : "0.1.0",
+    "url" : "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove",
+    "version" : "0.0.1",
     "name" : "MalObservationBlood"
   },
   {
     "id" : "mal-patient",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
-    "version" : "0.1.0",
+    "url" : "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient",
+    "version" : "0.0.1",
     "name" : "MalPatient"
   }
 ]

@@ -43,34 +43,6 @@
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "Identifier Type Codes",
-      "title" : "IdentifierType",
-      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
-      "oids" : ["2.16.840.1.113883.4.642.3.45"],
-      "sources" : ["2.16.840.1.113883.4.642.3.45"],
-      "uses" : {
-      },
-      "StructureDefinition-mal-patient.html" : "Pasient"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "IdentifierUse",
-      "title" : "IdentifierUse",
-      "description" : "Identifies the purpose for this identifier, if known .",
-      "systems" : ["http://hl7.org/fhir/identifier-use"],
-      "oids" : ["2.16.840.1.113883.4.642.3.57"],
-      "sources" : ["2.16.840.1.113883.4.642.3.57"],
-      "uses" : {
-      },
-      "StructureDefinition-mal-patient.html" : "Pasient"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
       "version" : "4.0.1",
       "status" : "draft",

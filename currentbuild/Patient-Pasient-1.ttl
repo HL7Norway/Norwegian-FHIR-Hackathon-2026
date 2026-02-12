@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ig/mal/Patient/Pasient-1> a fhir:Patient ;
+<http://hl7.no/fhir/ig/hackathon/2026/Patient/Pasient-1> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Pasient-1"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"^^xsd:anyURI ;
-       fhir:l <http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient>
+       fhir:v "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Kari Elisabeth Hansen</strong></p><p>Fødselsnummer: 13031353453</p><p>Kjønn: Kvinne</p><p>Fødselsdato: 13. mars 1990</p><p>Telefon: +47 12 34 56 78 (mobil)</p><p>E-post: kari.hansen@example.no</p><p>Adresse: Storgata 123, 5020 Bergen, Norge</p></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient Pasient-1</b></p><a name=\"Pasient-1\"> </a><a name=\"hcPasient-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mal-patient.html\">Pasient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Rita Lin  (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#13031353453)</p><hr/></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
      fhir:system [
@@ -27,24 +27,8 @@
      fhir:value [ fhir:v "13031353453" ]
   ] ) ; # 
   fhir:name ( [
-     fhir:family [ fhir:v "Hansen" ] ;
-     fhir:given ( [ fhir:v "Kari" ] [ fhir:v "Elisabeth" ] )
-  ] ) ; # 
-  fhir:telecom ( [
-     fhir:system [ fhir:v "phone" ] ;
-     fhir:value [ fhir:v "+47 12 34 56 78" ] ;
-     fhir:use [ fhir:v "mobile" ]
-  ] [
-     fhir:system [ fhir:v "email" ] ;
-     fhir:value [ fhir:v "kari.hansen@example.no" ]
-  ] ) ; # 
-  fhir:gender [ fhir:v "female"] ; # 
-  fhir:birthDate [ fhir:v "1990-03-13"^^xsd:date] ; # 
-  fhir:address ( [
-     fhir:line ( [ fhir:v "Storgata 123" ] ) ;
-     fhir:city [ fhir:v "Bergen" ] ;
-     fhir:postalCode [ fhir:v "5020" ] ;
-     fhir:country [ fhir:v "NO" ]
+     fhir:family [ fhir:v "Lin" ] ;
+     fhir:given ( [ fhir:v "Rita" ] )
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

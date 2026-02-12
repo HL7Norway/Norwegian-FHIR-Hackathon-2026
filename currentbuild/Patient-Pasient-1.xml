@@ -3,35 +3,17 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="Pasient-1"/>
   <meta>
-    <profile value="http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"/>
+    <profile value="http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><strong>Kari Elisabeth Hansen</strong></p><p>Fødselsnummer: 13031353453</p><p>Kjønn: Kvinne</p><p>Fødselsdato: 13. mars 1990</p><p>Telefon: +47 12 34 56 78 (mobil)</p><p>E-post: kari.hansen@example.no</p><p>Adresse: Storgata 123, 5020 Bergen, Norge</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient Pasient-1</b></p><a name="Pasient-1"> </a><a name="hcPasient-1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mal-patient.html">Pasient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Rita Lin  (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#13031353453)</p><hr/></div>
   </text>
   <identifier>
     <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
     <value value="13031353453"/>
   </identifier>
   <name>
-    <family value="Hansen"/>
-    <given value="Kari"/>
-    <given value="Elisabeth"/>
+    <family value="Lin"/>
+    <given value="Rita"/>
   </name>
-  <telecom>
-    <system value="phone"/>
-    <value value="+47 12 34 56 78"/>
-    <use value="mobile"/>
-  </telecom>
-  <telecom>
-    <system value="email"/>
-    <value value="kari.hansen@example.no"/>
-  </telecom>
-  <gender value="female"/>
-  <birthDate value="1990-03-13"/>
-  <address>
-    <line value="Storgata 123"/>
-    <city value="Bergen"/>
-    <postalCode value="5020"/>
-    <country value="NO"/>
-  </address>
 </Patient>
