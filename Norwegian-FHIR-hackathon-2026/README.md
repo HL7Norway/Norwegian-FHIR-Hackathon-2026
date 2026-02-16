@@ -1,15 +1,13 @@
-# Forklaring
+# Norwegian FHIR Hackathon 2026
 
-## ig.ini
+Date: Sometime (November 2026)
+Place: Somewhere  
+[Information and agenda TBD]()  
 
-Denne filen konfigurerer implementasjonsguiden (IG). Den spesifiserer basisinformasjon og konfigurasjoner som brukes av IG Publisher for å generere FHIR IG.
+## Organization
 
-## input
+The Norwegian FHIR Hackathon 2026 takes place on somwhere sometime 2026. The Norwegian FHIR hackathon is a collaborative effort of [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/) and [HL7 Norge](https://www.hl7.no/) (more partners are welcome, please contact us).
 
-Denne katalogen inneholder alle inndataene for implementasjonsguiden. Dette inkluderer FHIR Shorthand (FSH)-filer, ressurser, eksempler og andre nødvendige filer for å bygge IG.
+## About this repo
 
-## sushi-config.yaml
-
-Denne filen er konfigurasjonen for Sushi, som er en kompilator for FHIR Shorthand (FSH). Den inneholder metadata og spesifikasjoner som brukes for å generere FHIR-ressurser fra FSH-filer.
-
-Se forøvrig dokumentasjon for [Bruk, konfigurering og automatisering](../documentation/README.md) og [Hvordan bruke denne repoen som en mal](../documentation/bruke-repo-som-mal.md).
+This repo is used for planning, information and documentation of results from the Norwegian FHIR Hackathon 2026. All participants on the Hackathon is encuraged to document resuts as separate pages in the resulting Implementation Guide.  
