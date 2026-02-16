@@ -3,6 +3,7 @@
 "Participant" as participant
 "API provider" as applikasjon
 
+"Learn FHIR" as (fhir) #red
 'rectangle "test" as rect {
 "Learn new skills" as (learn) #pink
 "Learning by doing" as (doing) #pink
@@ -15,10 +16,15 @@
 '(provide) -down[hidden]- (get)
 applikasjon -up-> learn
 applikasjon -up-> doing
+applikasjon -up-> fhir
 applikasjon -left-> provide
 applikasjon -down-> get
 get -left- give
 provide -left- test
+'learn -down[hidden]- fhir
+'doing -down[hidden]- fhir
+fhir -down[hidden]- learn
+fhir -down[hidden]- doing
 provide -down[hidden]- get
 participant -up-> learn
 
@@ -34,6 +40,7 @@ test -[hidden]down- give
 participant -right-> test
 'søke <-down- pasient
 participant -up-> (doing)
+participant -up-> (fhir)
 participant -down-> (give)
 '(give) <-right- pasient
 'kliniker -down-> (skrive)
