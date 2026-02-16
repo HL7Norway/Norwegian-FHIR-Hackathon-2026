@@ -1,18 +1,18 @@
-# hl7.fhir.no.hackathon.2026#0.0.1: Norwegian FHIR Hackathon 2026
+# hl7.fhir.no.hackathon.2026#0.0.2: Norwegian FHIR Hackathon 2026
 
 ## Pages
 
 * [Home](index.md)
-* [Pre Agenda](pre-agenda.md)
-* [Practical Info](practical-info.md)
-* [2026 Changes](2026-changes.md)
-* [Artifacts Summary](artifacts.md)
-* [Resultater Okt](resultater-okt.md)
-* [Ig Publishing](ig-publishing.md)
-* [Resultater Pmd](resultater-pmd.md)
-* [Hack Agenda](hack-agenda.md)
-* [Terminology](terminology.md)
 * [Track Descriptions](track-descriptions.md)
+* [Terminology](terminology.md)
+* [Hack Agenda](hack-agenda.md)
+* [Resultater Pmd](resultater-pmd.md)
+* [Resultater Okt](resultater-okt.md)
+* [2026 Changes](2026-changes.md)
+* [Pre Agenda](pre-agenda.md)
+* [Artifacts Summary](artifacts.md)
+* [Ig Publishing](ig-publishing.md)
+* [Practical Info](practical-info.md)
 * [Ig Publishing Results](ig-publishing-results.md)
 
 ## Resources

@@ -1,4 +1,4 @@
-# Home - Norwegian FHIR Hackathon 2026 v0.0.1
+# Home - Norwegian FHIR Hackathon 2026 v0.0.2
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.0.1 |
-| Draft as of 2026-02-12 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.0.2 |
+| Draft as of 2026-02-16 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 ### Norwegian FHIR Hackathon 2026
 
@@ -49,8 +49,6 @@ The event will be of value to individuals working in the healthcare industry and
 * [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
  
 
-### How to attend
-
 ### Questions and contact
 
 Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you got any questions regarding the event.
@@ -68,11 +66,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-02-12T09:24:28+00:00",
+  "date" : "2026-02-16T20:23:47+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
