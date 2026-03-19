@@ -8,6 +8,7 @@ Robert, Adam, Espen Øyvind, Michal, Tormod og Thomas
 
 ## Agenda
 
+* Status og oppdateringer
 * Lande tid
 * Lande sted
 * Konkretisere tracks
@@ -15,6 +16,15 @@ Robert, Adam, Espen Øyvind, Michal, Tormod og Thomas
 
 ## Notater
 
+### Status og oppdateringer
+
+* IHE Norge er interessert i å delta med spor, inviterer Ingvar på neste møte.
+* NAV er interessert i å delta, usikker på om de kan organisere spor, inviterer til neste møte.
+* [Svensk hackathon](https://hl7.se/fhir/vitalis-hackathon-2026/) invitasjon er ute.  
+
+### Tid og sted
+
+Tid: uka før EHIN forslag til dato fredag 6 november eller mandag 9 november (prekonferansedagen)?  
 
 ### Neste møte
 
