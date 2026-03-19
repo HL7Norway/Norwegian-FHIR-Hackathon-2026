@@ -4,7 +4,7 @@
 
 ## Tilstede
 
-Robert, Adam, Espen Øyvind, Michal, Tormod og Thomas
+Adam, Espen , Michal, Tormod og Thomas
 
 ## Agenda
 
@@ -21,10 +21,41 @@ Robert, Adam, Espen Øyvind, Michal, Tormod og Thomas
 * IHE Norge er interessert i å delta med spor, inviterer Ingvar på neste møte.
 * NAV er interessert i å delta, usikker på om de kan organisere spor, inviterer til neste møte.
 * [Svensk hackathon](https://hl7.se/fhir/vitalis-hackathon-2026/) invitasjon er ute.  
+  * C3po initiative - er et case her.  
+  * Sammenligne nasjonale profiler og terminologi er svært aktuelt for HL7 Norge.  
 
 ### Tid og sted
 
-Tid: uka før EHIN forslag til dato fredag 6 november eller mandag 9 november (prekonferansedagen)?  
+Tid: uka før EHIN forslag til dato fredag 6. november eller mandag 9. november (prekonferansedagen)?  
+
+* For PMD og Pasientens planer trenger egentlig hackathon tidligere
+* Splitte opp i flere arrangementer?
+* Ha det tidligere og to mindre med to mindre hackathons?
+  * Gir verdi for å teste tidligere og få tidligere innspill i utvikling som foregår
+  * Cap på 30 personer pr. møte
+
+#### Andre ideer
+
+* EHDS over landegrensene track?
+
+#### Forslag til inndeling i to Hackathons
+
+##### Hackathon 1, Mai
+
+**Må avklares med produkteier og tjenesteeier, fint om NHN tar en diskusjon på dette internt til neste gang.**
+
+* Tid: mai/juni - må sjekkes med produkteier
+* Fokus: PMD og planer som main track (innspill til utvikling av måledata og pasientens planer)
+* Sted? Kan det være i Sverige (Gøteborg) rett etter Vitalis, på svensk Hackathon 8. mai?
+* Sted? Eventuelt hotell i Oslo.  
+* Annet: 101 on FHIR i tillegg?
+
+##### Hackathon 2, November
+
+* Tid: November 9. november (prekonferansedagen)  
+* Fokus: SMART on FHIR, Dokumentdeling (IHE), 101, terminologi og OKT  
+* Sted: Helsedirektoratet / Leie hotell / NAV / (NHN har ikke plass)
+* Annet: 
 
 ### Neste møte
 
