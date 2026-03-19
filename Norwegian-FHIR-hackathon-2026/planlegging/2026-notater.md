@@ -1,5 +1,25 @@
 # Notater planlegging 2026
 
+## 2026-03-19
+
+## Tilstede
+
+Robert, Adam, Espen Øyvind, Michal, Tormod og Thomas
+
+## Agenda
+
+* Lande tid
+* Lande sted
+* Konkretisere tracks
+* Neste møte
+
+## Notater
+
+
+### Neste møte
+
+Forslag: onsdag 15. april klokken 12.
+
 ## 2026-02-12
 
 ## Tilstede
