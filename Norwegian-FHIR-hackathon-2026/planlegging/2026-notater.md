@@ -34,13 +34,13 @@ Tid: uka før EHIN forslag til dato fredag 6. november eller mandag 9. november 
   * Gir verdi for å teste tidligere og få tidligere innspill i utvikling som foregår
   * Cap på 30 personer pr. møte
 
-#### Andre ideer
+### Andre ideer
 
 * EHDS over landegrensene track?
 
-#### Forslag til inndeling i to Hackathons
+### Forslag til inndeling i to Hackathons
 
-##### Hackathon 1, Mai
+#### Hackathon 1, Mai
 
 **Må avklares med produkteier og tjenesteeier, fint om NHN tar en diskusjon på dette internt til neste gang.**
 
@@ -50,7 +50,7 @@ Tid: uka før EHIN forslag til dato fredag 6. november eller mandag 9. november 
 * Sted? Eventuelt hotell i Oslo.  
 * Annet: 101 on FHIR i tillegg?
 
-##### Hackathon 2, November
+#### Hackathon 2, November
 
 * Tid: November 9. november (prekonferansedagen)  
 * Fokus: SMART on FHIR, Dokumentdeling (IHE), 101, terminologi og OKT  
