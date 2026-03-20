@@ -2,17 +2,27 @@
 
 The Norwegian FHIR Hackathon 2026 takes place somwhere sometime 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/) and [HL7 Norge](https://www.hl7.no/)
 
+### Hackathon events for 2026
+
+The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well.  
+
+The Norwegian Hackathon will have two events this year.
+
+* **Spring Hackathon** concerning NHN services for Patient plans and Patient observations
+* **Fall Hackathon** concerning municipality services, FHIR 101, Document sharing and SMART or terminology
+
 ### Why should you attend?
 
-The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself.  
+The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself. The Norwegian FHIR Hackathon is also a great place to discuss problems and find solutions in cooperation with the other participants.  
 
 <div>{% include main-use-case.svg %}</div>
 
 During the Norwegian FHIR Hackathon you can:  
 
-Use cases for the Norwegian FHIR Hackathon is to be decided.
+* Work on several different use cases.  
+* The actual use cases for the 2026 Norwegian FHIR Hackathon is to be decided.  
 
-> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software.
+<!-->> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software. -->
 
 ### Who should attend?
 
