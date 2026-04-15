@@ -19,6 +19,13 @@
 
 ### Status og oppdateringer
 
+* Nye deltakere
+* Hackathon i Gøteborg 8. mai
+
+### To eller ett hackathon
+
+* Det blir ett høst hackathon.
+
 ## 2026-03-19
 
 ## Tilstede
