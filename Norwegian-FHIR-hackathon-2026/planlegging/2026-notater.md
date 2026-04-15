@@ -1,5 +1,24 @@
 # Notater planlegging 2026
 
+## 2026-04-15
+
+## Tilstede
+
+ Thomas
+
+## Agenda
+
+1. Status og presentasjon av nye deltakere i møteserien (Ingvar og Erik).
+2. Foreslått å dele i to hackathons for å gi bedre verdi for pågående utviklingsprosjekter (PMD og Pasientens planer)
+   1. Diskutere og realitetsbehandle dette forslaget (se notater fra forrige møte).
+3. Mer om tid og sted, hackathon 1 kan å kobles på Svensk hackathon i Gøteborg 8. mai, hvis vi tror det er mulig å få utviklere fra Norge dit?
+4. Konkretisering av tracks og track leads
+5. Eventuelt
+
+## Notater
+
+### Status og oppdateringer
+
 ## 2026-03-19
 
 ## Tilstede
