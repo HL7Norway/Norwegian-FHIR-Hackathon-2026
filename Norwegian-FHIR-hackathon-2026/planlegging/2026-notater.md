@@ -4,7 +4,7 @@
 
 ## Tilstede
 
- Thomas
+Espen, Leo-Andreas, Adam, Ingvar, Nino, Øyvind og Thomas
 
 ## Agenda
 
@@ -19,12 +19,59 @@
 
 ### Status og oppdateringer
 
-* Nye deltakere
+* Nye deltakere NAV og IHE Norge
+  * Teknisk bevis for SMART on FHIR ut i markedet
+  * Teknisk know how ut til leverandørene er viktig.
 * Hackathon i Gøteborg 8. mai
+* Tracks fra IHE Norge - og dokumentdeling for avtalespesialister og kommuner?
+  * dokumentlager fra NHN og EU kravene
 
 ### To eller ett hackathon
 
 * Det blir ett høst hackathon.
+
+### Tid og sted
+
+Hovedmål er å rekruttere leverandørindustrien
+
+* EHIN bør være en fin arena for å spre budskapet om hva vi har fått til, synliggjøring
+* Lokalet var ikke perfekt i fjor, for spredning av resultatene.
+  * hvis vi får flere i tale så er det viktig
+* Deltakerne - Bedredelt deltakerne
+* Vil gjerne hjelpe til med lokaler hvis det trengs (NAV)
+  * Viktig å følge opp med noe sosialt etterpå
+  * Rebell - tec hub Oslo sentrum
+  * NAV kan stille med lokaler
+* Health2B - potensiell samarbeidspartner
+* Rebell - er et godt forslag til lokaler - vi sjekker pris
+  * Kan bruke noen penger på dette hvis vi trenger det
+
+### Tracks
+
+Vi er avhengig av HelseID på SMART track
+
+* Mock organisasjon i HelseID for å få til testingen
+* Vi trenger testtjenester på internett
+
+#### Aktuelle tracks
+
+* NHN PMD tjenesten, FHIR API for PMD 2.0
+* NHN pasientens planer tjenesten - FHIR API
+* SMART on FHIR -  
+  * SMART delen er avhengig av HelseID  
+* Dokumentdeling (IHE)  
+  * HelseID  
+  * IHE MHD profilen - kan testes uten NHN? Hvis vi har et testmiljø.
+  * Dokumentdeling - helseid er den største bøygen
+* OKT track - hva skal den være?
+  * IG fra Conteir om bruk av FHIR i kommunene - hvordan ser disse profilene ut?  
+  * Hva er status på OKT tjenesten fra NHN? Blir det et FHIR grensesnitt for dette?
+* FHIR 101
+
+### Målgruppene
+
+* HelseID og dokumentdeling er veldig tekniske spor.
+* Det er enighet om å holde det til et hovedsaklig teknisk fokus
 
 ## 2026-03-19
 
