@@ -1,5 +1,24 @@
 # Notater planlegging 2026
 
+## 2026-04-30
+
+## Tilstede
+
+## Agenda
+
+1. Tracks, bestemme track leads.
+2. Fastsette lokasjon og dato.
+3. Eventuelt
+
+## Notater
+
+### Tracks, track leads
+
+### Tid og sted
+
+* Dato bør vel være 9. november
+* 
+
 ## 2026-04-15
 
 ## Tilstede
@@ -35,15 +54,15 @@ Espen, Leo-Andreas, Adam, Ingvar, Nino, Øyvind og Thomas
 Hovedmål er å rekruttere leverandørindustrien
 
 * EHIN bør være en fin arena for å spre budskapet om hva vi har fått til, synliggjøring
-* Lokalet var ikke perfekt i fjor, for spredning av resultatene.
+* Lokalet for presentasjon av resultat på EHIN var ikke perfekt i fjor, for spredning av resultatene.
   * hvis vi får flere i tale så er det viktig
 * Deltakerne - Bedredelt deltakerne
 * Vil gjerne hjelpe til med lokaler hvis det trengs (NAV)
   * Viktig å følge opp med noe sosialt etterpå
-  * Rebell - tec hub Oslo sentrum
+  * Rebel - tec hub Oslo sentrum
   * NAV kan stille med lokaler
 * Health2B - potensiell samarbeidspartner
-* Rebell - er et godt forslag til lokaler - vi sjekker pris
+* Rebel - er et godt forslag til lokaler - vi sjekker pris
   * Kan bruke noen penger på dette hvis vi trenger det
 
 ### Tracks
