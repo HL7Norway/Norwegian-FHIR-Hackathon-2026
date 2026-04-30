@@ -26,4 +26,10 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Tracks:
+    NHN services: nhn-track.html
+    IHE documents: ihe-track.html
+    SMART on FHIR: smart-track.html
+    EHDS track: ehds-track.html
+    FHIR-101: 101-track.html
   TOC: toc.html

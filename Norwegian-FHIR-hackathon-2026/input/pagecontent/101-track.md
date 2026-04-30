@@ -1,4 +1,4 @@
-### Track: FHIR IG authoring and building
+### Track: FHIR 101
 
 FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.
 
@@ -10,8 +10,7 @@ There is no need for prior knowledge on FHIR or IG building before participation
 
 The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.
 
-Presentation: [FHIR Hackathon pre meeting 1 - intro](FHIR-Hackathon-2025-pre1.pdf)  
-Presentation: [FHIR Hackathon pre meeting 2 and IG authoring](FHIR-Hackathon-2025-premeeting-2.pdf)  
+**Coming**
 
 #### Learning goals
 

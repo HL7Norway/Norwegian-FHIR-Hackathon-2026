@@ -7,10 +7,10 @@ The Norwegian FHIR Hackathon 2026 takes place in Oslo 9. november 2026. The Norw
 The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well. The Norwegian Hackathon will have 5 tracks concerning municipality services, FHIR 101, Document sharing and SMART or terminology.  
 
 * NHN FHIR services track - NHN
-* Document sharing for IHE MHD - IHE Norge - Ingvar
+* Document sharing for IHE MHD - IHE Norge, Ingvar
 * EHDS track - Ingvar 
-* SMART on FHIR - NAV Leo-Andreas
-* FHIR 101 - HL7 Norge Thomas og Espen
+* SMART on FHIR - NAV, Leo-Andreas
+* FHIR 101 - HL7 Norge, Thomas og Espen
 
 ### Why should you attend?
 
