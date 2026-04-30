@@ -8,16 +8,60 @@
 
 1. Tracks, bestemme track leads.
 2. Fastsette lokasjon og dato.
-3. Eventuelt
+3. Kommunikasjonsplan.
+4. Eventuelt
 
 ## Notater
 
 ### Tracks, track leads
 
+* NHN har mange kandidater - kan vi vinkle det mot planer og måledata under ett (helst i sammenheng)
+  * Modernisering av tjenestene på VKP.
+  * Se på sammenheng, hvordan kan det utnyttes i fagsystemner.
+  * EHDS spor, kan det være aktuelt? Patient summary, vi tror vi holder EHDS utenfor sporet foreløpig
+  * Track lead - NHN
+  * OKT kommer som en del av dette tracket
+    * Får vi innspill fra OKT arbeidet i fjor og IG fra Conteir til å bli en del av arbeiet med modernisering av VKP
+    * Der er det FHIR profiler fra VKP tidligere for tjeneste og kommunale vedtak
+    * Ønsker også assistanse fra de andre osm har jobbet med dette (OKT track, Conteir og VKP)
+* Dokumentdeling for IHE og dokumentlager - godt på linje med spesifikasjonene som kommer fra EU og EHDS
+  * EU sin tilnærming er nær det vi har i Norge
+  * Dokumentdelingskontekst
+  * Dokumentlageret er veldig på linje med NHN, bortsett fra HelseID
+  * Overgangen fra pdf til strukturerte dokumenter
+  * MHD og QeD profilene med FHIR i bunn
+  * Track lead: Ingvar, eventuelt med hjelp fra NHN Micael Cermak kan også være med
+* EHDS track - kan Ingvar eventuelt lede, sammen med Linn
+  * EEHRxF support center hvor langt er dette kommet
+  * Patient summary bør være fokus - eventuelt HDR
+* SMART on FHIR autentiseringsbiten med HelseID
+  * NAV er track lead
+  * HelseID track i tracket
+  * Skal HelseID være med på track'en - bør vi spørre?
+* OKT bakes inn i NHN track
+* FHIR 101 for de nye - Espen og Thomas
+  * De som ikke er utviklere
+  * Mye fokus på de som er utviklere
+  * Kan vi demonstrere vibbekoding av FHIR klient/tjener
+
+
 ### Tid og sted
 
 * Dato bør vel være 9. november
-* 
+* Rebel er plan A - Støttes rebel
+* NAV eller Hdir er plan B
+  * Vi satser på et etterarrangement etter selve hackingen (mat og øl)
+  
+### Kommunikasjonsplan
+
+* Fylle ut litt informasjon på web
+* Så gå ut i media dette.
+* Direkte kontakt med leverandørene
+  * Webinar på NHN sine leverandørseminar
+  * NHN har et seminar 10. september
+* Hdir har leverandørsamling
+  * Kan vi få til kommunikasjon på dette der?
+* Vitalis, Thomas nevner det på Vitalis
 
 ## 2026-04-15
 
