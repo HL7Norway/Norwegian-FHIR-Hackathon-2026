@@ -1,4 +1,4 @@
-# Pasient-1 - Norwegian FHIR Hackathon 2026 v0.0.2
+# Pasient-1 - Norwegian FHIR Hackathon 2026 v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -21,22 +21,16 @@ Rita Lin (no stated gender), DoB Unknown ( urn:oid:2.16.578.1.12.4.1.4.1#1303135
   "resourceType" : "Patient",
   "id" : "Pasient-1",
   "meta" : {
-    "profile" : [
-      "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient"
-    ]
+    "profile" : ["http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient"]
   },
-  "identifier" : [
-    {
-      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "value" : "13031353453"
-    }
-  ],
-  "name" : [
-    {
-      "family" : "Lin",
-      "given" : ["Rita"]
-    }
-  ]
+  "identifier" : [{
+    "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+    "value" : "13031353453"
+  }],
+  "name" : [{
+    "family" : "Lin",
+    "given" : ["Rita"]
+  }]
 }
 
 ```

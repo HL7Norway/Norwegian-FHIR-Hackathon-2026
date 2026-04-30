@@ -1,4 +1,4 @@
-# Pasient - Norwegian FHIR Hackathon 2026 v0.0.2
+# Pasient - Norwegian FHIR Hackathon 2026 v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient | *Version*:0.0.2 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient | *Version*:0.1.0 |
 | Draft as of 2025-01-22 | *Computable Name*:MalPatient |
 
  
@@ -37,85 +37,73 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "mal-patient",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient",
-  "version" : "0.0.2",
+  "version" : "0.1.0",
   "name" : "MalPatient",
   "title" : "Pasient",
   "status" : "draft",
   "date" : "2025-01-22",
   "publisher" : "HL7 Norge",
-  "contact" : [
-    {
-      "name" : "HL7 Norge",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://www.hl7.no"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "HL7 Norge",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.no"
+    }]
+  }],
   "description" : "Informasjon om pasienten, basert på no-basis.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    },
-    {
-      "identity" : "cda",
-      "uri" : "http://hl7.org/v3/cda",
-      "name" : "CDA (R2)"
-    },
-    {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    },
-    {
-      "identity" : "v2",
-      "uri" : "http://hl7.org/v2",
-      "name" : "HL7 v2 Mapping"
-    },
-    {
-      "identity" : "loinc",
-      "uri" : "http://loinc.org",
-      "name" : "LOINC code for the element"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "cda",
+    "uri" : "http://hl7.org/v3/cda",
+    "name" : "CDA (R2)"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  },
+  {
+    "identity" : "loinc",
+    "uri" : "http://loinc.org",
+    "name" : "LOINC code for the element"
+  }],
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Patient",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Patient",
-        "path" : "Patient"
-      },
-      {
-        "id" : "Patient.identifier",
-        "path" : "Patient.identifier",
-        "mustSupport" : true
-      },
-      {
-        "id" : "Patient.name.family",
-        "path" : "Patient.name.family",
-        "mustSupport" : true
-      }
-    ]
+    "element" : [{
+      "id" : "Patient",
+      "path" : "Patient"
+    },
+    {
+      "id" : "Patient.identifier",
+      "path" : "Patient.identifier",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Patient.name.family",
+      "path" : "Patient.name.family",
+      "mustSupport" : true
+    }]
   }
 }
 
