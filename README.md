@@ -1,7 +1,7 @@
 # FHIR Hackathon 2026
 
-Dato: TBD 2026  
-Sted: TBD  
+Dato: 9. november 2026  
+Sted: Oslo sentrum, lokasjon kommer  
 [Information and agenda](https://hl7norway.github.io/FHIR-hackathon-2026/currentbuild/)  
 
 ## Organization
