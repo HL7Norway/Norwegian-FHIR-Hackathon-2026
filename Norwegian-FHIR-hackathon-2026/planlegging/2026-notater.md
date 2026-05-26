@@ -1,8 +1,26 @@
 # Notater planlegging 2026
 
+
+## 2026-05-28
+
+## Tilstede
+
+
+## Agenda
+
+1. Se igjennom track beskrivelsene
+2. Skrive en agenda og oppdatere track listen og forsiden.
+3. Diskutere sted, priser og finansiering av deltakere.
+4. Diskutere plan for promotering og når vi skal starte påmelding.
+5. Eventuelt
+
+## Notater
+
 ## 2026-04-30
 
 ## Tilstede
+
+Sigurd, Adam, Ingvar, Leo-Andreas, Bjørnar og Thomas
 
 ## Agenda
 
@@ -43,7 +61,6 @@
   * De som ikke er utviklere
   * Mye fokus på de som er utviklere
   * Kan vi demonstrere vibbekoding av FHIR klient/tjener
-
 
 ### Tid og sted
 
