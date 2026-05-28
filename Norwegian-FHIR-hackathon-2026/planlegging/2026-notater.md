@@ -1,20 +1,55 @@
 # Notater planlegging 2026
 
-
 ## 2026-05-28
 
 ## Tilstede
 
+Sigurd, Robert, Bjørnar, Nino, Adam, Leo-Andreas, Ingvar, Øyvind og Thomas
 
 ## Agenda
 
+1. Diskutere sted, priser og finansiering av deltakere.
 1. Se igjennom track beskrivelsene
 2. Skrive en agenda og oppdatere track listen og forsiden.
-3. Diskutere sted, priser og finansiering av deltakere.
 4. Diskutere plan for promotering og når vi skal starte påmelding.
 5. Eventuelt
 
 ## Notater
+
+1. Stedet - HL7 Norge vil gjerne ha på EHIN prekonferanse
+   1. Må balansere interesser - Co branding, kan det være et alternativ - plikter oss til å oppsummere.
+   2. Alle må være tydelige på hva som skal gjøres i hver track. Bør klare å beskrive dette ganske klar.
+2. Alle track leads beskriver innhold
+   1. NHN Track leads kommer til å utvikle seg litt underveis mens tjenestene utvikles. CarePlan og Måledata er veldig aktuelle. Bruk av FHIR Observation. Litt dynamisk i forhold til hva som skjer på tidspunkt. Kan bli endel diskusjon om FHIR CarePlan. IHE profil på dynamic care planning.  
+   2. IHE-MHD - MHD profil er hovedpunktet. Knyttet til dokumentlageret til NHN og hvordan man aksesserer dette via MHD profilen. Standard compliant, henvendelse til leverandører og avtalespesialister.
+      1. Health API for FHIR - som ligger til grunn for EHDS deling.
+   3. EHDS - bør ha fokus på innholdsformatene. Patient summary kan være det mest aktuelle.
+      1. Er kjernejournal en mulig kilde for pasientoppsummering.
+      2. Er resept og legemiddel aktuelle problemstillinger.
+   4. SMART on FHIR track - testepj som kan benyttes på hackathon
+      1. Kan bruke AI på dette tracket også.
+   5. FHIR 101 - Thomas fyller ut denne
+   6. C-3po - AI mot data in transit er interessant og kan være en god problemstilling.
+3. Skrive agenda - utsatt
+4. Diskutere promo - save the date!
+   1. Kan vi beskrive en rød tråd om hovedmålsetning for Hackathon.
+   2. Fellesnevner - noe i praksis - Standardisert Samhandling i praksis med HL7 FHIR
+      1. Norge on FHIR
+5. Eventuelt - 
+   1. Alle tracks bør oorberede en introduksjon til temaet.
+   2. Oppsummering på EHIN
+   3. Oppsummering på selve Hackathon - vi må informere om at alle presenterer resultatene sine
+
+## Aksjonspunkter
+
+* Thomas kontakter Linn om EHDS track'en
+* Thomas kontakter Jens, Michael og Vadim om hosting
+* Alle - innhold til track descriptions på Git
+* Alle forslag til tittel på arrangement
+
+## Neste møte
+
+neste møte 16. juni klokken 13. 
 
 ## 2026-04-30
 
