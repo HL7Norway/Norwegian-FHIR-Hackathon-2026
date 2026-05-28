@@ -11,6 +11,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
 * EHDS track - Ingvar 
 * SMART on FHIR - NAV, Leo-Andreas
 * FHIR 101 - HL7 Norge, Thomas og Espen
+* Osjon: C-3po - Innhold i helseportaler til FHIR API for personlig bruk (proxy)
 
 ### Why should you attend?
 
