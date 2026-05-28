@@ -17,11 +17,11 @@
      fhir:v "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
   fhir:name [ fhir:v "NorwegianFHIRHackathon2026"] ; # 
   fhir:title [ fhir:v "Norwegian FHIR Hackathon 2026"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-30T12:46:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-28T12:17:31+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -79,7 +79,7 @@
        fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.2.0" ]
+     fhir:version [ fhir:v "5.3.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [

@@ -1,4 +1,4 @@
-# Blodprøve - Norwegian FHIR Hackathon 2026 v0.1.0
+# Blodprøve - Norwegian FHIR Hackathon 2026 v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove | *Version*:0.1.0 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove | *Version*:0.1.1 |
 | Draft as of 2025-01-31 | *Computable Name*:MalObservationBlood |
 
  
@@ -16,9 +16,9 @@ Profil for vanlige blodprøver
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* This Profile is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.hackathon.2026|current/StructureDefinition/mal-observation-blodprove)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.hackathon.2026|current/StructureDefinition/StructureDefinition-mal-observation-blodprove.json)
 
 ### Formal Views of Profile Content
 
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-observation-blod
   "resourceType" : "StructureDefinition",
   "id" : "mal-observation-blodprove",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "MalObservationBlood",
   "title" : "Blodprøve",
   "status" : "draft",

@@ -2,8 +2,8 @@ NorwegianFHIRHackathon2026 : Validation Results
 =========================================
 
 err = 0, warn = 6, info = 4
-IG Publisher Version: 2.2.7
-Generated Thu Apr 30 12:47:49 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#0.1.0 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
+IG Publisher Version: 2.2.8
+Generated Thu May 28 12:18:53 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#0.1.1 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
  Build Errors : 0 / 4 / 0
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2026 : 0 / 0 / 2
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
@@ -21,7 +21,7 @@ INFORMATION: ImplementationGuide/hl7.fhir.no.hackathon.2026: ImplementationGuide
 WARNING: Patient/Pasient-1: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
 == fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json ==
 INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display
-INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mal-patient.json ==
 INFORMATION: StructureDefinition/mal-patient: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is the default language display

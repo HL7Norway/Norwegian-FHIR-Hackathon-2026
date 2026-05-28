@@ -1,4 +1,4 @@
-# Terminology - Norwegian FHIR Hackathon 2026 v0.1.0
+# Terminology - Norwegian FHIR Hackathon 2026 v0.1.1
 
 * [**Table of Contents**](toc.md)
 * **Terminology**

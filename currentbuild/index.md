@@ -1,4 +1,4 @@
-# Home - Norwegian FHIR Hackathon 2026 v0.1.0
+# Home - Norwegian FHIR Hackathon 2026 v0.1.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.1.0 |
-| Draft as of 2026-04-30 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.1.1 |
+| Draft as of 2026-05-28 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 ### Norwegian FHIR Hackathon 2026
 
@@ -23,6 +23,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
 * EHDS track - Ingvar
 * SMART on FHIR - NAV, Leo-Andreas
 * FHIR 101 - HL7 Norge, Thomas og Espen
+* Osjon: C-3po - Innhold i helseportaler til FHIR API for personlig bruk (proxy)
 
 ### Why should you attend?
 
@@ -75,11 +76,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-04-30T12:46:31+00:00",
+  "date" : "2026-05-28T12:17:31+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -117,7 +118,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0"
   }],
   "definition" : {
     "extension" : [{

@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2026</b></p><a name=\"hl7.fhir.no.hackathon.2026\"> </a><a name=\"hchl7.fhir.no.hackathon.2026\"> </a><h2>NorwegianFHIRHackathon2026</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026</p>\n</div></div>"
   },
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-04-30T12:46:31+00:00",
+  "date" : "2026-05-28T12:17:31+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -48,7 +48,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0"
   }],
   "definition" : {
     "extension" : [{

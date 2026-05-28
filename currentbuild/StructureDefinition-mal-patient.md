@@ -1,4 +1,4 @@
-# Pasient - Norwegian FHIR Hackathon 2026 v0.1.0
+# Pasient - Norwegian FHIR Hackathon 2026 v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient | *Version*:0.1.0 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient | *Version*:0.1.1 |
 | Draft as of 2025-01-22 | *Computable Name*:MalPatient |
 
  
@@ -18,7 +18,7 @@ Informasjon om pasienten, basert på no-basis.
 
 * Examples for this Profile: [Patient/Pasient-1](Patient-Pasient-1.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.hackathon.2026|current/StructureDefinition/mal-patient)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.hackathon.2026|current/StructureDefinition/StructureDefinition-mal-patient.json)
 
 ### Formal Views of Profile Content
 
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "mal-patient",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/StructureDefinition/mal-patient",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "MalPatient",
   "title" : "Pasient",
   "status" : "draft",
