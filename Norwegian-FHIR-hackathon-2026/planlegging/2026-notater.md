@@ -45,8 +45,8 @@ Sigurd, Robert, Bjørnar, Nino, Adam, Leo-Andreas, Ingvar, Øyvind og Thomas
 
 ## Aksjonspunkter
 
-* Thomas kontakter Linn om EHDS track'en
-* Thomas kontakter Jens, Michael og Vadim om hosting
+* Thomas kontakter Linn om EHDS track'en, mail sendt
+* Thomas kontakter Jens, Michael og Vadim om hosting, innlegg på zulip
 * Alle - innhold til track descriptions på Git
 * Alle forslag til tittel på arrangement
 
