@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.1.1 |
-| Draft as of 2026-05-28 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| Draft as of 2026-06-16 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 ### Norwegian FHIR Hackathon 2026
 
@@ -80,7 +80,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-05-28T12:17:31+00:00",
+  "date" : "2026-06-16T11:38:11+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -108,7 +108,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.1.0"
+    "version" : "7.2.0"
   },
   {
     "id" : "hl7ext",

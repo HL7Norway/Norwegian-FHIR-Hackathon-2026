@@ -58,12 +58,12 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods"
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-    "version" : "4.0.1",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "DataAbsentReason",
     "title" : "DataAbsentReason",
@@ -75,35 +75,35 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
-    "version" : "4.0.1",
-    "status" : "draft",
+    "version" : "2.0.0",
+    "status" : "active",
     "name" : "ObservationCategoryCodes",
     "title" : "Observation Category Codes",
     "description" : "Observation Category codes.",
-    "oids" : ["2.16.840.1.113883.4.642.4.1125"],
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
-    "version" : "4.0.1",
-    "status" : "draft",
+    "version" : "1.0.1",
+    "status" : "active",
     "name" : "ObservationReferenceRangeMeaningCodes",
     "title" : "Observation Reference Range Meaning Codes",
     "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
-    "oids" : ["2.16.840.1.113883.4.642.4.1124"],
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
-    "version" : "2.9",
+    "version" : "3.0.0",
     "status" : "active",
-    "name" : "v2.0131",
-    "title" : "v2 Contact Role",
-    "description" : "FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)",
+    "name" : "ContactRole2",
+    "title" : "contactRole2",
+    "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
     "oids" : ["2.16.840.1.113883.18.58"],
     "uses" : {
     },
@@ -111,11 +111,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-    "version" : "2018-08-12",
+    "version" : "4.0.0",
     "status" : "active",
-    "name" : "v3.MaritalStatus",
-    "title" : "v3 Code System MaritalStatus",
-    "description" : " * * * No description supplied * * *  Open Issue:\r\nThe specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.",
+    "name" : "MaritalStatus",
+    "title" : "MaritalStatus",
+    "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
     "oids" : ["2.16.840.1.113883.5.2"],
     "uses" : {
     },
@@ -123,11 +123,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-    "version" : "2018-08-12",
+    "version" : "4.0.0",
     "status" : "active",
-    "name" : "v3.NullFlavor",
-    "title" : "v3 Code System NullFlavor",
-    "description" : " A collection of codes specifying why a valid value is not present.",
+    "name" : "NullFlavor",
+    "title" : "NullFlavor",
+    "description" : "A collection of codes specifying why a valid value is not present.",
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
@@ -135,11 +135,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-    "version" : "2018-08-12",
+    "version" : "4.0.0",
     "status" : "active",
-    "name" : "v3.ObservationInterpretation",
-    "title" : "v3 Code System ObservationInterpretation",
-    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" /  \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
     "oids" : ["2.16.840.1.113883.5.83"],
     "uses" : {
     },

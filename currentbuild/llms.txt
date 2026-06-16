@@ -3,21 +3,21 @@
 ## Pages
 
 * [Home](index.md)
-* [Smart Track](smart-track.md)
-* [Resultater Okt](resultater-okt.md)
-* [101 Track](101-track.md)
-* [Nhn Track](nhn-track.md)
-* [Artifacts Summary](artifacts.md)
-* [Practical Info](practical-info.md)
 * [Ihe Track](ihe-track.md)
-* [Terminology](terminology.md)
 * [Ehds Track](ehds-track.md)
-* [Track Descriptions](track-descriptions.md)
-* [Ig Publishing Results](ig-publishing-results.md)
-* [Pre Agenda](pre-agenda.md)
 * [Resultater Pmd](resultater-pmd.md)
 * [Hack Agenda](hack-agenda.md)
+* [Pre Agenda](pre-agenda.md)
+* [Artifacts Summary](artifacts.md)
+* [Resultater Okt](resultater-okt.md)
+* [Track Descriptions](track-descriptions.md)
+* [Terminology](terminology.md)
 * [2026 Changes](2026-changes.md)
+* [Practical Info](practical-info.md)
+* [Smart Track](smart-track.md)
+* [Ig Publishing Results](ig-publishing-results.md)
+* [Nhn Track](nhn-track.md)
+* [101 Track](101-track.md)
 
 ## Resources
 
