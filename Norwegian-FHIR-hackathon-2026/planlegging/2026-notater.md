@@ -4,15 +4,49 @@
 
 ## Tilsted
 
+Sigurd, Robert, Nino, Adam, Ingvar, Øyvind, Trine og Thomas
+
 ## Agenda
 
 1. Status HL7 Norge og EHiN
-2. Diskutere sted, priser og finansiering av deltakere.
-3. Se igjennom track beskrivelsene
-4. Skrive en agenda og oppdatere track listen og forsiden.
-5. Diskutere plan for promotering og når vi skal starte påmelding.
-6. Felles slack kanal?
-7. Eventuelt
+2. Pitch og navn på arrangement, iderunde
+3. Diskutere sted, priser og finansiering av deltakere.
+4. Se igjennom track beskrivelsene.
+5. Skrive en agenda og oppdatere track listen og forsiden.
+6. Diskutere plan for promotering og når vi skal starte påmelding.
+7. Felles slack kanal?
+8. Eventuelt
+
+## Notater
+
+1. HL7 Norge og EHiN er vel forlikte, vi kan brande dette som EHiN og arrangere det et annet sted. Og få presentere på EHiN, det er antakelig beste løsning for oss.
+   1. Mangler fortsatt informasjon fra HL7 Norge om penger
+      1. Penger og medlemmer HL7 Norge avklarer
+2. Pitch forslag
+> Health data hacking på Norsk. På det Norske FHIR Hackathon lærer vi hvordan standardisert samhandling kan fungere i praksis. Årets event tar for seg alt fra samhandling i europa via utvikling av SMART apper til integrasjon av informasjon fra flere informasjonstjenester.
+> Er du klar for å forme fremtidens samhandlingsløsninger? Bli med på Norwegian FHIR Hackathon 2026 på EHiN prekonferanse – en arena for teknisk kreativitet, nettverksbygging og innovasjon med HL7 FHIR i sentrum.  
+  2. FHIR - er et middel ikke et mål
+  3. Hackathon indikerer at - er det programvareutvikling og det være utviklerressurser som skal utvikle  
+3. Sted Auditoriet er førsteplan - Hva er egentlig prisen? Thomas sjekker,  
+4. IHE track har et utkast, samme har FHIR 101, trenger tekst og bilder til resten av trackene. Adam/Ingvar/Linn tar en prat om EHDS track
+5. Agenda er OK for nå.
+6. Plan for promotering.
+   1. NHN sin web, mailliste og linkedin
+   2. HL7 Norge mailliste og web
+   3. Bedredelt sin mailliste og linkedin
+   4. EHIN - står på programmet til EHIN og presenterer resultatene(?)
+7. Mulighet for PMS track (EHDS), terminologi track og C-3po track.
+
+## Neste møte om en uke
+
+23. juni 2026
+
+## Oppfølging
+
+* Thomas fyller ut hovedsiden med informasjon.
+* Thomas avklarer lokale og pris
+* Alle fyller inn track informasjon og gir informasjon om pitchen fungerer.
+* HL7 Norge avklarer finansiering
 
 ## 2026-05-28
 
