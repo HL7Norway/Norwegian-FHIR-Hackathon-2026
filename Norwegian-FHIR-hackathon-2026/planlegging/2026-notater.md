@@ -44,8 +44,8 @@ Sigurd, Robert, Nino, Adam, Ingvar, Øyvind, Trine og Thomas
 
 ## Oppfølging
 
-* Thomas fyller ut hovedsiden med informasjon.
-* Thomas avklarer lokale og pris
+* Thomas fyller ut hovedsiden med informasjon, OK
+* Thomas avklarer lokale og pris, 
 * Alle fyller inn track informasjon og gir informasjon om pitchen fungerer.
 * HL7 Norge avklarer finansiering
 
