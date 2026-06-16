@@ -1,5 +1,19 @@
 # Notater planlegging 2026
 
+## 2026-06-16
+
+## Tilsted
+
+## Agenda
+
+1. Status HL7 Norge og EHiN
+2. Diskutere sted, priser og finansiering av deltakere.
+3. Se igjennom track beskrivelsene
+4. Skrive en agenda og oppdatere track listen og forsiden.
+5. Diskutere plan for promotering og når vi skal starte påmelding.
+6. Felles slack kanal?
+7. Eventuelt
+
 ## 2026-05-28
 
 ## Tilstede
