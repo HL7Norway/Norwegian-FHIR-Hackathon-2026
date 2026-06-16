@@ -1,4 +1,4 @@
-# 2026 Changes - Norwegian FHIR Hackathon 2026 v0.1.1
+# 2026 Changes - Norwegian FHIR Hackathon 2026 v0.2.0
 
 * [**Table of Contents**](toc.md)
 * **2026 Changes**

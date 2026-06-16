@@ -1,4 +1,4 @@
-# Home - Norwegian FHIR Hackathon 2026 v0.1.1
+# Home - Norwegian FHIR Hackathon 2026 v0.2.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.1.1 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.2.0 |
 | Draft as of 2026-06-16 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 ### Norwegian FHIR Hackathon 2026
@@ -18,7 +18,7 @@ Are you ready to make the interoperability solutions of the future? Participate 
 
 ## Tracks
 
-The Norwegian Hackathon will have 5 tracks concerning municipality services, FHIR 101, Document sharing and SMART or terminology.
+The Norwegian Hackathon will have 5 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing and EHDS.
 
 * NHN FHIR services track, particularly CarePlans and Observations - NHN, Robert William Dall Frøseth
 * Document sharing for IHE MHD - IHE Norge, Ingvar Sørlien
@@ -86,11 +86,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.1.1",
+  "version" : "0.2.0",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-16T12:30:11+00:00",
+  "date" : "2026-06-16T12:46:22+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",

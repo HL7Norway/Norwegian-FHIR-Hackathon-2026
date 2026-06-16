@@ -1,4 +1,4 @@
-# Resultater Okt - Norwegian FHIR Hackathon 2026 v0.1.1
+# Resultater Okt - Norwegian FHIR Hackathon 2026 v0.2.0
 
 * [**Table of Contents**](toc.md)
 * **Resultater Okt**
