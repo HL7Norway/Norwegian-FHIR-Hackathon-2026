@@ -6,7 +6,7 @@ Are you ready to make the interoperability solutions of the future? Participate 
 
 ## Tracks
 
-The Norwegian Hackathon will have 5 tracks concerning municipality services, FHIR 101, Document sharing and SMART or terminology.  
+The Norwegian Hackathon will have 5 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing and EHDS.  
 
 * NHN FHIR services track, particularly CarePlans and Observations - NHN, Robert William Dall Frøseth
 * Document sharing for IHE MHD - IHE Norge, Ingvar Sørlien
