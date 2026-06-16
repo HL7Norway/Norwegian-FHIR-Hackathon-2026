@@ -35,6 +35,7 @@ Sigurd, Robert, Nino, Adam, Ingvar, Øyvind, Trine og Thomas
    2. HL7 Norge mailliste og web
    3. Bedredelt sin mailliste og linkedin
    4. EHIN - står på programmet til EHIN og presenterer resultatene(?)
+   5. Se [siden til NHN](https://www.nhn.no/arrangement/norwegian-fhir-hackathon-2026) for inspirasjon til promotering
 7. Mulighet for PMS track (EHDS), terminologi track og C-3po track.
 
 ## Neste møte om en uke
