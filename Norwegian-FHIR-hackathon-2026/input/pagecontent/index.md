@@ -1,14 +1,15 @@
 ### Norwegian FHIR Hackathon 2026
 
-The Norwegian FHIR Hackathon 2026 takes place in Oslo 9. november 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/), IHE Norge and [HL7 Norge](https://www.hl7.no/).  
+The Norwegian FHIR Hackathon 2026 takes place in Oslo 9. november 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [NoMA](https://www.dmp.no/en/), [Bedredelt](https://bedredelt.no/), IHE Norge and [HL7 Norge](https://www.hl7.no/).
 
-Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference and arena for creativity, networking and innovation with HL7 FHIR front and centre.  
+Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference and arena for creativity, networking and innovation with HL7 FHIR front and centre.
 
 ## Tracks
 
-The Norwegian Hackathon will have 5 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing and EHDS.  
+The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
 
 * NHN FHIR services track, particularly CarePlans and Observations - NHN, Robert William Dall Frøseth
+* Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA
 * Document sharing for IHE MHD - IHE Norge, Ingvar Sørlien
 * EHDS track - Ingvar Sørlien
 * SMART on FHIR - NAV, Leo-Andreas Ervik
@@ -65,7 +66,7 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### Hackathon events for 2026
 
-The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well. 
+The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well.
 
 ### Questions and contact
 
@@ -73,4 +74,4 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
 
 ### Other hackathons in the Nordics
 
-All the nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/)
+All the Nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/).
