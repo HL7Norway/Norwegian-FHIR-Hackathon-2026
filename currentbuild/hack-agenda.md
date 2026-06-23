@@ -1,4 +1,4 @@
-# Hack Agenda - Norwegian FHIR Hackathon 2026 v0.2.0
+# Hack Agenda - Norwegian FHIR Hackathon 2026 v0.2.1
 
 * [**Table of Contents**](toc.md)
 * **Hack Agenda**
