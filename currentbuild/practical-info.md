@@ -1,4 +1,4 @@
-# Practical Info - Norwegian FHIR Hackathon 2026 v0.2.1
+# Practical Info - Norwegian FHIR Hackathon 2026 v0.2.3
 
 * [**Table of Contents**](toc.md)
 * **Practical Info**
