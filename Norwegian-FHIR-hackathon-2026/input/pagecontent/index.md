@@ -12,12 +12,12 @@ Please use the form to register for the Hackathon event before october 20, 2026.
 * [Registration form](https://forms.office.com/e/sKB5ZTU61C)
 -->
 
-## Tracks
+### Tracks
 
 The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
 
 * NHN FHIR services track, particularly CarePlans and Observations - NHN, Robert William Dall Frøseth
-* Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA
+* [Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA](medication-definition.html)
 * Document sharing for IHE MHD - IHE Norge, Ingvar Sørlien
 * EHDS track - Ingvar Sørlien
 * SMART on FHIR - NAV, Leo-Andreas Ervik

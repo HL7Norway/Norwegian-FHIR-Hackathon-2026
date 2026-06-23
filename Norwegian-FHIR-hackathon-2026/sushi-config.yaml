@@ -21,6 +21,22 @@ publisher:
 #dependencies:
 #  hl7.fhir.no.basis: 2.2.2
 
+pages:
+  index.md:
+    title: Norwegian FHIR Hackathon 2026
+  nhn-track.md:
+    title: NHN services
+  medication-definition.md:
+    title: Medication Definition
+  ihe-track.md:
+    title: IHE documents
+  smart-track.md:
+    title: SMART on FHIR
+  ehds-track.md:
+    title: EHDS track
+  101-track.md:
+    title: FHIR-101
+
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
