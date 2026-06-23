@@ -1,5 +1,39 @@
 # Notater planlegging 2026
 
+## 2026-06-23
+
+### No-show og påmelding.no? Hente inn no-show gebyr - 
+
+* Gebyr for no-show - hva skal være reglene.
+* Ønsker å tilby det gratis
+
+### Track descriptions
+
+* Mangler SMART, men det kommer
+* EHDS - skal komme iløpet av dagen
+* medication - se PR fra Adam
+* NHN - det kommer en generell beskrivelse
+  * API for egenbehandlingsplan og måledata
+
+### Justering
+
+* "Hosted by HL7 Norway, in cooperation with", OK
+* Medictaion track legge inn i listen, OK
+* Ta bort Registration siden, OK
+
+### PR arbeide
+
+* NAV har vært i kontakt med sine leverandører
+* NHN har en side på det
+* Nordisk og norsk FHIR chat - Thomas poster
+* infohl7no - thomas poster
+* Felles tagging av linkedinposter - vi deler hvem vi deler til på linkedin
+* Foreslå - 09-17 som tid
+
+### Neste møte
+
+* 17 august klokken 13 - husk kristine aasen og kari drivenes
+
 ## 2026-06-16
 
 ## Tilsted
