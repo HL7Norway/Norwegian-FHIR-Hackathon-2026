@@ -1,8 +1,8 @@
 ### Norwegian FHIR Hackathon 2026
 
-The Norwegian FHIR Hackathon 2026 takes place in Oslo 9. november 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/), IHE Norge and [HL7 Norge](https://www.hl7.no/).  
+Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference. The Norwegian FHIR Hackathon is an arena for creativity, networking and innovation, with HL7 FHIR front and centre.  
 
-Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference and arena for creativity, networking and innovation with HL7 FHIR front and centre.  
+The Norwegian FHIR Hackathon 2026 takes place in at Rebel in Oslo 9. november 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/), IHE Norge and [HL7 Norge](https://www.hl7.no/).  
 
 ## Tracks
 
@@ -13,13 +13,13 @@ The Norwegian Hackathon will have 5 tracks concerning municipality services, SMA
 * EHDS track - Ingvar Sørlien
 * SMART on FHIR - NAV, Leo-Andreas Ervik
 * FHIR 101 - Introduction to HL7 FHIR with practical assignments, HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Innhold i helseportaler til FHIR API for personlig bruk (proxy)
+* Option: C-3po - Innhod i helseportaler til FHIR API for personlig bruk (proxy)
 
 ### Why should you attend?
 
 The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself. The Norwegian FHIR Hackathon is also a great place to discuss problems and find solutions in cooperation with the other participants.  
 
-<div>{% include main-use-case.svg %}</div>
+<div>{% include main-use-casev2.svg %}</div>
 
 During the Norwegian FHIR Hackathon you can work on:  
   
@@ -50,7 +50,8 @@ The event will be of value to individuals working in the healthcare industry and
   * Information modelling
   * Testing RESTful APIs
   * Using RESTful APIs using Postman
-* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided). HL7 also provides some great video resources for this purpose:
+  * Use of AI tools for development
+* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided in the FHIR 101 track). HL7 also provides some great video resources for this purpose:
   * [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
   * [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
   * [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
@@ -65,7 +66,7 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### Hackathon events for 2026
 
-The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well. 
+The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well.  
 
 ### Questions and contact
 
