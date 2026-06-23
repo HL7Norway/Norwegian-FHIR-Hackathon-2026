@@ -20,6 +20,7 @@
 * "Hosted by HL7 Norway, in cooperation with", OK
 * Medictaion track legge inn i listen, OK
 * Ta bort Registration siden, OK
+* Legg inn foreløpig agenda, 
 
 ### PR arbeide
 
