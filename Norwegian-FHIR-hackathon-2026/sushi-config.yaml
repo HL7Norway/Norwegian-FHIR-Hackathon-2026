@@ -36,6 +36,26 @@ pages:
     title: EHDS track
   101-track.md:
     title: FHIR-101
+  2025-bilder.md:
+    title: Pictures from 2025
+  2026-changes.md:
+    title: 2026 Changes
+  hack-agenda.md:
+    title: Hackathon agenda
+  ig-publishing-results.md:
+    title: Ig Publishing Results
+  practical-info.md:
+    title: Practical Info
+  pre-agenda.md:
+    title: Pre-agenda
+  resultater-okt.md:
+    title: Resultater Okt
+  resultater-pmd.md:
+    title: Resultater Pmd
+  terminology.md:
+    title: Terminology
+  track-descriptions.md:
+    title: Track Descriptions
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
