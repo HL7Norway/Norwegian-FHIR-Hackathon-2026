@@ -1,15 +1,15 @@
 # Invitasjon
 
-HL7 Norge inviterer til Norsk FHIR Hackathon i forbindelse med EHiN 10. november 2025. Hackathon arrangerers sammen med Norsk Helsenett, Bedredelt, Felleskatalogen og Helsedirektoratet og gir deltakerne mulighet til å lære mer om FHIR Restful API og bruk av FHIR for integrasjon av systemer og dokumentasjon av grensesnitt.  
+HL7 Norge inviterer til Norsk FHIR Hackathon i forbindelse med EHiN 9. november 2026. Hackathon arrangerers sammen med NHN, Helsedirektoratet, Bedredelt, Felleskatalogen og IHE Norge og gir deltakerne mulighet til å lære mer om FHIR Restful API og bruk av FHIR for integrasjon av systemer og dokumentasjon av grensesnitt. FHIR Hackathon er en del av EHiN prekonferanse 2026 
 
-Dato: 10. november 2025  
+Dato: 09. november 2026  
 Tid: 0930-1700  
-Sted: EHiN prekonferanse på X-meeting point  
+Sted: EHiN prekonferanse på Rebel i Oslo  
 Pris: gratis (inkluderer lunch, deltakere dekker reise og eventuelt opphold selv)  
-Påmelding: [Påmeldingskjema på EHiN prekonferanse](https://event.checkin.no/167096/prekonferanse-ehin-2025)  
-Detaljert informasjon: [Norsk FHIR Hackathon 2025](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html)  
+Påmelding: [Påmeldingskjema]()  
+Detaljert informasjon: [Norsk FHIR Hackathon 2026](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/)  
 
-Det arrangeres i tillegg et [formøte 3. november](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html) 2025 klokken 09:00-11:00 for informasjon om arbeidssporene og muligheter for spørsmål og dialog om oppgavene.  
+Det arrangeres i tillegg et [formøte 2. november](https://hl7norway.github.io/Norwegian-FHIR-hackathon-2026/currentbuild/pre-agenda.html) 2026 klokken 09:00-11:00 for informasjon om arbeidssporene og muligheter for spørsmål og dialog om oppgavene.  
 
 ## Innhold
 
@@ -26,4 +26,4 @@ Under FHIR Hackathon kan du:
 * Skrive og publisere dokumentasjon for FHIR API  
   * Ved å forfatte og publisere FHIR implementasjonsguide  
 
-Det er begrenset antall plasser, meld deg på i dag på [EHiN sin prekonferanse side](https://event.checkin.no/167096/prekonferanse-ehin-2025).  
+Det er begrenset antall plasser, meld deg på i dag på [påmelding]().  

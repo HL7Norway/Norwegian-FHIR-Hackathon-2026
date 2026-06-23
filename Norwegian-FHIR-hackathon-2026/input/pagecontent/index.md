@@ -4,6 +4,12 @@ Are you ready to make the interoperability solutions of the future? Participate 
 
 The Norwegian FHIR Hackathon 2026 takes place in at Rebel in Oslo 9. november 2026. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/), IHE Norge and [HL7 Norge](https://www.hl7.no/).  
 
+## Registration
+
+Please use the form to register for the Hackathon event before october 20, 2026. The number of places are limited, so register early to secure you place on the event.  
+
+* [Registration form](https://forms.office.com/e/sKB5ZTU61C)
+
 ## Tracks
 
 The Norwegian Hackathon will have 5 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing and EHDS.  
