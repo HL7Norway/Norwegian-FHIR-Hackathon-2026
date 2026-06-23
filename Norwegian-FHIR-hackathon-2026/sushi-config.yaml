@@ -9,7 +9,7 @@ name: Norwegian FHIR Hackathon 2026
 title: "Norwegian FHIR Hackathon 2026"
 description: Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026
 status: draft
-version: 0.2.3
+version: 0.2.4
 fhirVersion: 4.0.1
 copyrightYear: 2026+
 releaseLabel: ci-build
@@ -26,6 +26,8 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Agenda: 
+    Hackathon agenda: hack-agenda.html
   Tracks:
     NHN services: nhn-track.html
     Medication Definition: medication-definition.html
@@ -33,6 +35,6 @@ menu:
     SMART on FHIR: smart-track.html
     EHDS track: ehds-track.html
     FHIR-101: 101-track.html
-  2025:
-    Picture 2025: 2025-bilder.html
+  Last year:
+    Pictures from 2025: 2025-bilder.html
   TOC: toc.html
