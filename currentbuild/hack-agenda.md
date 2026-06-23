@@ -12,9 +12,9 @@ Proposed agenda for the hackathon on 9. November.
 
 | | | |
 | :--- | :--- | :--- |
-| 0930 | Welcome and Introductions (plenary) | Partners |
-| 0945 | Parallell intros to tracks | Track leads |
-| 1015 | Working in tracks | All |
+| 0900 | Welcome and Introductions (plenary) | Partners |
+| 0930 | Parallell intros to tracks | Track leads |
+| 1000 | Working in tracks | All |
 | 1200 | Lunch | All |
 | 1300 | Working in tracks | All |
 | 1430 | Coffee break | All |
@@ -26,10 +26,10 @@ Proposed agenda for the hackathon on 9. November.
 
 Track introductions
 
-* Intro to Pasientens måledata FHIR API interface (Michal/Tormod)
+* Intro to CarePlan and Pasientens måledata FHIR API interface (Michal/Tormod)
 * Intro to IHE document sharing (Ingvar)
 * Intro to EHDS (Ingvar)
-* 
+* Medicatoin intro
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
@@ -39,17 +39,15 @@ A list of people involved in the organization of the hackathon and track leads, 
 | | | | |
 | :--- | :--- | :--- | :--- |
 | PMD | Michal Jan Warecki | [michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no) | NHN |
-| PMD/OKT | Tormod Haugene | [tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no) | NHN |
 | PMD/OKT | Sigurd Ringbakken | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no) | NHN |
 | PMD | Bjørnar Selvén | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no) | NHN |
 | OKT | Robert William Dall Frøseth | [robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no) | NHN |
 | OKT | Adam Kover | [adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no) | Felleskatalogen |
 | OKT | Nino Lo Cascio | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com) | Tietoevry |
-| Terminology | Vadim Peretokin | [vperetokin@hey.com](mailto:vperetokin@hey.com) | Consultant |
-| IG authoring | Thomas Tveit Rosenlund | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
-| IG authoring | Espen Stranger Seland | [ess@vali.no](mailto:ess@vali.no>) | Vali AS |
+| FHIR 101 | Thomas Tveit Rosenlund | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
+| FHIR 101 | Espen Stranger Seland | [ess@vali.no](mailto:ess@vali.no>) | Vali AS |
 | Partner | Øyvind Aassve | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no) | Sykehuspartner |
-| Partner | Gaute Nygreen | [gaute.nygreen@nhn.no](mailto:gaute.nygreen@nhn.no) | NHN |
+| Partner | Line Andreassen Sæle | [LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no) | FHI |
 
 #### Demo summary and discussions
 

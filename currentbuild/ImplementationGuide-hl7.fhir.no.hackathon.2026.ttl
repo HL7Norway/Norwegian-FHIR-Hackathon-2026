@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "NorwegianFHIRHackathon2026"] ; # 
   fhir:title [ fhir:v "Norwegian FHIR Hackathon 2026"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-23T07:07:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-23T11:06:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -1008,6 +1008,20 @@
            fhir:v "ihe-track.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Ihe Track" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "medication-definition.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "medication-definition.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Medication Definition" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
