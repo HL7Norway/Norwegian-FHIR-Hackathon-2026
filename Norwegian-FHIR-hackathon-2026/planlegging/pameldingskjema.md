@@ -1,12 +1,12 @@
 # Utforske og samskap fremtidens samhandlingsløsninger med HL7 FHIR – Bli med på en inspirerende hackathon  
 
-**Velkomment til gratis HL7 FHIR Hackathon på EHiN prekonferanse 10. november 2025 klokken 09:30-17:00.**  
+**Velkomment til gratis HL7 FHIR Hackathon på EHiN prekonferanse 09. november 2026 klokken 09:30-17:00.**  
 
 Hackathon legger til rette for fysisk deltakelse, det blir altså ikke mulighet for å delta digitalt. Vi har begrenset antall plasser til Hackathon, så vær raskt og bestill din plass i dag!
 
-Når du sender inn dette skjemaet, vil det ikke automatisk samle inn opplysninger som navn og e-postadresse, med mindre du oppgir det selv. Praktisk informasjon om [FHIR Hackathon 2025](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html).
+Når du sender inn dette skjemaet, vil det ikke automatisk samle inn opplysninger som navn og e-postadresse, med mindre du oppgir det selv. Praktisk informasjon om [FHIR Hackathon 2026](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/).
 
-**Merk:** Vi ønsker færrest mulig tomme plasser og ber derfor om at du gir oss beskjed en uke før om du ikke kan komme, slik at vi kan tilby din plass til noen som står på venteliste. Kontakt **xxx** for avbestilling.  
+**Merk:** Vi ønsker færrest mulig tomme plasser og ber derfor om at du gir oss beskjed en uke før om du ikke kan komme, slik at vi kan tilby din plass til noen som står på venteliste. Kontakt [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) for avbestilling.  
 
 1. Navn
 > Navn

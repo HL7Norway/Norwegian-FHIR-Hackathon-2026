@@ -1,0 +1,59 @@
+@startuml
+
+"Participant" as participant
+
+"Learn FHIR" as (fhir) #red
+'rectangle "test" as rect {
+"interoperability\nin healthcare" as (learn) #pink
+"Learning by doing" as (doing) #pink
+"networking" as (give) #lightblue
+"feedback" as (get) #lightblue
+
+'(test) -down[hidden]- (give)
+'(provide) -down[hidden]- (get)
+'applikasjon -up-> learn
+'applikasjon -up-> doing
+'applikasjon -up-> fhir
+'applikasjon -left-> provide
+'applikasjon -down-> get
+get -left- give
+'provide -left- test
+'learn -down[hidden]- fhir
+'doing -down[hidden]- fhir
+'fhir -down[hidden]- learn
+'fhir -down[hidden]- doing
+'provide -down[hidden]- get
+participant -left-> learn
+
+'source -down- applikasjon
+'}
+'actor "Pasient" as pasient 
+'[API] as api
+'"skrive informasjon" as (skrive) #lightblue
+
+'test -[hidden]down- give
+'api -[hidden]right- pasient
+
+'participant -right-> test
+'søke <-down- pasient
+participant -right-> (doing)
+participant -up-> (fhir)
+participant -down-> (give)
+'(give) <-right- pasient
+'kliniker -down-> (skrive)
+
+'pasient -left-> give
+'pasient -[hidden]left-> skrive
+'pasient -down-> skrive
+
+'(søke) -down- app
+'app -down- (give)
+'(give) -right- app
+'app -down- pasient
+'skrive -down- dokumentasjon
+'give -down- presentasjon
+
+'api .up. give
+'api .down. skrive
+
+@enduml
