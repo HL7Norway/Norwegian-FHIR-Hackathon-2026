@@ -14,9 +14,10 @@ Please use the form to register for the Hackathon event before october 20, 2026.
 
 ## Tracks
 
-The Norwegian Hackathon will have 5 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing and EHDS.  
+The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
 
 * NHN FHIR services track, particularly CarePlans and Observations - NHN, Robert William Dall Frøseth
+* Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA
 * Document sharing for IHE MHD - IHE Norge, Ingvar Sørlien
 * EHDS track - Ingvar Sørlien
 * SMART on FHIR - NAV, Leo-Andreas Ervik
@@ -75,7 +76,7 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### Hackathon events for 2026
 
-The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well.  
+The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well.
 
 ### Questions and contact
 
@@ -83,4 +84,4 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
 
 ### Other hackathons in the Nordics
 
-All the nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/)
+All the Nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/).
