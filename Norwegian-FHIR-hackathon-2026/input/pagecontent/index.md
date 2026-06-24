@@ -55,6 +55,8 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### Preparations for participants
 
+**Attend the pre meeting on 2. november 2026 0900-1100 (digital only)**
+
 * Basic knowledge of RESTful API's is usefull to be able to participate in testing and development
 * Knowledge of at least one of the following areas:
   * Development of RESTful API clients/servers
