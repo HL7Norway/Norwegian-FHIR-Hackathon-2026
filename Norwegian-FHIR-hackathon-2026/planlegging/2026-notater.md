@@ -27,7 +27,7 @@
 * NAV har vært i kontakt med sine leverandører
 * NHN har en side på det
 * Nordisk og norsk FHIR chat - Thomas poster
-* infohl7no - thomas poster
+* infohl7no - Thomas sender
 * Felles tagging av linkedinposter - vi deler hvem vi deler til på linkedin
 * Foreslå - 09-17 som tid
 
