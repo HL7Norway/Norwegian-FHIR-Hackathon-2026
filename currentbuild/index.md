@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.2.4 |
-| Draft as of 2026-06-23 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| Draft as of 2026-06-24 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 ### Norwegian FHIR Hackathon 2026
 
@@ -26,7 +26,7 @@ The Norwegian Hackathon will have 6 tracks concerning municipality services, SMA
 * EHDS track - Ingvar Sørlien
 * SMART on FHIR - NAV, Leo-Andreas Ervik
 * FHIR 101 - Introduction to HL7 FHIR with practical assignments, HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Innhod i helseportaler til FHIR API for personlig bruk (proxy)
+* Option: C-3po - Health portal data at your fingertips (proxy)
 
 ### Why should you attend?
 
@@ -92,7 +92,7 @@ All the Nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-23T12:19:03+00:00",
+  "date" : "2026-06-24T05:31:36+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
