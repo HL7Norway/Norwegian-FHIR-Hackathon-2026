@@ -14,11 +14,11 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2026</b></p><a name=\"hl7.fhir.no.hackathon.2026\"> </a><a name=\"hchl7.fhir.no.hackathon.2026\"> </a><h2>NorwegianFHIRHackathon2026</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026</p>\n</div></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.2.5"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "NorwegianFHIRHackathon2026"] ; # 
   fhir:title [ fhir:v "Norwegian FHIR Hackathon 2026"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-24T05:46:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-25T12:04:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -909,105 +909,21 @@
            a fhir:url ;
            fhir:v "index.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Home" ] ;
+         fhir:title [ fhir:v "Norwegian FHIR Hackathon 2026" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "101-track.html"^^xsd:anyURI
+             fhir:v "nhn-track.html"^^xsd:anyURI
            ]
          ] ) ;
          fhir:name [
            a fhir:url ;
-           fhir:v "101-track.html"^^xsd:anyURI
+           fhir:v "nhn-track.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "101 Track" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "2025-bilder.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "2025-bilder.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "2025 Bilder" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "2026-changes.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "2026-changes.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "2026 Changes" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "ehds-track.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "ehds-track.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Ehds Track" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "hack-agenda.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "hack-agenda.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Hack Agenda" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "ig-publishing-results.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "ig-publishing-results.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Ig Publishing Results" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "ihe-track.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "ihe-track.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Ihe Track" ] ;
+         fhir:title [ fhir:v "NHN services" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1028,14 +944,112 @@
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "nhn-track.html"^^xsd:anyURI
+             fhir:v "ihe-track.html"^^xsd:anyURI
            ]
          ] ) ;
          fhir:name [
            a fhir:url ;
-           fhir:v "nhn-track.html"^^xsd:anyURI
+           fhir:v "ihe-track.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Nhn Track" ] ;
+         fhir:title [ fhir:v "IHE documents" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "smart-track.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "smart-track.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "SMART on FHIR" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "ehds-track.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "ehds-track.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "EHDS track" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "101-track.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "101-track.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "FHIR-101" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "2025-bilder.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "2025-bilder.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Pictures from 2025" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "2026-changes.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "2026-changes.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "2026 Changes" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "hack-agenda.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "hack-agenda.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Hackathon agenda" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "ig-publishing-results.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "ig-publishing-results.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Ig Publishing Results" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1063,7 +1077,7 @@
            a fhir:url ;
            fhir:v "pre-agenda.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Pre Agenda" ] ;
+         fhir:title [ fhir:v "Pre-agenda" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1092,20 +1106,6 @@
            fhir:v "resultater-pmd.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Resultater Pmd" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "smart-track.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "smart-track.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Smart Track" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

@@ -1,9 +1,9 @@
-# Ihe Track - Norwegian FHIR Hackathon 2026 v0.2.5
+# IHE documents - Norwegian FHIR Hackathon 2026 v1.0.0
 
 * [**Table of Contents**](toc.md)
-* **Ihe Track**
+* **IHE documents**
 
-## Ihe Track
+## IHE documents
 
 ### API Access and Document Sharing in Norwegian and European context
 

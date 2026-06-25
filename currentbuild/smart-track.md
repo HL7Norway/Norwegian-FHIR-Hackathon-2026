@@ -1,9 +1,9 @@
-# Smart Track - Norwegian FHIR Hackathon 2026 v0.2.5
+# SMART on FHIR - Norwegian FHIR Hackathon 2026 v1.0.0
 
 * [**Table of Contents**](toc.md)
-* **Smart Track**
+* **SMART on FHIR**
 
-## Smart Track
+## SMART on FHIR
 
 ### SMART on FHIR Track
 

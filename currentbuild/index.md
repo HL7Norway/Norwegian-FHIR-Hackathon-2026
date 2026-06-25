@@ -1,16 +1,14 @@
-# Home - Norwegian FHIR Hackathon 2026 v0.2.5
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.0.0
 
 * [**Table of Contents**](toc.md)
-* **Home**
+* **Norwegian FHIR Hackathon 2026**
 
-## Home
+## Norwegian FHIR Hackathon 2026
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.2.5 |
-| Draft as of 2026-06-24 | *Computable Name*:NorwegianFHIRHackathon2026 |
-
-### Norwegian FHIR Hackathon 2026
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.0.0 |
+| Draft as of 2026-06-25 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference. The Norwegian FHIR Hackathon is an arena for creativity, networking and innovation, with HL7 FHIR front and centre.
 
@@ -18,17 +16,17 @@ The Norwegian FHIR Hackathon 2026 takes place at Rebel in Oslo 9. november 2026.
 
 This hackathon is part of the [Nordic Health Data Hackathons](https://fhir.fi/hackathon/) series.
 
-## Tracks
+### Tracks
 
 The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
 
-* NHN FHIR services track, particularly CarePlans and Observations - NHN, Robert William Dall Frøseth
-* Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA
-* Document sharing for IHE MHD - IHE Norge, Ingvar Sørlien
-* EHDS track - Ingvar Sørlien
-* SMART on FHIR - NAV, Leo-Andreas Ervik
-* FHIR 101 - Introduction to HL7 FHIR with practical assignments, HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Health portal data at your fingertips (proxy)
+* [NHN FHIR services track, particularly CarePlans and Observations](nhn-track.md) - NHN, Robert William Dall Frøseth
+* [Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA](medication-definition.md)
+* [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien
+* [EHDS track](ehds-track.md) - Ingvar Sørlien
+* [SMART on FHIR](smart-track.md) - NAV, Leo-Andreas Ervik
+* [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.md) - HL7 Norge, Thomas Rosenlund og Espen Seland
+* Option: C-3po - Innhod i helseportaler til FHIR API for personlig bruk (proxy)
 
 ### Why should you attend?
 
@@ -43,6 +41,9 @@ During the Norwegian FHIR Hackathon you can work on:
 * SMART on FHIR
 * IG authoring and building
 
+> 
+> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software.
+
 ### Who should attend?
 
 The event will be of value to individuals working in the healthcare industry and software providers in healthcare.
@@ -54,6 +55,8 @@ The event will be of value to individuals working in the healthcare industry and
 * Project managers
 
 ### Preparations for participants
+
+**Attend the pre meeting on 2. november 2026 0900-1100 (digital only)**
 
 * Basic knowledge of RESTful API's is usefull to be able to participate in testing and development
 * Knowledge of at least one of the following areas: 
@@ -86,11 +89,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.2.5",
+  "version" : "1.0.0",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-24T05:46:19+00:00",
+  "date" : "2026-06-25T12:04:51+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -735,70 +738,16 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "Home",
+        "title" : "Norwegian FHIR Hackathon 2026",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "101-track.html"
+          "valueUrl" : "nhn-track.html"
         }],
-        "nameUrl" : "101-track.html",
-        "title" : "101 Track",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "2025-bilder.html"
-        }],
-        "nameUrl" : "2025-bilder.html",
-        "title" : "2025 Bilder",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "2026-changes.html"
-        }],
-        "nameUrl" : "2026-changes.html",
-        "title" : "2026 Changes",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ehds-track.html"
-        }],
-        "nameUrl" : "ehds-track.html",
-        "title" : "Ehds Track",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "hack-agenda.html"
-        }],
-        "nameUrl" : "hack-agenda.html",
-        "title" : "Hack Agenda",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ig-publishing-results.html"
-        }],
-        "nameUrl" : "ig-publishing-results.html",
-        "title" : "Ig Publishing Results",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ihe-track.html"
-        }],
-        "nameUrl" : "ihe-track.html",
-        "title" : "Ihe Track",
+        "nameUrl" : "nhn-track.html",
+        "title" : "NHN services",
         "generation" : "markdown"
       },
       {
@@ -813,10 +762,73 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "nhn-track.html"
+          "valueUrl" : "ihe-track.html"
         }],
-        "nameUrl" : "nhn-track.html",
-        "title" : "Nhn Track",
+        "nameUrl" : "ihe-track.html",
+        "title" : "IHE documents",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "smart-track.html"
+        }],
+        "nameUrl" : "smart-track.html",
+        "title" : "SMART on FHIR",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "ehds-track.html"
+        }],
+        "nameUrl" : "ehds-track.html",
+        "title" : "EHDS track",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "101-track.html"
+        }],
+        "nameUrl" : "101-track.html",
+        "title" : "FHIR-101",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "2025-bilder.html"
+        }],
+        "nameUrl" : "2025-bilder.html",
+        "title" : "Pictures from 2025",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "2026-changes.html"
+        }],
+        "nameUrl" : "2026-changes.html",
+        "title" : "2026 Changes",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "hack-agenda.html"
+        }],
+        "nameUrl" : "hack-agenda.html",
+        "title" : "Hackathon agenda",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "ig-publishing-results.html"
+        }],
+        "nameUrl" : "ig-publishing-results.html",
+        "title" : "Ig Publishing Results",
         "generation" : "markdown"
       },
       {
@@ -834,7 +846,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
           "valueUrl" : "pre-agenda.html"
         }],
         "nameUrl" : "pre-agenda.html",
-        "title" : "Pre Agenda",
+        "title" : "Pre-agenda",
         "generation" : "markdown"
       },
       {
@@ -853,15 +865,6 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
         }],
         "nameUrl" : "resultater-pmd.html",
         "title" : "Resultater Pmd",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "smart-track.html"
-        }],
-        "nameUrl" : "smart-track.html",
-        "title" : "Smart Track",
         "generation" : "markdown"
       },
       {

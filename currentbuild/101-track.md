@@ -1,9 +1,9 @@
-# 101 Track - Norwegian FHIR Hackathon 2026 v0.2.5
+# FHIR-101 - Norwegian FHIR Hackathon 2026 v1.0.0
 
 * [**Table of Contents**](toc.md)
-* **101 Track**
+* **FHIR-101**
 
-## 101 Track
+## FHIR-101
 
 ### Track: FHIR 101
 

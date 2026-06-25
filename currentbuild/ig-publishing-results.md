@@ -1,4 +1,4 @@
-# Ig Publishing Results - Norwegian FHIR Hackathon 2026 v0.2.5
+# Ig Publishing Results - Norwegian FHIR Hackathon 2026 v1.0.0
 
 * [**Table of Contents**](toc.md)
 * **Ig Publishing Results**

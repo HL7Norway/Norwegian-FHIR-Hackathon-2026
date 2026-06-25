@@ -1,25 +1,25 @@
-# hl7.fhir.no.hackathon.2026#0.2.5: Norwegian FHIR Hackathon 2026
+# hl7.fhir.no.hackathon.2026#1.0.0: Norwegian FHIR Hackathon 2026
 
 ## Pages
 
-* [Home](index.md)
-* [Ihe Track](ihe-track.md)
-* [Ehds Track](ehds-track.md)
+* [](index.md)
+* [IHE documents](ihe-track.md)
+* [EHDS track](ehds-track.md)
 * [Resultater Pmd](resultater-pmd.md)
-* [Hack Agenda](hack-agenda.md)
-* [Pre Agenda](pre-agenda.md)
+* [Hackathon agenda](hack-agenda.md)
+* [Pre-agenda](pre-agenda.md)
 * [Artifacts Summary](artifacts.md)
 * [Resultater Okt](resultater-okt.md)
 * [Medication Definition](medication-definition.md)
 * [Track Descriptions](track-descriptions.md)
 * [Terminology](terminology.md)
 * [2026 Changes](2026-changes.md)
-* [2025 Bilder](2025-bilder.md)
+* [Pictures from 2025](2025-bilder.md)
 * [Practical Info](practical-info.md)
-* [Smart Track](smart-track.md)
+* [SMART on FHIR](smart-track.md)
 * [Ig Publishing Results](ig-publishing-results.md)
-* [Nhn Track](nhn-track.md)
-* [101 Track](101-track.md)
+* [NHN services](nhn-track.md)
+* [FHIR-101](101-track.md)
 
 ## Resources
 

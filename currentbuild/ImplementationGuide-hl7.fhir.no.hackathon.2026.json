@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2026</b></p><a name=\"hl7.fhir.no.hackathon.2026\"> </a><a name=\"hchl7.fhir.no.hackathon.2026\"> </a><h2>NorwegianFHIRHackathon2026</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026</p>\n</div></div>"
   },
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.2.5",
+  "version" : "1.0.0",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-24T05:46:19+00:00",
+  "date" : "2026-06-25T12:04:51+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -655,70 +655,16 @@
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "Home",
+        "title" : "Norwegian FHIR Hackathon 2026",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "101-track.html"
+          "valueUrl" : "nhn-track.html"
         }],
-        "nameUrl" : "101-track.html",
-        "title" : "101 Track",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "2025-bilder.html"
-        }],
-        "nameUrl" : "2025-bilder.html",
-        "title" : "2025 Bilder",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "2026-changes.html"
-        }],
-        "nameUrl" : "2026-changes.html",
-        "title" : "2026 Changes",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ehds-track.html"
-        }],
-        "nameUrl" : "ehds-track.html",
-        "title" : "Ehds Track",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "hack-agenda.html"
-        }],
-        "nameUrl" : "hack-agenda.html",
-        "title" : "Hack Agenda",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ig-publishing-results.html"
-        }],
-        "nameUrl" : "ig-publishing-results.html",
-        "title" : "Ig Publishing Results",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ihe-track.html"
-        }],
-        "nameUrl" : "ihe-track.html",
-        "title" : "Ihe Track",
+        "nameUrl" : "nhn-track.html",
+        "title" : "NHN services",
         "generation" : "markdown"
       },
       {
@@ -733,10 +679,73 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "nhn-track.html"
+          "valueUrl" : "ihe-track.html"
         }],
-        "nameUrl" : "nhn-track.html",
-        "title" : "Nhn Track",
+        "nameUrl" : "ihe-track.html",
+        "title" : "IHE documents",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "smart-track.html"
+        }],
+        "nameUrl" : "smart-track.html",
+        "title" : "SMART on FHIR",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "ehds-track.html"
+        }],
+        "nameUrl" : "ehds-track.html",
+        "title" : "EHDS track",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "101-track.html"
+        }],
+        "nameUrl" : "101-track.html",
+        "title" : "FHIR-101",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "2025-bilder.html"
+        }],
+        "nameUrl" : "2025-bilder.html",
+        "title" : "Pictures from 2025",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "2026-changes.html"
+        }],
+        "nameUrl" : "2026-changes.html",
+        "title" : "2026 Changes",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "hack-agenda.html"
+        }],
+        "nameUrl" : "hack-agenda.html",
+        "title" : "Hackathon agenda",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "ig-publishing-results.html"
+        }],
+        "nameUrl" : "ig-publishing-results.html",
+        "title" : "Ig Publishing Results",
         "generation" : "markdown"
       },
       {
@@ -754,7 +763,7 @@
           "valueUrl" : "pre-agenda.html"
         }],
         "nameUrl" : "pre-agenda.html",
-        "title" : "Pre Agenda",
+        "title" : "Pre-agenda",
         "generation" : "markdown"
       },
       {
@@ -773,15 +782,6 @@
         }],
         "nameUrl" : "resultater-pmd.html",
         "title" : "Resultater Pmd",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "smart-track.html"
-        }],
-        "nameUrl" : "smart-track.html",
-        "title" : "Smart Track",
         "generation" : "markdown"
       },
       {
