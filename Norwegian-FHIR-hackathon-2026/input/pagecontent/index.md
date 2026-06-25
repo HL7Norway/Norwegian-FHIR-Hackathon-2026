@@ -39,7 +39,7 @@ During the Norwegian FHIR Hackathon you can work on:
 * SMART on FHIR
 * IG authoring and building
 
->> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software.
+> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/NAV), to make changes to their published API-services or software.
 
 ### Who should attend?
 
