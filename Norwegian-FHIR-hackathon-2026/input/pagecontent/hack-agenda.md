@@ -23,7 +23,7 @@ Track introductions
 * Intro to CarePlan and Pasientens måledata FHIR API interface (Michal/Tormod)
 * Intro to IHE document sharing (Ingvar)
 * Intro to EHDS (Ingvar)
-* Medicatoin intro
+* Medication intro (Adam/Kristine)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
