@@ -41,8 +41,7 @@ During the Norwegian FHIR Hackathon you can work on:
 * SMART on FHIR
 * IG authoring and building
 
-> 
-> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software.
+> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/NAV), to make changes to their published API-services or software.
 
 ### Who should attend?
 
@@ -93,7 +92,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-25T12:04:51+00:00",
+  "date" : "2026-06-25T12:22:58+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
