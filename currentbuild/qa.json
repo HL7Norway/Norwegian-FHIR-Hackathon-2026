@@ -5,15 +5,15 @@
   "description" : "Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026",
   "status" : "draft",
   "package-id" : "hl7.fhir.no.hackathon.2026",
-  "ig-ver" : "1.0.0",
-  "date" : "Thu, 25 Jun, 2026 12:22:58 +0000",
-  "dateISO8601" : "2026-06-25T12:22:58+00:00",
+  "ig-ver" : "1.0.1",
+  "date" : "Fri, 26 Jun, 2026 06:12:40 +0000",
+  "dateISO8601" : "2026-06-26T06:12:40+00:00",
   "errs" : 0,
   "warnings" : 6,
-  "hints" : 4,
+  "hints" : 7,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 816840576
+  "maxMemory" : 804770616
 }
