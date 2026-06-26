@@ -22,7 +22,7 @@ The Norwegian Hackathon will have 6 tracks concerning municipality services, SMA
 * [EHDS track](ehds-track.html) - Ingvar Sørlien
 * [SMART on FHIR](smart-track.html) - NAV, Leo-Andreas Ervik
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.html) - HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Innhod i helseportaler til FHIR API for personlig bruk (proxy)
+* Option: C-3po - Proxy for FHIR API access to data from national health portals
 
 ### Why should you attend?
 

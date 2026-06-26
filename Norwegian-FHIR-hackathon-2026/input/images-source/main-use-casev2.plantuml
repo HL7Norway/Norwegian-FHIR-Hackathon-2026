@@ -4,10 +4,10 @@
 
 "Learn FHIR" as (fhir) #red
 'rectangle "test" as rect {
-"interoperability\nin healthcare" as (learn) #pink
+"Interoperability\nin healthcare" as (learn) #pink
 "Learning by doing" as (doing) #pink
-"networking" as (give) #lightblue
-"feedback" as (get) #lightblue
+"Networking" as (give) #lightblue
+"Feedback" as (get) #lightblue
 
 '(test) -down[hidden]- (give)
 '(provide) -down[hidden]- (get)
