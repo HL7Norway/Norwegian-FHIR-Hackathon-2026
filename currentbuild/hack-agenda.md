@@ -22,7 +22,7 @@ Proposed agenda for the hackathon on 9. November.
 | 1600 | Demo summary and discussions (plenary) | Track leads + all |
 | 1700 | End of day | All |
 
-#### Parallell intros
+#### Parallel intros
 
 Track introductions
 
@@ -30,6 +30,7 @@ Track introductions
 * Intro to IHE document sharing (Ingvar)
 * Intro to EHDS (Ingvar)
 * Medication intro (Adam/Kristine)
+* SMART on FHIR intro (Leo-Andreas Ervik)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
@@ -46,6 +47,7 @@ A list of people involved in the organization of the hackathon and track leads, 
 | OKT | Nino Lo Cascio | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com) | Tietoevry |
 | FHIR 101 | Thomas Tveit Rosenlund | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101 | Espen Stranger Seland | [ess@vali.no](mailto:ess@vali.no>) | Vali AS |
+| SMART on FHIR | Leo-Andreas Ervik | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no) | Nav |
 | Partner | Øyvind Aassve | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no) | Sykehuspartner |
 | Partner | Line Andreassen Sæle | [LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no) | FHI |
 
@@ -55,5 +57,5 @@ The track leads presents the main results from the day in a plenary presentation
 
 #### Introduction to FHIR
 
-Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#preparations-for-participants)
+Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](index.md#preparations-for-participants)
 

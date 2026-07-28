@@ -8,11 +8,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.0.3 |
-| Draft as of 2026-06-26 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| Draft as of 2026-07-28 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference. The Norwegian FHIR Hackathon is an arena for creativity, networking and innovation, with HL7 FHIR front and centre.
 
-The Norwegian FHIR Hackathon 2026 takes place at Rebel in Oslo 9. november 2026. The Norwegian FHIR hackathon is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NoMA](https://www.dmp.no/en/), IHE Norge and [EHiN](https://ehin.no/).
+The Norwegian FHIR Hackathon 2026 takes place at Rebel in Oslo 9. November 2026. The Norwegian FHIR hackathon is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NoMA](https://www.dmp.no/en/), IHE Norge and [EHiN](https://ehin.no/).
 
 This hackathon is part of the [Nordic Health Data Hackathons](https://fhir.fi/hackathon/) series. Participation on the hackathon is free of charge.
 
@@ -41,7 +41,7 @@ During the Norwegian FHIR Hackathon you can work on:
 * SMART on FHIR
 * IG authoring and building
 
-> DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/NAV), to make changes to their published API-services or software.
+> DISCLAIMER: The results from the FHIR Hackathon signifies no obligation from the API owner (e.g. NHN/NAV), to make changes to their published API-services or software.
 
 ### Who should attend?
 
@@ -55,9 +55,9 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### Preparations for participants
 
-**Attend the pre meeting on 2. november 2026 0900-1100 (digital only)**
+**Attend the pre-meeting on 2. November 2026 0900-1100 (digital only)**
 
-* Basic knowledge of RESTful API's is usefull to be able to participate in testing and development
+* Basic knowledge of RESTful API's is useful to be able to participate in testing and development
 * Knowledge of at least one of the following areas: 
 * Development of RESTful API clients/servers
 * Information modelling
@@ -92,7 +92,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-26T09:18:53+00:00",
+  "date" : "2026-07-28T11:27:28+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -120,7 +120,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -691,6 +691,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mal-observation-blodprove.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mal-observation-blodprove"
@@ -703,6 +707,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mal-patient.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mal-patient"
@@ -715,6 +723,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-Pasient-1.html"
       }],
       "reference" : {
         "reference" : "Patient/Pasient-1"

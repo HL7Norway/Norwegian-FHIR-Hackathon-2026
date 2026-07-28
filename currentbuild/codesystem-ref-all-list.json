@@ -63,7 +63,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-    "version" : "1.0.0",
+    "version" : "2.0.0",
     "status" : "active",
     "name" : "DataAbsentReason",
     "title" : "DataAbsentReason",
@@ -111,7 +111,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-    "version" : "4.0.0",
+    "version" : "5.0.0",
     "status" : "active",
     "name" : "MaritalStatus",
     "title" : "MaritalStatus",

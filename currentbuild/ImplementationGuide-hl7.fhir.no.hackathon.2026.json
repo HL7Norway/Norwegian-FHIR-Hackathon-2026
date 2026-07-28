@@ -10,7 +10,7 @@
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-06-26T09:18:53+00:00",
+  "date" : "2026-07-28T11:27:28+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",

@@ -1,67 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>SMART on FHIR - Norwegian FHIR Hackathon 2026 v1.0.3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
-    <link href="assets/css/hl7.css" rel="stylesheet"/>
-    <link href="assets/css/fhir.css" rel="stylesheet"/>
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/hl7.css"/>
+    <link rel="stylesheet" href="assets/css/fhir.css"/>
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-72.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
     <style type="text/css">h2{--heading-prefix:"5"}
     h3,h4,h5,h6{--heading-prefix:"5"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
 
-        <!-- Placeholder for child template header declarations -->
+          <!-- Placeholder for child template header declarations -->
 
             
 <div id="family-nav">
-	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
-		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	<a no-external="true" id="logo" href="http://hl7.org/fhir"> <img src="assets/images/fhir-logo-www.png" alt="logo fhir" height="50"/>
 	</a>
 </div>
 
 
             
 <div id="hl7-nav">
-    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
-        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
+        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
     </a>            
 </div>
 
@@ -73,33 +72,33 @@
 
 
 
-  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+  <img src="assets/images/nor.svg" alt="Norway flag" title="Norway" height="16"/>
 
 
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-          <!--status-bar-->
+            <!-- status-bar -->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+                <!-- menu.xml -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+<ul class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -152,26 +151,26 @@
     <a href="toc.html">TOC</a>
   </li>
 </ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
 
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>SMART on FHIR</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>SMART on FHIR</b></li>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -183,7 +182,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.0.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+    <!-- ReleaseHeader --><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.0.3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/hackathon/2026/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>SMART on FHIR</h2>
   
 
@@ -198,44 +197,390 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#smart-on-fhir-track" id="markdown-toc-smart-on-fhir-track">SMART on FHIR Track</a></li>
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of Contents</a></li>
+  <li><a href="#what-this-track-is-about" id="markdown-toc-what-this-track-is-about">What this track is about</a></li>
+  <li><a href="#terms-and-abbreviations" id="markdown-toc-terms-and-abbreviations">Terms and abbreviations</a></li>
+  <li><a href="#what-the-track-provides" id="markdown-toc-what-the-track-provides">What the track provides</a></li>
+  <li><a href="#about-the-skeletons" id="markdown-toc-about-the-skeletons">About the skeletons</a></li>
+  <li><a href="#prerequisites" id="markdown-toc-prerequisites">Prerequisites</a></li>
+  <li><a href="#learning-goals" id="markdown-toc-learning-goals">Learning goals</a></li>
+  <li><a href="#use-cases-and-assignments" id="markdown-toc-use-cases-and-assignments">Use-cases and assignments</a></li>
+  <li><a href="#bronze" id="markdown-toc-bronze">Bronze</a></li>
+  <li><a href="#silver" id="markdown-toc-silver">Silver</a></li>
+  <li><a href="#gold" id="markdown-toc-gold">Gold</a></li>
+  <li><a href="#practical" id="markdown-toc-practical">Practical</a></li>
+  <li><a href="#reference-material" id="markdown-toc-reference-material">Reference material</a></li>
+  <li><a href="#questions" id="markdown-toc-questions">Questions</a></li>
+</ul>
+
 </div>
 <h3 id="smart-on-fhir-track">SMART on FHIR Track</h3>
 
-<h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
+<blockquote>
+  <p>FHIR is the data. SMART is what makes an app safe to plug into someone else's journal system.
+In this track you build the plug.</p>
+</blockquote>
 
-<h5 id="preparations">Preparations</h5>
+<p>Track lead: Leo-Andreas Ervik, Nav.</p>
 
-<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
+<p><strong>NOTE! The track description is currently under active development and changes will occur without
+further notice.</strong></p>
 
-<p><strong>Coming</strong></p>
+<h3 id="table-of-contents">Table of Contents</h3>
 
-<h4 id="learning-goals">Learning goals</h4>
+<ul>
+  <li><a href="#what-this-track-is-about">What this track is about</a></li>
+  <li><a href="#terms-and-abbreviations">Terms and abbreviations</a></li>
+  <li><a href="#what-the-track-provides">What the track provides</a></li>
+  <li><a href="#about-the-skeletons">About the skeletons</a></li>
+  <li><a href="#prerequisites">Prerequisites</a></li>
+  <li><a href="#learning-goals">Learning goals</a></li>
+  <li><a href="#use-cases-and-assignments">Use-cases and assignments</a></li>
+  <li><a href="#bronze">Bronze</a></li>
+  <li><a href="#silver">Silver</a></li>
+  <li><a href="#gold">Gold</a></li>
+  <li><a href="#practical">Practical</a></li>
+  <li><a href="#reference-material">Reference material</a></li>
+  <li><a href="#questions">Questions</a></li>
+</ul>
 
-<h4 id="use-cases-and-assignments">Use-cases and assignments</h4>
+<h3 id="what-this-track-is-about">What this track is about</h3>
+
+<p>Most of us know FHIR as "resources and a REST API". Far fewer have worked with the SMART half of
+SMART on FHIR and how an application is launched from inside an EPJ, how it learns which patient,
+which
+clinician and which consultation without anyone typing anything. And how the EPJ stays in control of
+what that application is allowed to see.</p>
+
+<p>By the end of the day you will have built a working SMART application and launched it from an EPJ
+provided by the track, against synthetic Norwegian patients.</p>
+
+<p><a name="l479">​</a>No prior SMART or FHIR experience is needed. You do not need to be a developer to contribute, see
+<a href="#roles-for-non-developers">Roles for non-developers</a>.</p>
+
+<h3 id="terms-and-abbreviations">Terms and abbreviations</h3>
+
+<p>The track mixes Norwegian and international terminology, because the specifications are written in
+English while the systems and identifiers we work with are Norwegian. This is the vocabulary we use.</p>
+
+<p><strong>Systems and standards</strong></p>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EPJ</td>
+      <td>Elektronisk pasientjournal. The clinical system that holds the record and launches your app. This page uses EPJ throughout.</td>
+    </tr>
+    <tr>
+      <td>EHR</td>
+      <td>Electronic Health Record. The international term for the same thing. The SMART specification calls the flow we use <em>EHR launch</em>, so you will meet "EHR" in the spec where we say "EPJ".</td>
+    </tr>
+    <tr>
+      <td>FHIR</td>
+      <td>HL7's standard for exchanging health data. The data model and the REST API.</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>The standard that lets an EPJ launch a third-party app, authenticate the user, and hand the app a limited, short-lived access token.</td>
+    </tr>
+    <tr>
+      <td>SMART on FHIR</td>
+      <td>The two combined. SMART handles who you are and what you may see, FHIR handles the data itself.</td>
+    </tr>
+    <tr>
+      <td>HelseID</td>
+      <td>The national identity provider for Norwegian health personnel.</td>
+    </tr>
+    <tr>
+      <td>IG</td>
+      <td>Implementation Guide. A published specification such as this page's parent document.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>SMART and OAuth vocabulary</strong></p>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Launch</td>
+      <td>The EPJ opening your app, passing along a one-time <code class="language-plaintext highlighter-rouge">launch</code> identifier.</td>
+    </tr>
+    <tr>
+      <td>Launch context</td>
+      <td>What the app is told about the situation: which patient, which encounter, which user.</td>
+    </tr>
+    <tr>
+      <td>Scope</td>
+      <td>The permissions the app asks for, for example <code class="language-plaintext highlighter-rouge">patient/Condition.read</code>. A contract between app and EPJ.</td>
+    </tr>
+    <tr>
+      <td>Access token</td>
+      <td>The short-lived credential the app uses when calling the FHIR API.</td>
+    </tr>
+    <tr>
+      <td>ID-token</td>
+      <td>Tells the app who the logged-in user is.</td>
+    </tr>
+    <tr>
+      <td>PKCE</td>
+      <td>Proof Key for Code Exchange. Stops someone else from stealing and using your authorization code.</td>
+    </tr>
+    <tr>
+      <td>Discovery</td>
+      <td>Reading <code class="language-plaintext highlighter-rouge">.well-known/smart-configuration</code> to learn where the EPJ's endpoints are.</td>
+    </tr>
+    <tr>
+      <td>JWKS</td>
+      <td>The public keys used to verify that a token really came from who it claims.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Norwegian identifiers and code systems</strong></p>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fødselsnummer</td>
+      <td>The 11-digit Norwegian national identity number.</td>
+    </tr>
+    <tr>
+      <td>D-nummer</td>
+      <td>Identity number for people without a fødselsnummer, such as short-term residents.</td>
+    </tr>
+    <tr>
+      <td>HPR-nummer</td>
+      <td>The identifier for registered health personnel. Identifies the clinician.</td>
+    </tr>
+    <tr>
+      <td>Organisasjonsnummer</td>
+      <td>The identifier for a legal entity, such as a fastlegekontor.</td>
+    </tr>
+    <tr>
+      <td>ICPC-2</td>
+      <td>Diagnosis coding used in Norwegian primary care.</td>
+    </tr>
+    <tr>
+      <td>ICD-10</td>
+      <td>Diagnosis coding used in specialist care.</td>
+    </tr>
+    <tr>
+      <td>LOINC</td>
+      <td>International coding for measurements and lab results.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="what-the-track-provides">What the track provides</h3>
+
+<ul>
+  <li>An <strong>EPJ</strong> with its own SMART authorization server and a FHIR R4 API. This is the system that
+launches your application.</li>
+  <li><strong>Synthetic Norwegian patient data</strong>: patients with fødselsnummer and d-nummer, clinicians with
+HPR-nummer, organisations with organisasjonsnummer, consultations, diagnoses coded with ICPC-2 and
+ICD-10, and measurements.</li>
+  <li><strong>Starter skeletons</strong>, one per client authentication type, with the SMART launch sequence laid out
+as numbered <code class="language-plaintext highlighter-rouge">TODO</code>s for you to fill in.</li>
+  <li><strong>Credentials</strong> on the day: your team's <code class="language-plaintext highlighter-rouge">client_id</code>, secret or key pair, a test clinician to log
+in as, and a list of patients.</li>
+  <li>Mentors circulating throughout the day.</li>
+</ul>
+
+<h3 id="about-the-skeletons">About the skeletons</h3>
+
+<p>The skeletons implement the SMART launch from scratch, server-side. They do not use an off-the-shelf
+SMART client library, for two reasons:</p>
+
+<ol>
+  <li>You learn more by making the discovery request, generating the PKCE verifier, validating the
+token and extracting the launch context yourself than by calling <code class="language-plaintext highlighter-rouge">authorize()</code>.</li>
+  <li>The common browser-side libraries keep tokens in local storage. The skeletons keep them on the
+server and show you how.</li>
+</ol>
+
+<p>Reference implementations are provided for when you get stuck.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>No prior SMART or FHIR knowledge is required, and there is no required pre-work. Turn up and we will
+get you running. If FHIR itself is new to you, consider dropping into
+the <a href="101-track.html">FHIR 101 track</a> in the morning.</p>
+
+<p>What you need on the day:</p>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A laptop</td>
+      <td>Any operating system. You will be writing and running code on it.</td>
+    </tr>
+    <tr>
+      <td>A code editor</td>
+      <td>Visual Studio Code, IntelliJ IDEA or whichever you already use. Either is fine.</td>
+    </tr>
+    <tr>
+      <td>A GitHub account</td>
+      <td>You will clone the starter repository and push your team's work.</td>
+    </tr>
+    <tr>
+      <td>Node 22</td>
+      <td>Only if you want to run locally. A one-click GitHub Codespace is provided, which needs nothing installed beyond a browser.</td>
+    </tr>
+    <tr>
+      <td>A charger</td>
+      <td>⚡️</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Optional, only if SMART is entirely new to you, and you want a head start:</p>
+
+<ul>
+  <li><a href="https://hl7.org/fhir/smart-app-launch/">SMART App Launch Implementation Guide</a>, skim "App Launch"
+and "Scopes and Launch Context".</li>
+  <li><a href="https://vimeo.com/1102006982/68c2e4fcfb">FHIR 101</a> and
+<a href="https://vimeo.com/542197402/8fb80fea04">Newcomer orientation</a>.</li>
+</ul>
+
+<h3 id="learning-goals">Learning goals</h3>
+
+<p>By the end of the day you should be able to:</p>
+
+<ul>
+  <li>explain in one sentence why SMART exists, and what problem it solves for a clinician;</li>
+  <li>describe the launch sequence, and say what each of <code class="language-plaintext highlighter-rouge">iss</code>, <code class="language-plaintext highlighter-rouge">launch</code>, <code class="language-plaintext highlighter-rouge">state</code>, <code class="language-plaintext highlighter-rouge">code_verifier</code>,
+<code class="language-plaintext highlighter-rouge">aud</code> and <code class="language-plaintext highlighter-rouge">code</code> is protecting against;</li>
+  <li>read a <code class="language-plaintext highlighter-rouge">.well-known/smart-configuration</code> document and know which endpoints matter;</li>
+  <li>explain scopes as a contract between the app and the EPJ, and inspect a token to see what was
+actually granted;</li>
+  <li>explain why access tokens belong on the server and not in the browser;</li>
+  <li>name the three SMART client authentication types, and say which one a Norwegian EPJ vendor should
+be using today;</li>
+  <li>describe how HelseID relates to, and differs from, the EPJ's own SMART authorization server.</li>
+</ul>
+
+<h3 id="use-cases-and-assignments">Use-cases and assignments</h3>
+
+<p>Assignments come in three tiers. Pick the one that matches your team and move up during the day.
+This is a learning track, not a competition. There are no prizes, and helping the team next to you
+is encouraged.</p>
+
+<h3 id="bronze">Bronze</h3>
+
+<p><em>It launched.</em> Target: every team, before lunch.</p>
+
+<p>Launch the skeleton from the EPJ, complete the authorization code exchange on the server, and
+display the patient's name and age together with the active consultation. Then open your browser's
+network tab and explain each redirect to someone else in the room.</p>
+
+<h3 id="silver">Silver</h3>
+
+<p><em>It is useful, and it is honest.</em> Pick one.</p>
+
+<ul>
+  <li><strong>Clinical mini-app</strong>: read the patient's diagnoses and measurements and render something a
+clinician would actually glance at. A trend, a summary, a flag.</li>
+  <li><strong>Scope detective</strong>: request narrower scopes than the skeleton does. Decode the access token and
+the ID-token. Prove what you were granted versus what you asked for, and demonstrate the FHIR API
+refusing a request outside your scopes.</li>
+  <li><strong>Confidential client</strong>: redo the launch using a client secret instead of a public client. Explain
+what changed, and why an EPJ vendor would insist on it.</li>
+</ul>
+
+<h3 id="gold">Gold</h3>
+
+<p><em>It writes back, or it does something nobody expected.</em> Pick one.</p>
+
+<ul>
+  <li><strong>Write-back</strong>: create a document or a measurement in the EPJ from your application, and watch it
+appear in the journal.</li>
+  <li><strong>Asymmetric client authentication</strong>: implement <code class="language-plaintext highlighter-rouge">private_key_jwt</code> end to end.</li>
+  <li><strong>Backend services</strong>: a system-to-system SMART flow, with no user present at all.</li>
+  <li><strong>Break it</strong>: attack your own application. Tamper with <code class="language-plaintext highlighter-rouge">state</code>. Replay a <code class="language-plaintext highlighter-rouge">code</code>. Send a token with
+the wrong <code class="language-plaintext highlighter-rouge">aud</code>. Use an expired token. Ask for a resource outside your scopes. Document what the
+server correctly rejected, and what it did not.</li>
+</ul>
+
+<h3 id="practical">Practical</h3>
+
+<ul>
+  <li><strong>Language</strong>: the track is facilitated in Norwegian. All written material, code and documentation
+is in English, with Norwegian terms kept where they are the actual names of things. See
+<a href="#terms-and-abbreviations">Terms and abbreviations</a>.</li>
+  <li><strong>AI tools</strong>: GitHub Copilot, Claude, Cursor and similar are welcome. They are good at OAuth
+boilerplate and at reading HTTP error responses. They know very little about HelseID and Norwegian
+code systems, and will confidently invent both.</li>
+  <li><strong>Organization</strong>: work in teams or individually. OAuth is complicated, we recommend pairing.</li>
+  <li><strong>Results</strong>: each team publishes a repository with a short README.</li>
+</ul>
+
+<h3 id="reference-material">Reference material</h3>
+
+<ul>
+  <li><a href="https://hl7.org/fhir/smart-app-launch/">SMART App Launch IG (STU 2.2)</a></li>
+  <li><a href="https://hl7.org/fhir/smart-app-launch/scopes-and-launch-context.html">Scopes and launch context</a></li>
+  <li><a href="https://hl7.org/fhir/smart-app-launch/conformance.html">Conformance and <code class="language-plaintext highlighter-rouge">.well-known/smart-configuration</code></a></li>
+  <li><a href="https://launch.smarthealthit.org">SMART App Launcher</a>, public sandbox used as fallback environment</li>
+  <li><a href="https://github.com/navikt/smart-on-fhir">navikt/smart-on-fhir</a>, Nav's server-only SMART on FHIR library</li>
+  <li><a href="https://github.com/navikt/smart-on-fhir-validator">navikt/smart-on-fhir-validator</a>, validates a SMART/FHIR implementation against Nav's requirements</li>
+  <li><a href="https://hl7.org/fhir/R4/resourcelist.html">HL7 FHIR R4 resource list</a></li>
+  <li><a href="https://www.helsedirektoratet.no/digitalisering-og-e-helse/e-helsestandarder-og-standardiseringstiltak/oid-identifikatorserier-i-helse-og-omsorgstjenesten">OID-identifikatorserier i helse- og omsorgstjenesten</a>, the authoritative list of Norwegian identifier series</li>
+</ul>
+
+<h3 id="questions">Questions</h3>
+
+<p>Contact the track lead, <a href="mailto:leo-andreas.ervik@nav.no">Leo-Andreas Ervik (Nav)</a>, or ask in the
+track channel.</p>
 
 
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.0.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 26, 2026 09:18+0000">2026-06-26</span>
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.0.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 28, 2026 11:27+0000">2026-07-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -245,27 +590,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           </span>
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
 
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  <!-- Analytics Below
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
-
