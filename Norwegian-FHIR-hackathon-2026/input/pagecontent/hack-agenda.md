@@ -24,24 +24,26 @@ Track introductions
 * Intro to IHE document sharing (Ingvar)
 * Intro to EHDS (Ingvar)
 * Medication intro (Adam/Kristine)
+* SMART on FHIR intro (Leo-Andreas Ervik)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
 
 A list of people involved in the organization of the hackathon and track leads, including contact information.  
 
-|Track|Name|Contact|Affiliate|
-|----------|------------|-------------|-----------|
-|PMD|Michal Jan Warecki|[michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)|NHN|
-|PMD/OKT|Sigurd Ringbakken|[sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)|NHN|
-|PMD|Bjørnar Selvén|[bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)|NHN|
-|OKT|Robert William Dall Frøseth|[robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no)|NHN|
-|OKT|Adam Kover|[adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)|Felleskatalogen|
-|OKT|Nino Lo Cascio|[nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)|Tietoevry|
-|FHIR 101|Thomas Tveit Rosenlund|[Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no)|Helsedirektoratet|
-|FHIR 101|Espen Stranger Seland|[ess@vali.no](mailto:ess@vali.no>)|Vali AS|
-|Partner|Øyvind Aassve|[oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)|Sykehuspartner|
-|Partner|Line Andreassen Sæle|[LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no)|FHI|
+| Track         | Name                        | Contact                                                                         | Affiliate         |
+|---------------|-----------------------------|---------------------------------------------------------------------------------|-------------------|
+| PMD           | Michal Jan Warecki          | [michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)                   | NHN               |
+| PMD/OKT       | Sigurd Ringbakken           | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)                     | NHN               |
+| PMD           | Bjørnar Selvén              | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)                           | NHN               |
+| OKT           | Robert William Dall Frøseth | [robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no) | NHN               |
+| OKT           | Adam Kover                  | [adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)           | Felleskatalogen   |
+| OKT           | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)             | Tietoevry         |
+| FHIR 101      | Thomas Tveit Rosenlund      | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
+| FHIR 101      | Espen Stranger Seland       | [ess@vali.no](mailto:ess@vali.no>)                                              | Vali AS           |
+| SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
+| Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
+| Partner       | Line Andreassen Sæle        | [LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no)               | FHI               |
 {: .grid .table-striped}
 
 #### Demo summary and discussions
@@ -50,4 +52,4 @@ The track leads presents the main results from the day in a plenary presentation
 
 #### Introduction to FHIR
 
-Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#preparations-for-participants)
+Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](index.html#preparations-for-participants)
