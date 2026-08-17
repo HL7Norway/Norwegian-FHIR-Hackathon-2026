@@ -18,6 +18,7 @@
 * Alt er i utganspunktet gratis.
 * HL7 Norge må ha no-show gebyr
 * Overbooking kan ta ned risiko for no-show får store økonomiske konsekvenser.
+* Lokalet (Rebel) vil ha minimiusantall 14 dager før arrangementet og oppjustert tall over påmeldte 4-5 dager før arrangementet.
 
 #### Påmeldingsskjema
 
@@ -33,8 +34,7 @@ Liste OK.
 * Påmeldingsfrist 14 dager før hackathon
   * Endelig påmeldingsfrist - 5 dager før
 * Etteranmelding - målrettet innsats - utvide fristen til noen dager før
-* Slutten av septembersette inn støtet for promotering.
-* 
+* Slutten av september sette inn støtet for promotering.
 
 ## 2026-06-23
 
