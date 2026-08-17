@@ -1,5 +1,16 @@
 # Notater planlegging 2026
 
+## 2026-08-17 Planlegginsgmøte
+
+### Forslag til agenda
+
+1. Diskutere påmeldingsside og no-show gebyr
+   1. No show gebyr, cap grense på påmelding må også avgjøres
+2. Status for promoteringsarbeid, planlegge videre promotering
+3. Gå igjennom innholdet i tracks og hvem som er track ansvarlige
+4. Diskutere formøte til Hackathon, dag, tid, sted og innhold.
+5. Eventuelt
+
 ## 2026-06-23
 
 ### No-show og påmelding.no? Hente inn no-show gebyr - 

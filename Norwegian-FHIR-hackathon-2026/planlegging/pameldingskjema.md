@@ -6,22 +6,29 @@ Hackathon legger til rette for fysisk deltakelse, det blir altså ikke mulighet 
 
 Når du sender inn dette skjemaet, vil det ikke automatisk samle inn opplysninger som navn og e-postadresse, med mindre du oppgir det selv. Praktisk informasjon om [FHIR Hackathon 2026](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/).
 
-**Merk:** Vi ønsker færrest mulig tomme plasser og ber derfor om at du gir oss beskjed en uke før om du ikke kan komme, slik at vi kan tilby din plass til noen som står på venteliste. Kontakt [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) for avbestilling.  
+**Merk:** Vi ønsker færrest mulig tomme plasser og ber derfor om at du gir oss beskjed en uke før om du ikke kan komme, slik at vi kan tilby din plass til noen som står på venteliste. Kontakt [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) for avbestilling. Frist for avbestilling er XXX. No-show belastes med XXX.  
 
 1. Navn
 > Navn
+
 2. E-post
 > Skriv inn e-postadresse
+
 3. Hvilken virksomhet tilhører du?
 > Navn på virksomhet
+
 4. Har du  allergier eller dietter vi må ta hensyn til?
 > Skriv inn svaret
+
 5. Hvilke(n) Track vil du helst delta på (1-4) (mulig med flere svar, men arbeidet i sporene går i parallell)?
+
 * XX - Pasientens måledata
 * XX - Oversikt over kommunale tjenester
 * XX - Nordic terminology
 * XX - FHIR IG authoring
+
 1. Hvilket utviklerverktøy bruker du (Java, .NET, GO etc.)
 > Skriv inn svaret
+
 2. Har du noen spesielle tema du ønsker å lære om?
 > Skriv inn svaret
