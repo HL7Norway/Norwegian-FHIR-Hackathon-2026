@@ -11,11 +11,36 @@
 4. Diskutere formøte til Hackathon, dag, tid, sted og innhold.
 5. Eventuelt
 
+### Notater
+
+#### Påmelding og No-show
+
+* Alt er i utganspunktet gratis.
+* HL7 Norge må ha no-show gebyr
+* Overbooking kan ta ned risiko for no-show får store økonomiske konsekvenser.
+
+#### Påmeldingsskjema
+
+* Nummerere i forhold hva man er mest interessert
+* Primary - men også mulig å velge flere, ofte ikke realistisk
+
+#### Tracks og agenda
+
+Liste OK.
+
+#### Promotering
+
+* Påmeldingsfrist 14 dager før hackathon
+  * Endelig påmeldingsfrist - 5 dager før
+* Etteranmelding - målrettet innsats - utvide fristen til noen dager før
+* Slutten av septembersette inn støtet for promotering.
+* 
+
 ## 2026-06-23
 
 ### No-show og påmelding.no? Hente inn no-show gebyr - 
 
-* Gebyr for no-show - hva skal være reglene.
+* Gebyr for no-show - hva skal være reglene?
 * Ønsker å tilby det gratis
 
 ### Track descriptions

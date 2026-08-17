@@ -20,11 +20,11 @@ Proposed agenda for the hackathon on 9. November.
 
 Track introductions
 
-* Intro to CarePlan and Pasientens måledata FHIR API interface (Michal/Tormod)
-* Intro to IHE document sharing (Ingvar)
-* Intro to EHDS (Ingvar)
-* Medication intro (Adam/Kristine)
-* SMART on FHIR intro (Leo-Andreas Ervik)
+* Digital home monitoring plans and observations (Michal W/Tormod)
+* SMART on FHIR (Leo-Andreas)
+* Document sharing for IHE MHD (Ingvar/Michal C)
+* EHDS patient summary (Ingvar/Linn)
+* Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA (Adam/Kristine ++)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
@@ -33,15 +33,19 @@ A list of people involved in the organization of the hackathon and track leads, 
 
 | Track         | Name                        | Contact                                                                         | Affiliate         |
 |---------------|-----------------------------|---------------------------------------------------------------------------------|-------------------|
-| PMD           | Michal Jan Warecki          | [michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)                   | NHN               |
-| PMD/OKT       | Sigurd Ringbakken           | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)                     | NHN               |
-| PMD           | Bjørnar Selvén              | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)                           | NHN               |
-| OKT           | Robert William Dall Frøseth | [robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no) | NHN               |
-| OKT           | Adam Kover                  | [adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)           | Felleskatalogen   |
-| OKT           | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)             | Tietoevry         |
+| Digital home monitoring | Michal Jan Warecki          | [michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)         | NHN               |
+| Digital home monitoring | Sigurd Ringbakken           | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)           | NHN               |
+| Digital home monitoring | Bjørnar Selvén              | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)                 | NHN               |
+| Digital home monitoring | Tormod Haugene              | [Tormod.Haugene@nhn.no](mailto:Tormod.Haugene@nhn.no)                 | NHN               |
 | FHIR 101      | Thomas Tveit Rosenlund      | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101      | Espen Stranger Seland       | [ess@vali.no](mailto:ess@vali.no>)                                              | Vali AS           |
 | SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
+| IHE document sharing | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
+| IHE document sharing | Michal Cermak        | [michal.cermak@nhn.no](michal.cermak@nhn.no)                                    | IHE Norge         |
+| EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
+| Medication    | Adam Kover                  | [adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)           | Felleskatalogen   |
+| Medication    | Kristine Aasen              | [kristine.aasen@dmp.no](kristine.aasen@dmp.no)                                  | NOMA              |
+| Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)             | Tietoevry         |
 | Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
 | Partner       | Line Andreassen Sæle        | [LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no)               | FHI               |
 {: .grid .table-striped}

@@ -4,9 +4,11 @@ The Norwegian FHIR Hackathon 2026 takes place at Rebel in Oslo 9. November 2026.
 
 This hackathon is part of the [Nordic Health Data Hackathons](https://fhir.fi/hackathon/) series. Participation on the hackathon is free of charge.  
 
-<!--
 ## Registration
 
+Registration will open ultimo September/ primo october. 
+
+<!--
 Please use the form to register for the Hackathon event before october 20, 2026. The number of places are limited, so register early to secure you place on the event.  
 
 * [Registration form](https://forms.office.com/e/sKB5ZTU61C)
@@ -16,13 +18,12 @@ Please use the form to register for the Hackathon event before october 20, 2026.
 
 The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
 
-* [NHN FHIR services track, particularly CarePlans and Observations](nhn-track.html) - NHN, Robert William Dall Frøseth
-* [Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA](medication-definition.html)
-* [Document sharing for IHE MHD](ihe-track.html) - IHE Norge, Ingvar Sørlien
-* [EHDS track](ehds-track.html) - Ingvar Sørlien
+* [Digital home monitoring plans and observations](nhn-track.html) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.html) - NAV, Leo-Andreas Ervik
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA](medication-definition.html) - NOMA/Helsedirektoratet
+* [Document sharing for IHE MHD](ihe-track.html) - IHE Norge, Ingvar Sørlien and Michal Cermak
+* [EHDS patient summary](ehds-track.html) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.html) - HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Proxy for FHIR API access to data from national health portals
 
 ### Why should you attend?
 
