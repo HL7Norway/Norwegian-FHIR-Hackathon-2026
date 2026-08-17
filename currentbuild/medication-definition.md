@@ -1,4 +1,4 @@
-# Medication Definition - Norwegian FHIR Hackathon 2026 v1.0.3
+# Medication Definition - Norwegian FHIR Hackathon 2026 v1.1.0
 
 * [**Table of Contents**](toc.md)
 * **Medication Definition**

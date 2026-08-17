@@ -1,6 +1,10 @@
 NorwegianFHIRHackathon2026
 =========================================
 
+Generic: line 0, col 0, Error - The link 'ingvar.sorlien@sykehuspartner.no' for "ingvar.sorlien@sykehuspartner.no" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'michal.cermak@nhn.no' for "michal.cermak@nhn.no" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'Linn.Brandt@helsedir.no' for "Linn.Brandt@helsedir.no" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'kristine.aasen@dmp.no' for "kristine.aasen@dmp.no" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'authorization.html' for "Authorization" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'patient-match.html' for "Patient Matching" cannot be resolved (NOTFOUND)
@@ -22,4 +26,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient.json: line 0, col 0, Info - The resource StructureDefinition/mal-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
 
 err = 0, warn = 6, info = 7
-IG Publisher Version: 2.2.11
+IG Publisher Version: 2.3.2

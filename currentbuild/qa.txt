@@ -2,15 +2,19 @@ NorwegianFHIRHackathon2026 : Validation Results
 =========================================
 
 err = 0, warn = 6, info = 7
-IG Publisher Version: 2.2.11
-Generated Tue Jul 28 11:28:52 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#1.0.3 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
- Build Errors : 6 / 4 / 0
+IG Publisher Version: 2.3.2
+Generated Mon Aug 17 12:58:38 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#1.1.0 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
+ Build Errors : 10 / 4 / 0
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2026 : 0 / 0 / 3
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 4
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 0 / 3
 </table>
 == n/a ==
+ERROR: hack-agenda.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 339, column 12: The link 'ingvar.sorlien@sykehuspartner.no' for "ingvar.sorlien@sykehuspartner.no" cannot be resolved
+ERROR: hack-agenda.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 345, column 12: The link 'michal.cermak@nhn.no' for "michal.cermak@nhn.no" cannot be resolved
+ERROR: hack-agenda.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 351, column 12: The link 'Linn.Brandt@helsedir.no' for "Linn.Brandt@helsedir.no" cannot be resolved
+ERROR: hack-agenda.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 363, column 12: The link 'kristine.aasen@dmp.no' for "kristine.aasen@dmp.no" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 215, column 16: The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 216, column 16: The link 'authorization.html' for "Authorization" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 217, column 16: The link 'patient-match.html' for "Patient Matching" cannot be resolved

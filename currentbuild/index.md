@@ -1,4 +1,4 @@
-# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.0.3
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.1.0
 
 * [**Table of Contents**](toc.md)
 * **Norwegian FHIR Hackathon 2026**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.0.3 |
-| Draft as of 2026-07-28 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.1.0 |
+| Draft as of 2026-08-17 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference. The Norwegian FHIR Hackathon is an arena for creativity, networking and innovation, with HL7 FHIR front and centre.
 
@@ -16,17 +16,20 @@ The Norwegian FHIR Hackathon 2026 takes place at Rebel in Oslo 9. November 2026.
 
 This hackathon is part of the [Nordic Health Data Hackathons](https://fhir.fi/hackathon/) series. Participation on the hackathon is free of charge.
 
+## Registration
+
+Registration will open ultimo September/ primo october.
+
 ### Tracks
 
 The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
 
-* [NHN FHIR services track, particularly CarePlans and Observations](nhn-track.md) - NHN, Robert William Dall Frøseth
-* [Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA](medication-definition.md)
-* [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien
-* [EHDS track](ehds-track.md) - Ingvar Sørlien
+* [Digital home monitoring plans and observations](nhn-track.md) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.md) - NAV, Leo-Andreas Ervik
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA](medication-definition.md) - NOMA/Helsedirektoratet
+* [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien and Michal Cermak
+* [EHDS patient summary](ehds-track.md) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.md) - HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Proxy for FHIR API access to data from national health portals
 
 ### Why should you attend?
 
@@ -88,11 +91,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "1.0.3",
+  "version" : "1.1.0",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-07-28T11:27:28+00:00",
+  "date" : "2026-08-17T12:57:18+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",

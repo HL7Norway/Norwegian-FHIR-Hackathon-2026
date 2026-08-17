@@ -1,4 +1,4 @@
-# FHIR-101 - Norwegian FHIR Hackathon 2026 v1.0.3
+# FHIR-101 - Norwegian FHIR Hackathon 2026 v1.1.0
 
 * [**Table of Contents**](toc.md)
 * **FHIR-101**
