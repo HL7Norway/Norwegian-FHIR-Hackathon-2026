@@ -20,7 +20,7 @@ The Norwegian Hackathon will have 6 tracks concerning municipality services, SMA
 
 * [Digital home monitoring plans and observations](nhn-track.html) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.html) - NAV, Leo-Andreas Ervik
-* [Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA](medication-definition.html) - NOMA/Helsedirektoratet
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.html) - NoMA/Helsedirektoratet
 * [Document sharing for IHE MHD](ihe-track.html) - IHE Norge, Ingvar Sørlien and Michal Cermak
 * [EHDS patient summary](ehds-track.html) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.html) - HL7 Norge, Thomas Rosenlund og Espen Seland
@@ -56,7 +56,7 @@ The event will be of value to individuals working in the healthcare industry and
 
 **Attend the pre-meeting on 2. November 2026 0900-1100 (digital only)**
 
-* Basic knowledge of RESTful API's is useful to be able to participate in testing and development
+* Basic knowledge of RESTful APIs is useful to be able to participate in testing and development
 * Knowledge of at least one of the following areas:
   * Development of RESTful API clients/servers
   * Information modelling
