@@ -201,47 +201,95 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#prerequisites" id="markdown-toc-prerequisites">Prerequisites</a></li>
-  <li><a href="#pms-public-api-beta" id="markdown-toc-pms-public-api-beta">PMS Public API Beta</a></li>
-  <li><a href="#noma-fhir-service" id="markdown-toc-noma-fhir-service">NoMA FHIR Service</a></li>
+  <li><a href="#structured-medication-data" id="markdown-toc-structured-medication-data">Structured medication data</a></li>
+  <li><a href="#reimbursement-data-and-decision-support" id="markdown-toc-reimbursement-data-and-decision-support">Reimbursement data and decision support</a></li>
 </ul>
 
 </div>
-<p>A closer look at R5's Medication Definition module,
+<p>The Medication Definition track will discuss two main topics:</p>
+
+<ul>
+  <li>Structured medication data with R5's Medication Definition module</li>
+  <li>Reimbursement data and decision support</li>
+</ul>
+
+<h3 id="structured-medication-data">Structured medication data</h3>
+
+<p>In this topic, we will take a closer look at R5's Medication Definition module,
 and how the resources are used to implement IDMP-compatible medication databases with FHIR.</p>
 
-<p>We'll explore the public API of EMA's PMS, now in public beta, and NoMA's FHIR services.</p>
+<p>We will explore the public API of EMA's PMS, now in public beta, and NoMA's FHIR service.</p>
 
 <ul>
   <li>How to get access to the service</li>
   <li>What data is available in the service</li>
   <li>How can the service be connected to other data sources (e.g., national medication databases, warnings or guidelines)</li>
   <li>How to visualize the data for end users</li>
+  <li>How to get related terminology through APIs</li>
 </ul>
 
-<p>The agenda at the hackathon is flexible and gives space for the topics the participants are interested in. Feel free to bring your own use case. How can these services be useful to you?</p>
+<p>The agenda at the hackathon is flexible and gives space for the topics
+the participants are interested in.
+Feel free to bring your own use case. How can these services be useful to you?</p>
 
-<h3 id="prerequisites">Prerequisites</h3>
+<h4 id="prerequisites">Prerequisites</h4>
 
 <p>Get your API keys in advance for the services you are interested in testing.</p>
 
 <p>Read the service documentations and the API specifications.</p>
 
-<h3 id="pms-public-api-beta">PMS Public API Beta</h3>
+<h5 id="pms-public-api-beta">PMS Public API Beta</h5>
 
-<p>The public beta is open from June 2026 until early 2027. We expect the API to be available before and during the hackathon.</p>
+<p>The public beta is open from June 2026 until early 2027.
+We expect the API to be available before and during the hackathon.</p>
 
 <p>For information on PMS, see <a href="https://www.ema.europa.eu/en/human-regulatory-overview/research-development/data-medicines-iso-idmp-standards-overview/substance-product-organisation-referential-spor-master-data/substance-product-data-management-services">Substance and product data management services</a>.</p>
 
 <p>Registration is free and fully self-service. Follow the instructions in the <a href="https://www.ema.europa.eu/en/human-regulatory-overview/research-development/data-medicines-iso-idmp-standards-overview/substance-product-organisation-referential-spor-master-data/substance-product-data-management-services#eu-idmp-implementation-guide-12045">EU IDMP Implementation Guide</a>, Chapter 1, Annex B.</p>
 
-<p>The available endpoints and parameters are described in the PMS <a href="https://api.pms.ema.europa.eu/public/v1/swagger">OpenAPI Specification</a>. The specification also includes the data elements returned by the service.</p>
+<p>The available endpoints and parameters are described in the PMS <a href="https://api.pms.ema.europa.eu/public/v1/swagger">OpenAPI Specification</a>.
+The specification also includes a test interface for running queries
+and the data elements returned by the service.</p>
 
-<h3 id="noma-fhir-service">NoMA FHIR Service</h3>
+<h5 id="nomas-fhir-service">NoMA's FHIR Service</h5>
 
-<p>NoMA's FHIR Service is available both in production and a test environment. Read <a href="https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service">How to Access the FHIR Service</a> and contact NoMA for an API key. The test environment can be a good fit for testing at the hackathon.</p>
+<p>NoMA's FHIR Service is available both in production and a test environment.
+Read <a href="https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service">How to Access the FHIR Service</a> and contact NoMA for an API key.
+The test environment can be a good fit for testing at the hackathon.</p>
 
 <p>The use and content of the service is documented in the <a href="https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current">Implementation Guide for NOMA's FHIR API v2.0</a>.</p>
+
+<h3 id="reimbursement-data-and-decision-support">Reimbursement data and decision support</h3>
+
+<p>This topic concentrates on reimbursement data.
+Which resources and which approach can describe reimbursement data in FHIR?
+How can the same structure support both <a href="https://www.helsenorge.no/en/medicines/prescriptions/">blue and H-prescription</a>?</p>
+
+<p>Candidates and previous implementations:</p>
+
+<ul>
+  <li><a href="https://fhir.ch/ig/ch-epl/spezialitaetenliste.html">The Swiss model for reimbursement data</a></li>
+  <li><a href="https://build.fhir.org/ig/HL7/phx-incubator/StructureDefinition-FormularyItem.html">FormularyItem in the Pharmacy Incubator IG for R6</a></li>
+</ul>
+
+<p>How can the data be made available for EHRs on a decision support API?</p>
+
+<ul>
+  <li>Input and output data</li>
+  <li>Data format (FHIR, CDS Hooks)</li>
+</ul>
+
+<h4 id="prerequisites-1">Prerequisites</h4>
+
+<p>Get your API keys in advance for the services you are interested in testing.</p>
+
+<p>Read the service documentations and the API specifications.</p>
+
+<h5 id="noma-h-prescription-fhir-service">NoMA H-prescription FHIR Service</h5>
+
+<p>Email <a href="mailto:fest@dmp.no">fest@dmp.no</a> to request an API key.
+Specify that you request access to the H-prescription production API,
+endpoint <code class="language-plaintext highlighter-rouge">https://api.legemiddelverket.no/fhir-r4-hresept</code>.</p>
 
 
 
@@ -262,7 +310,7 @@ and how the resources are used to implement IDMP-compatible medication databases
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 17, 2026 12:57+0000">2026-08-17</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 20, 2026 20:25+0000">2026-08-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.1.0 |
-| Draft as of 2026-08-17 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| Draft as of 2026-08-20 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference. The Norwegian FHIR Hackathon is an arena for creativity, networking and innovation, with HL7 FHIR front and centre.
 
@@ -26,7 +26,7 @@ The Norwegian Hackathon will have 6 tracks concerning municipality services, SMA
 
 * [Digital home monitoring plans and observations](nhn-track.md) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.md) - NAV, Leo-Andreas Ervik
-* [Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA](medication-definition.md) - NOMA/Helsedirektoratet
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.md) - NoMA/Helsedirektoratet
 * [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien and Michal Cermak
 * [EHDS patient summary](ehds-track.md) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.md) - HL7 Norge, Thomas Rosenlund og Espen Seland
@@ -60,7 +60,7 @@ The event will be of value to individuals working in the healthcare industry and
 
 **Attend the pre-meeting on 2. November 2026 0900-1100 (digital only)**
 
-* Basic knowledge of RESTful API's is useful to be able to participate in testing and development
+* Basic knowledge of RESTful APIs is useful to be able to participate in testing and development
 * Knowledge of at least one of the following areas: 
 * Development of RESTful API clients/servers
 * Information modelling
@@ -95,7 +95,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "draft",
-  "date" : "2026-08-17T12:57:18+00:00",
+  "date" : "2026-08-20T20:25:17+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",

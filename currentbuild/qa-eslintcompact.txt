@@ -1,10 +1,6 @@
 NorwegianFHIRHackathon2026
 =========================================
 
-Generic: line 0, col 0, Error - The link 'ingvar.sorlien@sykehuspartner.no' for "ingvar.sorlien@sykehuspartner.no" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'michal.cermak@nhn.no' for "michal.cermak@nhn.no" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'Linn.Brandt@helsedir.no' for "Linn.Brandt@helsedir.no" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'kristine.aasen@dmp.no' for "kristine.aasen@dmp.no" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'authorization.html' for "Authorization" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'patient-match.html' for "Patient Matching" cannot be resolved (NOTFOUND)
