@@ -1,9 +1,9 @@
 The Medication Definition track will discuss two main topics:
 
-* Structured Medication Data with R5's Medication Definition module
+* Structured medication data with R5's Medication Definition module
 * Reimbursement data and decision support
 
-## Structured Medication Data
+### Structured medication data
 
 In this topic, we will take a closer look at R5's Medication Definition module,
 and how the resources are used to implement IDMP-compatible medication databases with FHIR.
@@ -20,13 +20,13 @@ The agenda at the hackathon is flexible and gives space for the topics
 the participants are interested in.
 Feel free to bring your own use case. How can these services be useful to you?
 
-### Prerequisites
+#### Prerequisites
 
 Get your API keys in advance for the services you are interested in testing.
 
 Read the service documentations and the API specifications.
 
-#### PMS Public API Beta
+##### PMS Public API Beta
 
 The public beta is open from June 2026 until early 2027.
 We expect the API to be available before and during the hackathon.
@@ -39,7 +39,7 @@ The available endpoints and parameters are described in the PMS [OpenAPI Specifi
 The specification also includes a test interface for running queries
 and the data elements returned by the service.
 
-#### NoMA FHIR Service
+##### NoMA's FHIR Service
 
 NoMA's FHIR Service is available both in production and a test environment.
 Read [How to Access the FHIR Service](https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service) and contact NoMA for an API key.
@@ -47,10 +47,10 @@ The test environment can be a good fit for testing at the hackathon.
 
  The use and content of the service is documented in the [Implementation Guide for NOMA's FHIR API v2.0](https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current).
 
-## Reimbursement data and decision support
+### Reimbursement data and decision support
 
 This topic concentrates on reimbursement data.
-Which resource and which approach can describe reimbursement data?
+Which resources and which approach can describe reimbursement data in FHIR?
 How can the same structure support both [blue and H-prescription](https://www.helsenorge.no/en/medicines/prescriptions/)?
 
 Candidates and previous implementations:
@@ -63,13 +63,13 @@ How can the data be made available for EHRs on a decision support API?
 * Input and output data
 * Data format (FHIR, CDS Hooks)
 
-### Prerequisites
+#### Prerequisites
 
 Get your API keys in advance for the services you are interested in testing.
 
 Read the service documentations and the API specifications.
 
-#### NoMA H-prescription FHIR Service
+##### NoMA H-prescription FHIR Service
 
 Email [fest@dmp.no](mailto:fest@dmp.no) to request an API key.
 Specify that you request access to the H-prescription production API,
