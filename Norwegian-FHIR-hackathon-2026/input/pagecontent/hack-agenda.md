@@ -38,13 +38,15 @@ A list of people involved in the organization of the hackathon and track leads, 
 | Digital home monitoring | Bjørnar Selvén              | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)                 | NHN               |
 | Digital home monitoring | Tormod Haugene              | [Tormod.Haugene@nhn.no](mailto:Tormod.Haugene@nhn.no)                 | NHN               |
 | FHIR 101      | Thomas Tveit Rosenlund      | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
-| FHIR 101      | Espen Stranger Seland       | [ess@vali.no](mailto:ess@vali.no>)                                              | Vali AS           |
+| FHIR 101      | Espen Stranger Seland       | [espen@hl7.no](mailto:espen@hl7.no>)                                              | HL7 Norge           |
 | SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
-| IHE document sharing | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
-| IHE document sharing | Michal Cermak        | [michal.cermak@nhn.no](michal.cermak@nhn.no)                                    | IHE Norge         |
-| EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
-| Medication    | Adam Kover                  | [adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)           | Felleskatalogen   |
-| Medication    | Kristine Aasen              | [kristine.aasen@dmp.no](kristine.aasen@dmp.no)                                  | NOMA              |
+| IHE document sharing | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
+| IHE document sharing | Michal Cermak        | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
+| EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
+| Medication Definition | Karin Drivenes        | [karin.drivenes@helsedir.no](mailto:karin.drivenes@helsedir.no)               | Helsedirektoratet |
+| Medication Definition | Ádám Z. Kövér         | [adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)         | Felleskatalogen   |
+| Medication Definition | Nikolai Meldre Nordby | [nikolai.nordby@dmp.no](mailto:nikolai.nordby@dmp.no)                         | NoMA              |
+| Medication Definition | Kristine Aasen        | [kristine.aasen@dmp.no](mailto:kristine.aasen@dmp.no)                         | NoMA              |
 | Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)             | Tietoevry         |
 | Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
 | Partner       | Line Andreassen Sæle        | [LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no)               | FHI               |
