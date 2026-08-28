@@ -1,0 +1,385 @@
+ "definitions": {
+        "ActivatePlanCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "AggregateResponse": {
+            "type": "object",
+            "properties": {
+                "active_version": {
+                    "type": "integer"
+                },
+                "approvals": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ApprovalEntry"
+                    }
+                },
+                "clinical_content": {
+                    "$ref": "#/definitions/Content"
+                },
+                "comment": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "publication_status": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/PublicationEntry"
+                    }
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "subject": {
+                    "$ref": "#/definitions/Patient"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "updated_by": {
+                    "$ref": "#/definitions/HealthPersonnel"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ApprovalEntry": {
+            "type": "object",
+            "properties": {
+                "status": {
+                    "$ref": "#/definitions/domain.ApprovalStatus"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ApprovalGivenCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ApprovalRejectedCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ApprovalRequestedCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Content": {
+            "type": "object",
+            "properties": {
+                "personal_goals": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "zones": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Zone"
+                    }
+                }
+            }
+        },
+        "CreatePlanCommand": {
+            "type": "object",
+            "properties": {
+                "clinical_content": {
+                    "$ref": "#/definitions/Content"
+                },
+                "comment": {
+                    "type": "string"
+                },
+                "subject": {
+                    "$ref": "#/definitions/Patient"
+                }
+            }
+        },
+        "DeactivatePlanCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ErrorResponse": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "details": {},
+                "error": {
+                    "type": "string"
+                }
+            }
+        },
+        "HealthPersonnel": {
+            "type": "object",
+            "properties": {
+                "display_name": {
+                    "type": "string"
+                },
+                "hpr_number": {
+                    "type": "string"
+                }
+            }
+        },
+        "HistoryResponse": {
+            "type": "object",
+            "properties": {
+                "approvals": {
+                    "type": "integer"
+                },
+                "comment": {
+                    "type": "string"
+                },
+                "event_type": {
+                    "type": "string"
+                },
+                "publications": {
+                    "type": "integer"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "updated_by": {
+                    "$ref": "#/definitions/HealthPersonnel"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "MarkPublishedPlanCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "MarkUnpublishedPlanCommand": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Patient": {
+            "type": "object",
+            "properties": {
+                "nin": {
+                    "type": "string"
+                }
+            }
+        },
+        "PlanResponse": {
+            "type": "object",
+            "properties": {
+                "active_version": {
+                    "type": "integer"
+                },
+                "approvals": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ApprovalEntry"
+                    }
+                },
+                "clinical_content": {
+                    "$ref": "#/definitions/Content"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "is_active": {
+                    "type": "boolean"
+                },
+                "publication_status": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/PublicationEntry"
+                    }
+                },
+                "revision": {
+                    "type": "integer"
+                },
+                "subject": {
+                    "$ref": "#/definitions/Patient"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "updated_by": {
+                    "$ref": "#/definitions/HealthPersonnel"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "PublicationEntry": {
+            "type": "object",
+            "properties": {
+                "provider_id": {
+                    "type": "string"
+                },
+                "status": {
+                    "$ref": "#/definitions/domain.PublicationStatus"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Response": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "assigned by server on create (read-only)",
+                    "type": "string"
+                },
+                "revision": {
+                    "description": "required on update, must match current server revision, incremented by server",
+                    "type": "integer"
+                }
+            }
+        },
+        "UpdateContentCommand": {
+            "type": "object",
+            "properties": {
+                "clinical_content": {
+                    "$ref": "#/definitions/Content"
+                },
+                "comment": {
+                    "type": "string"
+                },
+                "revision": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Zone": {
+            "type": "object",
+            "properties": {
+                "action": {
+                    "type": "string"
+                },
+                "condition": {
+                    "type": "string"
+                },
+                "level": {
+                    "$ref": "#/definitions/domain.Level"
+                }
+            }
+        },
+        "domain.ApprovalStatus": {
+            "type": "string",
+            "enum": [
+                "requested",
+                "given",
+                "rejected"
+            ],
+            "x-enum-varnames": [
+                "ApprovalRequested",
+                "ApprovalGiven",
+                "ApprovalRejected"
+            ]
+        },
+        "domain.Level": {
+            "type": "string",
+            "enum": [
+                "green",
+                "yellow",
+                "red"
+            ],
+            "x-enum-varnames": [
+                "LevelGreen",
+                "LevelYellow",
+                "LevelRed"
+            ]
+        },
+        "domain.PublicationStatus": {
+            "type": "string",
+            "enum": [
+                "published",
+                "unpublished"
+            ],
+            "x-enum-varnames": [
+                "PublicationStatusPublished",
+                "PublicationStatusUnpublished"
+            ]
+        }
+    }

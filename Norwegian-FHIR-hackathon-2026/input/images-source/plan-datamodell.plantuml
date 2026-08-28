@@ -1,0 +1,118 @@
+@startuml
+' Class diagram for the plan data model (input/resources/plan-datamodell.json)
+
+hide empty members
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+skinparam nodesep 60
+skinparam ranksep 70
+
+package "Responses" #F5FAFF {
+
+  ' Not part of the JSON schema - holds the fields and relations that
+  ' PlanResponse and AggregateResponse have in common, so they are drawn once.
+  abstract class PlanView {
+    id : string
+    revision : integer
+    version : integer
+    active_version : integer
+    updated_at : string
+  }
+
+  class PlanResponse {
+    is_active : boolean
+  }
+
+  class AggregateResponse {
+    comment : string
+  }
+
+  class HistoryResponse {
+    event_type : string
+    revision : integer
+    version : integer
+    comment : string
+    approvals : integer
+    publications : integer
+    updated_at : string
+  }
+}
+
+package "Domain" #F7FFF5 {
+  class Patient {
+    nin : string
+  }
+
+  class HealthPersonnel {
+    display_name : string
+    hpr_number : string
+  }
+
+  class Content {
+    title : string
+    personal_goals : string
+  }
+
+  class Zone {
+    condition : string
+    action : string
+    level : Level
+  }
+
+  class ApprovalEntry {
+    status : ApprovalStatus
+    version : integer
+    updated_at : string
+  }
+
+  class PublicationEntry {
+    provider_id : string
+    status : PublicationStatus
+    version : integer
+    updated_at : string
+  }
+
+  enum Level {
+    green
+    yellow
+    red
+  }
+
+  enum ApprovalStatus {
+    requested
+    given
+    rejected
+  }
+
+  enum PublicationStatus {
+    published
+    unpublished
+  }
+}
+
+' Generalisation drawn sideways so all Responses classes stay on one rank
+PlanResponse -right-|> PlanView
+AggregateResponse -left-|> PlanView
+AggregateResponse -[hidden]right- HistoryResponse
+
+' Owned parts (composition)
+PlanView *-down- "1" Content : clinical_content
+PlanView *-down- "0..*" ApprovalEntry : approvals
+PlanView *-down- "0..*" PublicationEntry : publication_status
+Content *-down- "0..*" Zone : zones
+
+' References (plain association)
+PlanView -down-> "1" Patient : subject
+PlanView -down-> "1" HealthPersonnel : updated_by
+HistoryResponse -down-> "1" HealthPersonnel : updated_by
+
+' Enum usage shown as dependency; the value is also listed as an attribute
+Zone .down.> Level
+ApprovalEntry .down.> ApprovalStatus
+PublicationEntry .down.> PublicationStatus
+
+' Keeps the Responses package on top of the Domain package
+PlanResponse -[hidden]down- Patient
+HistoryResponse -[hidden]down- PublicationEntry
+
+@enduml
