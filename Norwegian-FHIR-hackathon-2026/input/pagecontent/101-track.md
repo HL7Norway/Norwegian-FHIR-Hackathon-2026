@@ -1,6 +1,8 @@
 ### Track: FHIR 101
 
-FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR implementation guide (IG) authoring, building and how to publish a draft on Github. 
+FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR implementation guide (IG) authoring, building and how to publish a draft on Github.  
+
+<div>{% include main-use-casev2.svg %}</div>
 
 #### Prerequisites and preparations
 
@@ -40,7 +42,7 @@ Some advanced assignments.
 
 #### Install enviroment for IG publisher on your computer
 
-You must have necessary rights to install and run software. 
+You must have necessary rights to install and run software.  
 
 1. Install Java. IG Publisher requires Java 17 or later.
 2. Download IG Publisher - https://github.com/HL7/ig-publisher.
