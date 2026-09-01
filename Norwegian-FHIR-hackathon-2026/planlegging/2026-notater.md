@@ -1,5 +1,66 @@
 # Notater planlegging 2026
 
+## 2026-08-31 Planlegginsgmøte
+
+### Forslag til agenda
+
+1. Diskutere påmeldingsside og no-show gebyr
+   1. No show gebyr, cap grense på påmelding må også avgjøres
+2. Status for promoteringsarbeid, planlegge videre promotering
+3. Gå igjennom innholdet i tracks og hvem som er track ansvarlige
+4. Diskutere formøte til Hackathon, dag, tid, sted og innhold.
+5. EHIN promotering av resultatene
+6. Eventuelt
+
+### Notater
+
+#### Påmelding
+
+**Justeringer**
+
+* Folk må kunne få lagre svaret sitt UTEN å logge seg på, kan google gjøre det.
+  * Google kan gjøre dette, så vi benytter google
+* Bør skjema være på engelsk?
+* 60 som tak og 50 som mål for arrangementet
+* Sted, dato og klokkeslett i toppen av skjema
+* Spør Nard om hvordan vi promoterer resultatene
+
+#### Promotering
+
+Save the date er sendt ut.
+EHIN har publisert informasjon
+Når åpner EHIN påmelding?
+
+* Spørre Nard om når de åpner påmelding og gjøre et fremstøt sammen da?
+* Venter et par uker antakeligvis.
+
+#### Innhold i Tracks
+
+* NHN Track trenger innhold
+* Medication hovedtema refusjon og data om substans/styrke og legemiddelformer i FHIR
+* SMART on FHIR - gode beskrivelser
+* IHE har en grei beskrivelse
+* EHDS patient summary track trenger innhold. Linn/Ingva r jobber med dette.
+* FHIR 101 - OK
+
+#### Formøtet
+
+* Fornuftig med formøte forberedelser for deltakere
+* Påminnelse på hackathon skjer neste uke.
+
+#### EHIN presentasjon av resultater
+
+* Nino kan ta en dialog med Nino
+* Interoperabilitetspaviljongen er en mulighet.
+  * Utstillingsarena antakelig, kanskje med en scene.
+  * Paviljong - hva er det?
+* Presentasjon av resultatene kan også være interessant.
+* Informasjon på stand.
+
+#### Neste møte?
+
+21 september -kick off for påmelding og promo.
+
 ## 2026-08-17 Planlegginsgmøte
 
 ### Forslag til agenda
