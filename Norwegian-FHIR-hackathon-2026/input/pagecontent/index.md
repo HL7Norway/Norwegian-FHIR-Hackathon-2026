@@ -4,7 +4,7 @@ We recognize that interoperability requires more than technology. To connect sys
 
 Join other healthcare informatics professionals and the Norwegian HL7 community at Rebel in Oslo on November 9, 2026 for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises. The event will be of value to anyone working with information systems in healthcare, including developers, architects, and project managers.
 
-The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NoMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
+The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NoMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
 
 Participation in the hackathon is free of charge.
 
@@ -46,9 +46,9 @@ The [FHIR 101 track](101-track.html) is dedicated to an introduction to FHIR.
 
 HL7 International also provides some great video resources for this purpose:
 
-  * [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
-  * [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
-  * [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
+* [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
+* [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
+* [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
 
 ### Contact information
 

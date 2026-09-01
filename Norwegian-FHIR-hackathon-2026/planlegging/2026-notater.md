@@ -40,7 +40,7 @@ Når åpner EHIN påmelding?
 * Medication hovedtema refusjon og data om substans/styrke og legemiddelformer i FHIR
 * SMART on FHIR - gode beskrivelser
 * IHE har en grei beskrivelse
-* EHDS patient summary track trenger innhold. Linn/Ingva r jobber med dette.
+* EHDS patient summary track trenger innhold. Linn/Ingvar jobber med dette.
 * FHIR 101 - OK
 
 #### Formøtet
