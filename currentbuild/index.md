@@ -16,7 +16,7 @@ We recognize that interoperability requires more than technology. To connect sys
 
 Join other healthcare informatics professionals and the Norwegian HL7 community at Rebel in Oslo on November 9, 2026 for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises. The event will be of value to anyone working with information systems in healthcare, including developers, architects, and project managers.
 
-The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NoMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
+The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NoMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
 
 Participation in the hackathon is free of charge.
 
@@ -78,7 +78,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-09-01T06:13:32+00:00",
+  "date" : "2026-09-01T06:55:40+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
