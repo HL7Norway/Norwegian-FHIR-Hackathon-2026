@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>EHDS track - Norwegian FHIR Hackathon 2026 v1.1.0</title>
+    <title>EHDS track - Norwegian FHIR Hackathon 2026 v1.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Norwegian FHIR Hackathon 2026</span>
             <br/>
-            <span style="display:inline-block;">1.1.0 - ci-build
+            <span style="display:inline-block;">1.2.0 - ci-build
 
 
 
@@ -183,7 +183,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>EHDS track</h2>
   
 
@@ -202,19 +202,55 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h3 id="ehds-track">EHDS Track</h3>
+<h3 id="ehds-patient-summary-track">EHDS Patient Summary Track</h3>
+
+<h4 id="purpose">Purpose</h4>
+
+<p>The purpose of this track is to give vendors and implementers a hands-on opportunity to explore and test the <a href="https://build.fhir.org/ig/hl7-eu/eps/">HL7 Europe Patient Summary (EPS)</a> Implementation Guide. EPS is HL7 Europe's FHIR representation of the Patient Summary as currently described in the emerging EU specifications for the European Health Data Space (EHDS), and builds on the <a href="https://www.xt-ehr.eu/fhir/models/en/overview-patientsummary.html">Patient Summary Logical Model</a> developed by the Xt-EHR Joint Action for the European Electronic Health Record Exchange Format (EEHRxF).</p>
+
+<p>Neither the Patient Summary Logical Model nor the EPS Implementation Guide has been formally adopted. Both are draft, continuously changing specifications that represent the current best understanding of how the EU Commission's EHDS secondary legislation on the electronic health record exchange format is likely to be structured. Participants should treat this track as an early look at where the specification is heading, not as testing against a finished standard.</p>
 
 <h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
 
+<ul>
+  <li>Basic knowledge of HL7 FHIR, in particular document-based implementation guides (Bundle, Composition, and profiled clinical resources). The FHIR 101 track is a good primer if this is unfamiliar.</li>
+  <li>Some familiarity with the International Patient Summary (IPS), since EPS is built as a European specialisation of IPS and reuses much of its structure.</li>
+  <li>No prior knowledge of EHDS or EEHRxF is required. A short overview will be given at the pre-meeting and at the start of the track.</li>
+</ul>
+
 <h5 id="preparations">Preparations</h5>
 
-<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
+<p>Participants are encouraged to review the following before the hackathon:</p>
 
-<p><strong>Coming</strong></p>
+<ul>
+  <li><a href="https://build.fhir.org/ig/hl7-eu/eps/">HL7 Europe Patient Summary Implementation Guide</a>, particularly the Introduction and Logical Models pages</li>
+  <li><a href="https://www.xt-ehr.eu/fhir/models/en/overview-patientsummary.html">EHDS Logical Information Models – Patient Summary</a>, to see the underlying logical model EPS is derived from</li>
+  <li>Optionally, the <a href="https://hl7.org/fhir/uv/ips/STU2">HL7 FHIR International Patient Summary</a> for background on the parent specification</li>
+</ul>
+
+<p>Presentation from the pre-meeting: <strong>Coming</strong></p>
 
 <h4 id="learning-goals">Learning goals</h4>
 
+<p>By the end of the track, participants should:</p>
+
+<ul>
+  <li>Understand how the EPS Implementation Guide relates to the EEHRxF Patient Summary Logical Model and to IPS, and where each fits in the chain from EU policy to a testable FHIR artifact</li>
+  <li>Be able to navigate the EPS Implementation Guide: its sections, profiles, and obligations</li>
+  <li>Have produced or validated example FHIR resources against one or more EPS profiles</li>
+  <li>Understand the current maturity and open issues of the specification, and what is likely to still change before formal adoption</li>
+  <li>Be able to relate EPS to their own product or national context, including how it compares to existing Norwegian solutions such as Kjernejournal</li>
+</ul>
+
 <h4 id="use-cases-and-assignments">Use-cases and assignments</h4>
+
+<ul>
+  <li>Pick one or more sections of the Patient Summary (for example allergies, medication, or problems) and produce example instances conforming to the corresponding EPS profiles</li>
+  <li>Validate produced instances against the EPS Implementation Guide using the FHIR validator</li>
+  <li>Assemble a complete Patient Summary document (Composition/Bundle) from the produced sections and check it against the IG's document-level constraints</li>
+  <li>Compare a section's structure in EPS against the same content in the Norwegian Kjernejournal / pasientsammendrag, and discuss where the models align or diverge</li>
+  <li>For teams with a vendor system: discuss what it would take to expose or consume an EPS-conformant Patient Summary from that system, and identify the main gaps</li>
+</ul>
 
 
 
@@ -235,7 +271,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 20, 2026 20:25+0000">2026-08-20</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 1, 2026 06:13+0000">2026-09-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

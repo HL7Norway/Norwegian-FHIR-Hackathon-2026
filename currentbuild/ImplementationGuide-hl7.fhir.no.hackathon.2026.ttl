@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2026</b></p><a name=\"hl7.fhir.no.hackathon.2026\"> </a><a name=\"hchl7.fhir.no.hackathon.2026\"> </a><h2>NorwegianFHIRHackathon2026</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026</p>\n</div></div>"
   ] ;
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026"] ;
-  fhir:ImplementationGuide.version [ fhir:value "1.1.0"] ;
+  fhir:ImplementationGuide.version [ fhir:value "1.2.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "NorwegianFHIRHackathon2026"] ;
   fhir:ImplementationGuide.title [ fhir:value "Norwegian FHIR Hackathon 2026"] ;
-  fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-20T20:25:17+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.status [ fhir:value "active"] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-01T06:13:32+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Norge"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;

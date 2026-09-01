@@ -1,4 +1,4 @@
-# Pasient-1 - Norwegian FHIR Hackathon 2026 v1.1.0
+# Pasient-1 - Norwegian FHIR Hackathon 2026 v1.2.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

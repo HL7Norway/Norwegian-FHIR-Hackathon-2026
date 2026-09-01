@@ -1,4 +1,4 @@
-# Hackathon agenda - Norwegian FHIR Hackathon 2026 v1.1.0
+# Hackathon agenda - Norwegian FHIR Hackathon 2026 v1.2.0
 
 * [**Table of Contents**](toc.md)
 * **Hackathon agenda**
@@ -44,7 +44,7 @@ A list of people involved in the organization of the hackathon and track leads, 
 | Digital home monitoring | Bjørnar Selvén | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no) | NHN |
 | Digital home monitoring | Tormod Haugene | [Tormod.Haugene@nhn.no](mailto:Tormod.Haugene@nhn.no) | NHN |
 | FHIR 101 | Thomas Tveit Rosenlund | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
-| FHIR 101 | Espen Stranger Seland | [ess@vali.no](mailto:ess@vali.no>) | Vali AS |
+| FHIR 101 | Espen Stranger Seland | [espen@hl7.no](mailto:espen@hl7.no>) | HL7 Norge |
 | SMART on FHIR | Leo-Andreas Ervik | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no) | Nav |
 | IHE document sharing | Ingvar Sørlien | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no) | IHE Norge |
 | IHE document sharing | Michal Cermak | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no) | IHE Norge |
