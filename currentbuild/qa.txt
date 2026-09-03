@@ -3,14 +3,15 @@ NorwegianFHIRHackathon2026 : Validation Results
 
 err = 0, warn = 6, info = 7
 IG Publisher Version: 2.3.3
-Generated Tue Sep 01 06:58:43 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#1.2.0 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
- Build Errors : 6 / 4 / 0
+Generated Thu Sep 03 20:25:09 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2026#1.2.0 (canonical = http://hl7.no/fhir/ig/hackathon/2026)
+ Build Errors : 7 / 4 / 0
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2026 : 0 / 0 / 3
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 4
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 0 / 3
 </table>
 == n/a ==
+ERROR: hack-agenda.html#/html/body/div/div/div/div/div/p/a at Line 405, column 82: The link 'index.html#preparations-for-participants' for "HL7 FHIR video resources" cannot be resolved (valid targets: [why-you-should-participate, publish-box, segment-post-footer, time-and-date, markdown-toc-why-you-should-participate, top, stripe, recommended-preparation, segment-footer, logo, segment-content, norwegian-fhir-hackathon-2026, markdown-toc-time-and-date, markdown-toc-contact-information, markdown-toc-recommended-preparation, segment-header, markdown-toc-registration, bottom, hl7-logo, contact-information, markdown-toc-tracks, tracks, markdown-toc-background, family-nav, ig-status, markdown-toc, background, hl7-nav, registration, segment-navbar, segment-breadcrumb])
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 215, column 16: The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 216, column 16: The link 'authorization.html' for "Authorization" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 217, column 16: The link 'patient-match.html' for "Patient Matching" cannot be resolved

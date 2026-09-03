@@ -3,15 +3,15 @@
 ## Pages
 
 * [](index.md)
+* [IHE documents](ihe-track.md)
 * [Hackathon agenda](hack-agenda.md)
 * [SMART on FHIR](smart-track.md)
-* [Artifacts Summary](artifacts.md)
-* [FHIR-101](101-track.md)
 * [EHDS track](ehds-track.md)
-* [Medication Definition](medication-definition.md)
-* [NHN services](nhn-track.md)
+* [FHIR-101](101-track.md)
+* [Artifacts Summary](artifacts.md)
 * [Pictures from 2025](2025-bilder.md)
-* [IHE documents](ihe-track.md)
+* [NHN services](nhn-track.md)
+* [Medication Definition](medication-definition.md)
 
 ## Resources
 

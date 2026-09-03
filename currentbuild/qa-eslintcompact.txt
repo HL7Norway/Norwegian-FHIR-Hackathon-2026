@@ -1,6 +1,7 @@
 NorwegianFHIRHackathon2026
 =========================================
 
+Generic: line 0, col 0, Error - The link 'index.html#preparations-for-participants' for "HL7 FHIR video resources" cannot be resolved (valid targets: [why-you-should-participate, publish-box, segment-post-footer, time-and-date, markdown-toc-why-you-should-participate, top, stripe, recommended-preparation, segment-footer, logo, segment-content, norwegian-fhir-hackathon-2026, markdown-toc-time-and-date, markdown-toc-contact-information, markdown-toc-recommended-preparation, segment-header, markdown-toc-registration, bottom, hl7-logo, contact-information, markdown-toc-tracks, tracks, markdown-toc-background, family-nav, ig-status, markdown-toc, background, hl7-nav, registration, segment-navbar, segment-breadcrumb]) (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'authorization.html' for "Authorization" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'patient-match.html' for "Patient Matching" cannot be resolved (NOTFOUND)

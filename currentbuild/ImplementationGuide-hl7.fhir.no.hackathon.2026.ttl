@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "NorwegianFHIRHackathon2026"] ;
   fhir:ImplementationGuide.title [ fhir:value "Norwegian FHIR Hackathon 2026"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-01T06:55:40+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-03T20:23:33+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Norge"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
