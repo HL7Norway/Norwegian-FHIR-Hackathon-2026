@@ -1,4 +1,4 @@
-# hl7.fhir.no.hackathon.2026#1.2.0: Norwegian FHIR Hackathon 2026
+# hl7.fhir.no.hackathon.2026#1.2.1: Norwegian FHIR Hackathon 2026
 
 ## Pages
 

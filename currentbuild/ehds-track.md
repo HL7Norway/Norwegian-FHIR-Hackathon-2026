@@ -1,4 +1,4 @@
-# EHDS track - Norwegian FHIR Hackathon 2026 v1.2.0
+# EHDS track - Norwegian FHIR Hackathon 2026 v1.2.1
 
 * [**Table of Contents**](toc.md)
 * **EHDS track**

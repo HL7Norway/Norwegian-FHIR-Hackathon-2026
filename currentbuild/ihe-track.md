@@ -1,4 +1,4 @@
-# IHE documents - Norwegian FHIR Hackathon 2026 v1.2.0
+# IHE documents - Norwegian FHIR Hackathon 2026 v1.2.1
 
 * [**Table of Contents**](toc.md)
 * **IHE documents**
