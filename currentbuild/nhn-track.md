@@ -1,4 +1,4 @@
-# NHN services - Norwegian FHIR Hackathon 2026 v1.2.1
+# NHN services - Norwegian FHIR Hackathon 2026 v1.2.0
 
 * [**Table of Contents**](toc.md)
 * **NHN services**

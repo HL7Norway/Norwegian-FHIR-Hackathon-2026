@@ -1,4 +1,4 @@
-# SMART on FHIR - Norwegian FHIR Hackathon 2026 v1.2.1
+# SMART on FHIR - Norwegian FHIR Hackathon 2026 v1.2.0
 
 * [**Table of Contents**](toc.md)
 * **SMART on FHIR**

@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.hackathon.2026",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
