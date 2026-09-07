@@ -50,13 +50,37 @@ The test environment can be a good fit for testing at the hackathon.
 ### Reimbursement data and decision support
 
 This topic concentrates on reimbursement data.
+
+#### Reimbursement data in FHIR
+
 Which resources and which approach can describe reimbursement data in FHIR?
 How can the same structure support both [blue and H-prescription](https://www.helsenorge.no/en/medicines/prescriptions/)?
+
+An analysis has identified the need for the following data:
+
+* Medicinal product data
+    * Medicinal product name
+    * Dose form
+    * Strength
+    * Marketing authorization and marketing dates
+    * Approved indications
+* Reimbursement data
+    * Funding responsibility
+    * Legal basis for funding
+    * Health technology assessment status
+    * The medicine’s reimbursable use; indication, sub-indication, or area of use
+    * Conditions for reimbursement
+* Price data
+    * Reimbursement price (might be confidential)
+
+While the first category is part of the IDMP data model and detailed in the [Electronic Medicinal Product Information (ePI) FHIR Implementation Guide](https://hl7.org/fhir/uv/emedicinal-product-info/STU1/), the other categories are not yet standardized.
 
 Candidates and previous implementations:
 
 * [The Swiss model for reimbursement data](https://fhir.ch/ig/ch-epl/spezialitaetenliste.html)
 * [FormularyItem in the Pharmacy Incubator IG for R6](https://build.fhir.org/ig/HL7/phx-incubator/StructureDefinition-FormularyItem.html)
+
+#### Reimbursement decision support
 
 How can the data be made available for EHRs on a decision support API?
 
