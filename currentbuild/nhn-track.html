@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>NHN services - Norwegian FHIR Hackathon 2026 v1.2.0</title>
+    <title>NHN services - Norwegian FHIR Hackathon 2026 v1.2.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Norwegian FHIR Hackathon 2026</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - ci-build
+            <span style="display:inline-block;">1.2.1 - ci-build
 
 
 
@@ -183,7 +183,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.2.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>NHN services</h2>
   
 
@@ -202,19 +202,54 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h3 id="nhn-track">NHN Track</h3>
+<h3 id="patients-plans-modeling-norwegian-patient-self-care-plans-as-fhir">Patient's Plans: Modeling Norwegian Patient Self-care Plans as FHIR</h3>
+
+<p><strong>Are you a developer, architect or interested in modeling data structures
+as FHIR resources?</strong> During this track you'll get an opportunity of modeling
+real life use cases as FHIR resources and workflows. You'll explore
+today's non-FHIR API, its conceptual model, and how the current model
+maps to different FHIR resources and patterns.</p>
+
+<p>Norsk helsenett facilitates an ongoing POC for sharing Patient Care Plans
+(no. <em>egenbehandlingsplan</em>) through the <strong>Patient's Plans API</strong>. The API
+is an <strong>operation based API</strong> going beyond CRUD, and currently uses
+custom JSON for data exchange. Ahead of planned extensions to the
+API and opening up the service for new providers, NHN is aiming at
+delivering <em>Patient's Plans</em> as a FHIR API.</p>
+
+<p>The resource types considered so far are <em>CarePlan</em> and <em>EHDSCarePlan</em>,
+along with Task, ServiceRequest and Provenance as related resources. During
+the track we will discuss these resources along with others the participants
+will bring up, and how they fit into the use cases of the API.</p>
+
+<h4 id="about-the-facilitators">About the facilitators</h4>
+
+<p>Norsk helsenett (NHN) is a national provider maintaining API services
+for exchanging medical records. Tormod, Michal and Jan are software
+developers at NHN working with the <em>Patient's Plans</em>, and have deep
+architectural knowledge of the service.</p>
 
 <h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
 
-<h5 id="preparations">Preparations</h5>
+<p>The participants should:</p>
 
-<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
-
-<p><strong>Coming</strong></p>
+<ul>
+  <li>have some knowledge of different FHIR resources,</li>
+  <li>explore the API in advance of the workshop by e.g. looking at <a href="https://utviklerportal.nhn.no/informasjonstjenester/pasientens-planer">the
+documentation</a>
+and <a href="https://planer.dev.nhn.no/api/swagger/">Swagger UI</a>.</li>
+</ul>
 
 <h4 id="learning-goals">Learning goals</h4>
 
-<h4 id="use-cases-and-assignments">Use-cases and assignments</h4>
+<p>The participants will:</p>
+
+<ul>
+  <li>gain hands-on experience modeling real life use cases as a FHIR API,</li>
+  <li>match existing logical models to FHIR resources,</li>
+  <li>explore an API that goes beyond basic CRUD paradigm.</li>
+</ul>
+
 
 
 
@@ -234,7 +269,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 4, 2026 06:33+0000">2026-09-04</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.2.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 16, 2026 11:06+0000">2026-09-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

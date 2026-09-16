@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Medication Definition - Norwegian FHIR Hackathon 2026 v1.2.0</title>
+    <title>Medication Definition - Norwegian FHIR Hackathon 2026 v1.2.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Norwegian FHIR Hackathon 2026</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - ci-build
+            <span style="display:inline-block;">1.2.1 - ci-build
 
 
 
@@ -183,7 +183,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.2.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2026/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Medication Definition</h2>
   
 
@@ -261,9 +261,42 @@ The test environment can be a good fit for testing at the hackathon.</p>
 
 <h3 id="reimbursement-data-and-decision-support">Reimbursement data and decision support</h3>
 
-<p>This topic concentrates on reimbursement data.
-Which resources and which approach can describe reimbursement data in FHIR?
+<p>This topic concentrates on reimbursement data.</p>
+
+<h4 id="reimbursement-data-in-fhir">Reimbursement data in FHIR</h4>
+
+<p>Which resources and which approach can describe reimbursement data in FHIR?
 How can the same structure support both <a href="https://www.helsenorge.no/en/medicines/prescriptions/">blue and H-prescription</a>?</p>
+
+<p>An analysis has identified the need for the following data:</p>
+
+<ul>
+  <li>Medicinal product data
+    <ul>
+      <li>Medicinal product name</li>
+      <li>Dose form</li>
+      <li>Strength</li>
+      <li>Marketing authorization and marketing dates</li>
+      <li>Approved indications</li>
+    </ul>
+  </li>
+  <li>Reimbursement data
+    <ul>
+      <li>Funding responsibility</li>
+      <li>Legal basis for funding</li>
+      <li>Health technology assessment status</li>
+      <li>The medicine’s reimbursable use; indication, sub-indication, or area of use</li>
+      <li>Conditions for reimbursement</li>
+    </ul>
+  </li>
+  <li>Price data
+    <ul>
+      <li>Reimbursement price (might be confidential)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>While the first category is part of the IDMP data model and detailed in the <a href="https://hl7.org/fhir/uv/emedicinal-product-info/STU1/">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</a>, the other categories are not yet standardized.</p>
 
 <p>Candidates and previous implementations:</p>
 
@@ -271,6 +304,8 @@ How can the same structure support both <a href="https://www.helsenorge.no/en/me
   <li><a href="https://fhir.ch/ig/ch-epl/spezialitaetenliste.html">The Swiss model for reimbursement data</a></li>
   <li><a href="https://build.fhir.org/ig/HL7/phx-incubator/StructureDefinition-FormularyItem.html">FormularyItem in the Pharmacy Incubator IG for R6</a></li>
 </ul>
+
+<h4 id="reimbursement-decision-support">Reimbursement decision support</h4>
 
 <p>How can the data be made available for EHRs on a decision support API?</p>
 
@@ -310,7 +345,7 @@ endpoint <code class="language-plaintext highlighter-rouge">https://api.legemidd
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 4, 2026 06:33+0000">2026-09-04</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.2.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 16, 2026 11:06+0000">2026-09-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

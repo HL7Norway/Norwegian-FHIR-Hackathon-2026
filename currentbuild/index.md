@@ -1,4 +1,4 @@
-# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.2.0
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.2.1
 
 * [**Table of Contents**](toc.md)
 * **Norwegian FHIR Hackathon 2026**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.2.0 |
-| Active as of 2026-09-04 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.2.1 |
+| Active as of 2026-09-16 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
@@ -33,7 +33,7 @@ The registration form will be published on this website.
 
 The various tracks of the hackathon cover a wide range of current interoperability topics, including municipality services, SMART on FHIR, Document sharing, medication databases and IDMP, and EHDS. We provide a dedicated FHIR 101 track for those who are just getting started with FHIR, or need a refresher of the basic concepts.
 
-* [Digital home monitoring plans and observations](nhn-track.md) - NHN, Michal Jan Warecki and Tormod Haugane
+* [Modeling Patient care plans as FHIR](nhn-track.md) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.md) - NAV, Leo-Andreas Ervik
 * [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.md) - NoMA/Helsedirektoratet
 * [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien and Michal Cermak
@@ -93,11 +93,11 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-09-04T06:33:11+00:00",
+  "date" : "2026-09-16T11:06:02+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
