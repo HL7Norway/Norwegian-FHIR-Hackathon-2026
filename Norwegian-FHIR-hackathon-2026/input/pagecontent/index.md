@@ -21,7 +21,7 @@ The registration form will be published on this website.
 
 The various tracks of the hackathon cover a wide range of current interoperability topics, including municipality services, SMART on FHIR, Document sharing, medication databases and IDMP, and EHDS. We provide a dedicated FHIR 101 track for those who are just getting started with FHIR, or need a refresher of the basic concepts.
 
-* [Digital home monitoring plans and observations](nhn-track.html) - NHN, Michal Jan Warecki and Tormod Haugane
+* [Modeling Patient care plans as FHIR](nhn-track.html) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.html) - NAV, Leo-Andreas Ervik
 * [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.html) - NoMA/Helsedirektoratet
 * [Document sharing for IHE MHD](ihe-track.html) - IHE Norge, Ingvar Sørlien and Michal Cermak
