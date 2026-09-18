@@ -13,7 +13,7 @@ Check the [Agenda](hack-agenda.html) page for detailed information about the eve
 
 ### Registration
 
-**Registration opens late September / early October.**  
+**Registration opens 21st of September**  
 
 The registration form will be published on this website.  
 

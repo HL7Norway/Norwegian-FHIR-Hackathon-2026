@@ -1,5 +1,17 @@
 # Notater planlegging 2026
 
+## 2026-09-21 Planleggingsmøte
+
+### Forslag til agenda
+
+1. Diskutere påmeldingsside og no-show gebyr
+2. Manuell justering av antall påmeldte, invitasjon til hackathon og formøte sendes ut manuelt basert på registrerte epostadresser.
+3. Promotering, hva er planen for de ulike involverte for å promotere arrangementet?
+   1. HL7 Norge info mailliste
+4. EHIN promotering av resultater, vi trenger ca 30 minutter, hvem vil være med?
+5. Neste møte før påmeldingsfrist for å diskutere videre promoteringsarbeid.
+6. Eventuelt?
+
 ## 2026-08-31 Planlegginsgmøte
 
 ### Forslag til agenda
@@ -21,9 +33,12 @@
 * Folk må kunne få lagre svaret sitt UTEN å logge seg på, kan google gjøre det.
   * Google kan gjøre dette, så vi benytter google
 * Bør skjema være på engelsk?
+  * Ny versjon er publisert på engelsk
+* Sted, dato og klokkeslett i toppen av skjema, OK
 * 60 som tak og 50 som mål for arrangementet
-* Sted, dato og klokkeslett i toppen av skjema
 * Spør Nard om hvordan vi promoterer resultatene
+  * Nino har spurt Nard og Nard har bekreftet, spør om tid/sted/varighet.
+  * Påmelding til prekonferanse er åpen nå, så vi bør få opp skjema snarest.
 
 #### Promotering
 
