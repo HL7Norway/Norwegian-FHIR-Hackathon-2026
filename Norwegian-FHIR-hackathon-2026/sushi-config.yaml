@@ -9,7 +9,7 @@ name: Norwegian FHIR Hackathon 2026
 title: "Norwegian FHIR Hackathon 2026"
 description: Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026
 status: active
-version: 1.4.0
+version: 1.4.1
 fhirVersion: 4.0.1
 copyrightYear: 2026+
 releaseLabel: ci-build
@@ -42,6 +42,8 @@ pages:
 #    title: 2026 Changes
   hack-agenda.md:
     title: Hackathon agenda
+  privacy.md:
+    title: Privacy Information
 #  ig-publishing-results.md:
 #    title: Ig Publishing Results
 #  practical-info.md:
@@ -55,7 +57,7 @@ pages:
 #  terminology.md:
 #    title: Terminology
 #  track-descriptions.md:
-#    title: Track Descriptions
+#    title: Track Description 
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
