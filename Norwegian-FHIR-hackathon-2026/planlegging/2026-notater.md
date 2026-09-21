@@ -12,6 +12,36 @@
 5. Neste møte før påmeldingsfrist for å diskutere videre promoteringsarbeid.
 6. Eventuelt?
 
+### Påmeldingsskjema
+
+* EHIN har laget påmeldingsskjema, så vi må få tatt ned det å få lenke til vår egen påmeldingsside.  
+* Noen tester, men organisatorer melder seg ikke på.  
+
+### Promotering
+
+Alle sender linkedinposter til gruppen så vi får litt oppmerksomhet om innslagene.
+
+* NHN poster på Linkedin kanalen.  
+* Bedredelt på linkedin og tietoevry.  
+* DMP LinkedIn og personlig info.  
+* HL7 norge Zulip, linkedin, hjemmeside og info maillisten.  
+* IHE-Norge/Sykehuspartner? IKT organisasjonene til HF'ene.  
+* NHN har også et leverandør arrangement.  
+* Kanskje få brukt TEK-Norge som kontaktpunkt.  
+
+### EHIN presentasjon av resultater
+
+Yellow box - andre punkter med interoperabilitet bør vurderes med kryss markedsføring.
+
+* Yellow box er ikke optimalt, hadde vært bedre å få noe i tillegg som var en del av en track.  
+* EHDS biten - burde vi si noe om implementasjonsguider og hvordan dette henger sammen.  
+* Se på mulighetene og meld fra om hvor dette kan fungere.
+Time and date må inn på forsiden.
+
+### Neste møte
+
+
+
 ## 2026-08-31 Planlegginsgmøte
 
 ### Forslag til agenda
