@@ -1,4 +1,4 @@
-# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.3.0
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.4.1
 
 * [**Table of Contents**](toc.md)
 * **Norwegian FHIR Hackathon 2026**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.3.0 |
-| Active as of 2026-09-18 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.1 |
+| Active as of 2026-09-21 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
@@ -25,9 +25,10 @@ Check the [Agenda](hack-agenda.md) page for detailed information about the event
 
 ### Registration
 
-**Registration opens 21st of September**
+**[Registration is now open](https://forms.gle/GTzisAWFD8CL3z6Z9)**
 
-The registration form will be published on this website.
+Please fill in the [registration form](https://forms.gle/GTzisAWFD8CL3z6Z9) to secure you spot on the event.
+ By registering you agree to the [privacy policy](privacy.md) for the event.
 
 ### Tracks
 
@@ -93,11 +94,11 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "1.3.0",
+  "version" : "1.4.1",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-09-18T11:02:42+00:00",
+  "date" : "2026-09-21T12:35:14+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -827,6 +828,15 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
         }],
         "nameUrl" : "hack-agenda.html",
         "title" : "Hackathon agenda",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "privacy.html"
+        }],
+        "nameUrl" : "privacy.html",
+        "title" : "Privacy Information",
         "generation" : "markdown"
       }]
     },

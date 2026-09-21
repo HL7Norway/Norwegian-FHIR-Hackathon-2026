@@ -1,4 +1,4 @@
-# Pictures from 2025 - Norwegian FHIR Hackathon 2026 v1.3.0
+# Pictures from 2025 - Norwegian FHIR Hackathon 2026 v1.4.1
 
 * [**Table of Contents**](toc.md)
 * **Pictures from 2025**

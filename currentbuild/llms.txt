@@ -1,4 +1,4 @@
-# hl7.fhir.no.hackathon.2026#1.3.0: Norwegian FHIR Hackathon 2026
+# hl7.fhir.no.hackathon.2026#1.4.1: Norwegian FHIR Hackathon 2026
 
 ## Pages
 
@@ -7,6 +7,7 @@
 * [Hackathon agenda](hack-agenda.md)
 * [SMART on FHIR](smart-track.md)
 * [EHDS track](ehds-track.md)
+* [Privacy Information](privacy.md)
 * [FHIR-101](101-track.md)
 * [Artifacts Summary](artifacts.md)
 * [Pictures from 2025](2025-bilder.md)
