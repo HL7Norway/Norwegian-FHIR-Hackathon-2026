@@ -1,4 +1,4 @@
-# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v0.2.5
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.4.0
 
 * [**Table of Contents**](toc.md)
 * **Norwegian FHIR Hackathon 2026**
@@ -7,75 +7,83 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:0.2.5 |
-| Draft as of 2026-06-25 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.0 |
+| Active as of 2026-09-21 | *Computable Name*:NorwegianFHIRHackathon2026 |
 
-Are you ready to make the interoperability solutions of the future? Participate on The Norwegin FHIR Hackathon 2026, a part of [EHiN](https://ehin.no/) pre-conference. The Norwegian FHIR Hackathon is an arena for creativity, networking and innovation, with HL7 FHIR front and centre.
+Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
-The Norwegian FHIR Hackathon 2026 takes place at Rebel in Oslo 9. november 2026. The Norwegian FHIR hackathon is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NoMA](https://www.dmp.no/en/), IHE Norge and [EHiN](https://ehin.no/).
+The Norwegian FHIR hackathon is a free event sponsored by HL7 Norway and is part of the EHIN pre-conference program. HL7 Norway cooperates with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NoMA](https://www.dmp.no/en/) and IHE Norge to make the hackathon happen.
 
-This hackathon is part of the [Nordic Health Data Hackathons](https://fhir.fi/hackathon/) series.
+### Time and date
+
+The hackathon is a in-person event (there will be no live streaming or online meeting from the Hackathon).
+
+* **Place:** Rebel in Oslo
+* **Date:** November 9, 2026
+
+Check the [Agenda](hack-agenda.md) page for detailed information about the event.
+
+### Registration
+
+**[Registration is now open](https://forms.gle/GTzisAWFD8CL3z6Z9)**
+
+Please fill in the [registration form](https://forms.gle/GTzisAWFD8CL3z6Z9) to secure you spot on the event.
+ By registering you agree to the [privacy policy](privacy.md) for the event.
 
 ### Tracks
 
-The Norwegian Hackathon will have 6 tracks concerning municipality services, SMART on FHIR, FHIR 101, Document sharing, medication databases, and EHDS.
+The various tracks of the hackathon cover a wide range of current interoperability topics, including municipality services, SMART on FHIR, Document sharing, medication databases and IDMP, and EHDS. We provide a dedicated FHIR 101 track for those who are just getting started with FHIR, or need a refresher of the basic concepts.
 
-* [NHN FHIR services track, particularly CarePlans and Observations](nhn-track.md) - NHN, Robert William Dall Frøseth
-* [Medication Definition on FHIR - Exploration of FHIR services from NoMA and EMA](medication-definition.md)
-* [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien
-* [EHDS track](ehds-track.md) - Ingvar Sørlien
+* [Modeling Patient care plans as FHIR](nhn-track.md) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.md) - NAV, Leo-Andreas Ervik
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.md) - NoMA/Helsedirektoratet
+* [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien and Michal Cermak
+* [EHDS patient summary](ehds-track.md) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.md) - HL7 Norge, Thomas Rosenlund og Espen Seland
-* Option: C-3po - Innhod i helseportaler til FHIR API for personlig bruk (proxy)
 
-### Why should you attend?
+> DISCLAIMER: The results from the FHIR Hackathon signifies no obligation from the API owner (e.g. NHN/NAV) to make changes to their published API-services or software.
 
-The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself. The Norwegian FHIR Hackathon is also a great place to discuss problems and find solutions in cooperation with the other participants.
+### Why YOU should participate
 
-During the Norwegian FHIR Hackathon you can work on:
+The event will be of value to anyone working with information systems in healthcare, including developers, architects, and project managers.
 
-* CarePlan
-* Observation
-* Document sharing
-* EHDS compliance
-* SMART on FHIR
-* IG authoring and building
+* **Developers:** FHIR builds on technologies you already know and love, like JSON, HTTP, and REST. Libraries are available for many popular programming languages. The hackathon is a great opportunity to fill in the gaps to become an expert FHIR implementer. Learn about the FHIR data models and the open source tools and applications provided by the FHIR community.
+* **Architects:** Explore how FHIR fits into the architecture of modern healthcare information systems. Compare different implementation patterns and approaches, and learn where FHIR works well alongside existing standards, APIs, integration platforms, and legacy systems. Exchange experiences with other architects and gain practical insight into designing solutions that are interoperable, maintainable, and ready to evolve.
+* **Project managers:** Successful interoperability is about more than technology. It requires agreement across organizations, professions, vendors, and systems about what information should be exchanged and how. The hackathon is an arena for implementation leaders to explore how FHIR can create value, identify the decisions and dependencies that make or break interoperability projects, and learn how interfaces can be agreed upon, documented, tested, and validated in practice.
+* **Healthcare professionals:** Get insight into the information structures and data flows that power the technology you use every day. Help bridge the gap between technology and real-world clinical work, and give your input on what information and what software tools would make a real positive impact on patient care.
 
-### Who should attend?
+### Recommended preparation
 
-The event will be of value to individuals working in the healthcare industry and software providers in healthcare.
+To get the most out of the hackathon, we advise participants to prepare in advance.
 
-* Developers
-* Solution architects
-* Information architects
-* Enterprise architects
-* Project managers
+* Choose a primary track to focus on.
+* Read the track description and check prerequisites and track-specific recommended preparation.
+* Attend the online hackathon kick-off meeting **November 2, 2026 09:00-11:00 (online only)**.
 
-### Preparations for participants
+Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite.
+ The [FHIR 101 track](101-track.md) is dedicated to an introduction to FHIR.
 
-**Attend the pre meeting on 2. november 2026 0900-1100 (digital only)**
+HL7 International also provides some great video resources for this purpose:
 
-* Basic knowledge of RESTful API's is usefull to be able to participate in testing and development
-* Knowledge of at least one of the following areas: 
-* Development of RESTful API clients/servers
-* Information modelling
-* Testing RESTful APIs
-* Using RESTful APIs using Postman
-* Use of AI tools for development
- 
-* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided in the FHIR 101 track). HL7 also provides some great video resources for this purpose: 
 * [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
 * [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
 * [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
- 
 
-### Hackathon events for 2026
+### Background
+
+At HL7 Norway, we believe a seamless flow of health information improves patient outcomes, relieves the burden on healthcare professionals, and benefits society through a more efficient healthcare system. The foundation of meaningful data exchange is a common language. That is why, as an affiliate of HL7 International, we promote knowledge of the HL7 healthcare interoperability standards such as FHIR, CQL, and CDS Hooks in Norway and across the Nordic countries.
+
+We recognize that interoperability requires more than technology. To connect systems, we must also connect the people designing, developing, and using them and build a shared understanding of the problems we are trying to solve. The Norwegian FHIR Hackathon is a welcoming, open space where healthcare informatics professionals can come together to learn about HL7 standards and how they can help solve current healthcare interoperability challenges.
+
+### Contact information
+
+The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NoMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
+
+Participation in the hackathon is free of charge.
+
+Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you have any questions regarding the event.
 
 The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health Data Hackathons](https://fhir.fi/hackathon/) in each Nordic country each year. Please consider attendance on the other Nordic hackathons as well.
-
-### Questions and contact
-
-Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you got any questions regarding the event.
 
 
 
@@ -86,11 +94,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "0.2.5",
+  "version" : "1.4.0",
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
-  "status" : "draft",
-  "date" : "2026-06-25T11:58:47+00:00",
+  "status" : "active",
+  "date" : "2026-09-21T09:56:22+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -118,7 +126,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -689,6 +697,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mal-observation-blodprove.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mal-observation-blodprove"
@@ -701,6 +713,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mal-patient.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mal-patient"
@@ -713,6 +729,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-Pasient-1.html"
       }],
       "reference" : {
         "reference" : "Patient/Pasient-1"
@@ -804,82 +824,10 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "2026-changes.html"
-        }],
-        "nameUrl" : "2026-changes.html",
-        "title" : "2026 Changes",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "hack-agenda.html"
         }],
         "nameUrl" : "hack-agenda.html",
         "title" : "Hackathon agenda",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ig-publishing-results.html"
-        }],
-        "nameUrl" : "ig-publishing-results.html",
-        "title" : "Ig Publishing Results",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "practical-info.html"
-        }],
-        "nameUrl" : "practical-info.html",
-        "title" : "Practical Info",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "pre-agenda.html"
-        }],
-        "nameUrl" : "pre-agenda.html",
-        "title" : "Pre-agenda",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "resultater-okt.html"
-        }],
-        "nameUrl" : "resultater-okt.html",
-        "title" : "Resultater Okt",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "resultater-pmd.html"
-        }],
-        "nameUrl" : "resultater-pmd.html",
-        "title" : "Resultater Pmd",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "terminology.html"
-        }],
-        "nameUrl" : "terminology.html",
-        "title" : "Terminology",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "track-descriptions.html"
-        }],
-        "nameUrl" : "track-descriptions.html",
-        "title" : "Track Descriptions",
         "generation" : "markdown"
       }]
     },
