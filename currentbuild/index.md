@@ -20,6 +20,7 @@ The hackathon is a in-person event (there will be no live streaming or online me
 
 * **Place:** Rebel in Oslo
 * **Date:** November 9, 2026
+* **Time:** 0900-1700
 
 Check the [Agenda](hack-agenda.md) page for detailed information about the event.
 
@@ -98,7 +99,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "name" : "NorwegianFHIRHackathon2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-09-21T13:01:39+00:00",
+  "date" : "2026-09-21T13:13:11+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
