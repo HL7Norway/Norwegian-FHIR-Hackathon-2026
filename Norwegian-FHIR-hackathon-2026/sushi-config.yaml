@@ -48,8 +48,8 @@ pages:
 #    title: Ig Publishing Results
 #  practical-info.md:
 #    title: Practical Info
-# pre-agenda.md:
-#    title: Pre-agenda
+pre-agenda.md:
+   title: Pre-agenda
 #  resultater-okt.md:
 #    title: Resultater Okt
 #  resultater-pmd.md:
@@ -66,6 +66,7 @@ menu:
   Home: index.html
   Agenda: 
     Hackathon agenda: hack-agenda.html
+    Pre-agenda: pre-agenda.html
   Tracks:
     NHN services: nhn-track.html
     Medication Definition: medication-definition.html
