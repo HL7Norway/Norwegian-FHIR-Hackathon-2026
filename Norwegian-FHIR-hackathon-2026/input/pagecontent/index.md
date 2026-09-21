@@ -13,9 +13,10 @@ Check the [Agenda](hack-agenda.html) page for detailed information about the eve
 
 ### Registration
 
-**Registration opens 21st of September**  
+**[Registration is now open](https://forms.gle/GTzisAWFD8CL3z6Z9)**  
 
-The registration form will be published on this website.  
+Please fill in the [registration form](https://forms.gle/GTzisAWFD8CL3z6Z9) to secure you spot on the event.  
+By registering you agree to the [privacy policy](privacy.html) for the event.  
 
 ### Tracks
 
