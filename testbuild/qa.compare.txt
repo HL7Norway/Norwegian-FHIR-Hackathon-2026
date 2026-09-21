@@ -4,55 +4,20 @@ NorwegianFHIRHackathon2026 : Validation Results
 err = 0, warn = 6, info = 7
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.hackathon.2026#$-- (canonical = http://hl7.no/fhir/ig/hackathon/2026)
- Build Errors : 42 / 4 / 0
+ Build Errors : 7 / 4 / 0
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2026 : 0 / 0 / 3
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 4
  /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 0 / 3
 </table>
 == n/a ==
-ERROR: 101-track.html#/html/body/div/div/div/p/span/p/a at Line 309, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: 2025-bilder.html#/html/body/div/div/div/p/span/p/a at Line 233, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: Patient-Pasient-1.change.history.html#/html/body/div/div/div/p/span/p/a at Line 257, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: Patient-Pasient-1.html#/html/body/div/div/div/p/span/p/a at Line 266, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: Patient-Pasient-1.json.html#/html/body/div/div/div/p/span/p/a at Line 292, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: Patient-Pasient-1.ttl.html#/html/body/div/div/div/p/span/p/a at Line 309, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: Patient-Pasient-1.xml.html#/html/body/div/div/div/p/span/p/a at Line 285, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-definitions.html#/html/body/div/div/div/p/span/p/a at Line 644, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-examples.html#/html/body/div/div/div/p/span/p/a at Line 304, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-mappings.html#/html/body/div/div/div/p/span/p/a at Line 1004, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-testing.html#/html/body/div/div/div/p/span/p/a at Line 311, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.html#/html/body/div/div/div/p/span/p/a at Line 2896, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.history.html#/html/body/div/div/div/p/span/p/a at Line 293, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.json.html#/html/body/div/div/div/p/span/p/a at Line 3218, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.ttl.html#/html/body/div/div/div/p/span/p/a at Line 3435, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.xml.html#/html/body/div/div/div/p/span/p/a at Line 3029, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient-definitions.html#/html/body/div/div/div/p/span/p/a at Line 668, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient-examples.html#/html/body/div/div/div/p/span/p/a at Line 325, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient-mappings.html#/html/body/div/div/div/p/span/p/a at Line 926, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient-testing.html#/html/body/div/div/div/p/span/p/a at Line 321, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient.html#/html/body/div/div/div/p/span/p/a at Line 2362, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.history.html#/html/body/div/div/div/p/span/p/a at Line 303, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.json.html#/html/body/div/div/div/p/span/p/a at Line 2973, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.ttl.html#/html/body/div/div/div/p/span/p/a at Line 3106, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.xml.html#/html/body/div/div/div/p/span/p/a at Line 2769, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: artifacts.html#/html/body/div/div/div/p/span/p/a at Line 274, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: ehds-track.html#/html/body/div/div/div/p/span/p/a at Line 279, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
 ERROR: hack-agenda.html#/html/body/div/div/div/div/div/p/a at Line 405, column 82: The link 'index.html#preparations-for-participants' for "HL7 FHIR video resources" cannot be resolved (valid targets: [why-you-should-participate, publish-box, segment-post-footer, time-and-date, markdown-toc-why-you-should-participate, top, stripe, recommended-preparation, segment-footer, logo, segment-content, norwegian-fhir-hackathon-2026, markdown-toc-time-and-date, markdown-toc-contact-information, markdown-toc-recommended-preparation, segment-header, markdown-toc-registration, bottom, hl7-logo, ig-footer, contact-information, markdown-toc-tracks, tracks, markdown-toc-background, family-nav, ig-status, markdown-toc, background, hl7-nav, registration, segment-navbar, segment-breadcrumb])
-ERROR: hack-agenda.html#/html/body/div/div/div/p/span/p/a at Line 431, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 215, column 16: The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 216, column 16: The link 'authorization.html' for "Authorization" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 217, column 16: The link 'patient-match.html' for "Patient Matching" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 218, column 16: The link 'document-exchange.html' for "Document Exchange" cannot be resolved
 ERROR: ihe-track.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 219, column 16: The link 'resource-access.html' for "Resource Access" cannot be resolved
-ERROR: ihe-track.html#/html/body/div/div/div/p/span/p/a at Line 262, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 273, column 34: The link 'privacy.html' for "privacy policy" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/p/span/p/a at Line 364, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: medication-definition.html#/html/body/div/div/div/p/span/p/a at Line 353, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: nhn-track.html#/html/body/div/div/div/p/span/p/a at Line 277, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
 ERROR: smart-track.html#/html/body/div/div/div/div/div/p/a at Line 264, column 2: The link '#roles-for-non-developers' for "Roles for non-developers" cannot be resolved (valid targets: 48 targets)
-ERROR: smart-track.html#/html/body/div/div/div/p/span/p/a at Line 589, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
-ERROR: toc.html#/html/body/div/div/div/p/span/p/a at Line 213, column 6: The link 'privacy.html' for "Privacy information" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
