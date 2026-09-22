@@ -4,7 +4,6 @@ HL7 Norge inviterer til Norsk FHIR Hackathon i forbindelse med EHiN den 9. novem
 
 Bli med for å lære om og utforske nye løsninger for interoperabilitet sammen med leverandører og helsevirksomheter i Norge. Delta i diskusjoner, test ideer og implementasjon og del erfaringer om hvordan vi kan koble helsetjenesten bedre sammen med åpne standarder. Hackathon arrangerers sammen med NHN, NAV, Helsedirektoratet, Bedredelt, DMP og IHE Norge og gir deltakerne mulighet til å lære mer om FHIR Restful API og bruk av FHIR for integrasjon av systemer og dokumentasjon av grensesnitt. FHIR Hackathon er en del av EHiN prekonferanse 2026.
 
-
 Dato: 09. november 2026  
 Tid: 0900-1700  
 Sted: EHiN prekonferanse på Rebel i Oslo
