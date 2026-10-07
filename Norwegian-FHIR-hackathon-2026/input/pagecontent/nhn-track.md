@@ -32,7 +32,7 @@ The participants should:
 - have some knowledge of different FHIR resources,
 - explore the API in advance of the workshop by e.g. looking at [the
 documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-planer)
-and [Swagger UI](https://planer.dev.nhn.no/api/swagger/).
+and [Swagger UI](https://planer.dev.nhn.no/api/personnel/swagger/index.html).
 
 #### Learning goals
 
