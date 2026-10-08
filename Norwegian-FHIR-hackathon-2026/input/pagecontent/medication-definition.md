@@ -6,7 +6,7 @@ The Medication Definition track will discuss two main topics:
 ### Structured medication data
 
 In this topic, we will take a closer look at R5's Medication Definition module,
-and how the resources are used to implement IDMP-compatible medication databases with FHIR.
+and how the resources are used to create IDMP-compatible representations of medication data with FHIR.
 
 We will explore the public API of EMA's PMS, now in public beta, and NoMA's FHIR service.
 
@@ -22,9 +22,9 @@ Feel free to bring your own use case. How can these services be useful to you?
 
 #### Prerequisites
 
-Get your API keys in advance for the services you are interested in testing.
+Get your API keys in advance for PMS.
 
-Read the service documentations and the API specifications.
+Read the service documentation and the API specification for the services you are interested in testing.
 
 ##### PMS Public API Beta
 
@@ -42,8 +42,9 @@ and the data elements returned by the service.
 ##### NoMA's FHIR Service
 
 NoMA's FHIR Service is available both in production and a test environment.
-Read [How to Access the FHIR Service](https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service) and contact NoMA for an API key.
-The test environment can be a good fit for testing at the hackathon.
+Read [How to Access the FHIR Service](https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service).
+An API key will be provided for participants at the hackathon.
+Participants do not need to contact NoMA in advance for a personal API key.
 
  The use and content of the service is documented in the [Implementation Guide for NOMA's FHIR API v2.0](https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current).
 
@@ -73,7 +74,7 @@ An analysis has identified the need for the following data:
 * Price data
     * Reimbursement price (might be confidential)
 
-While the first category is part of the IDMP data model and detailed in the [Electronic Medicinal Product Information (ePI) FHIR Implementation Guide](https://hl7.org/fhir/uv/emedicinal-product-info/STU1/), the other categories are not yet standardized.
+While the first category is part of the IDMP data model and also detailed in the [Electronic Medicinal Product Information (ePI) FHIR Implementation Guide](https://hl7.org/fhir/uv/emedicinal-product-info/STU1/), the other categories are not yet standardized.
 
 Candidates and previous implementations:
 
@@ -89,12 +90,9 @@ How can the data be made available for EHRs on a decision support API?
 
 #### Prerequisites
 
-Get your API keys in advance for the services you are interested in testing.
-
 Read the service documentations and the API specifications.
 
 ##### NoMA H-prescription FHIR Service
 
-Email [fest@dmp.no](mailto:fest@dmp.no) to request an API key.
-Specify that you request access to the H-prescription production API,
-endpoint `https://api.legemiddelverket.no/fhir-r4-hresept`.
+An API key will be provided for participants at the hackathon.
+Participants do not need to contact NoMA in advance for a personal API key.
