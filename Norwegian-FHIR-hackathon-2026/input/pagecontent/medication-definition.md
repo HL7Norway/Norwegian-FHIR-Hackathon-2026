@@ -44,7 +44,8 @@ and the data elements returned by the service.
 NoMA's FHIR Service is available both in production and a test environment.
 Read [How to Access the FHIR Service](https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service).
 An API key will be provided for participants at the hackathon.
-Participants do not need to contact NoMA in advance for a personal API key.
+This key will only be valid on the day of the hackathon and will be revoked after the event.
+Participants can use this key for testing and do not need to contact NoMA in advance for a personal API key.
 
  The use and content of the service is documented in the [Implementation Guide for NOMA's FHIR API v2.0](https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current).
 
@@ -95,4 +96,5 @@ Read the service documentations and the API specifications.
 ##### NoMA H-prescription FHIR Service
 
 An API key will be provided for participants at the hackathon.
-Participants do not need to contact NoMA in advance for a personal API key.
+This key will only be valid on the day of the hackathon and will be revoked after the event.
+Participants can use this key for testing and do not need to contact NoMA in advance for a personal API key.
