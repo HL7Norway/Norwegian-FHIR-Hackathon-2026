@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Medication Definition - Norwegian FHIR Hackathon 2026 v1.4.1</title>
+    <title>Medication Definition - Norwegian FHIR Hackathon 2026 v1.4.2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -68,7 +68,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Norwegian FHIR Hackathon 2026</span>
             <br/>
-            <span style="display:inline-block;">1.4.1 - ci-build
+            <span style="display:inline-block;">1.4.2 - ci-build
 
 
 
@@ -185,7 +185,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.4.1) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/hackathon/2026/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.4.2) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/hackathon/2026/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Medication Definition</h2>
   
 
@@ -218,7 +218,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h3 id="structured-medication-data">Structured medication data</h3>
 
 <p>In this topic, we will take a closer look at R5's Medication Definition module,
-and how the resources are used to implement IDMP-compatible medication databases with FHIR.</p>
+and how the resources are used to create IDMP-compatible representations of medication data with FHIR.</p>
 
 <p>We will explore the public API of EMA's PMS, now in public beta, and NoMA's FHIR service.</p>
 
@@ -236,9 +236,9 @@ Feel free to bring your own use case. How can these services be useful to you?</
 
 <h4 id="prerequisites">Prerequisites</h4>
 
-<p>Get your API keys in advance for the services you are interested in testing.</p>
+<p>Get your API keys in advance for PMS.</p>
 
-<p>Read the service documentations and the API specifications.</p>
+<p>Read the service documentation and the API specification for the services you are interested in testing.</p>
 
 <h5 id="pms-public-api-beta">PMS Public API Beta</h5>
 
@@ -256,8 +256,10 @@ and the data elements returned by the service.</p>
 <h5 id="nomas-fhir-service">NoMA's FHIR Service</h5>
 
 <p>NoMA's FHIR Service is available both in production and a test environment.
-Read <a href="https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service">How to Access the FHIR Service</a> and contact NoMA for an API key.
-The test environment can be a good fit for testing at the hackathon.</p>
+Read <a href="https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service">How to Access the FHIR Service</a>.
+An API key will be provided for participants at the hackathon.
+This key will only be valid on the day of the hackathon and will be revoked after the event.
+Participants can use this key for testing and do not need to contact NoMA in advance for a personal API key.</p>
 
 <p>The use and content of the service is documented in the <a href="https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current">Implementation Guide for NOMA's FHIR API v2.0</a>.</p>
 
@@ -298,7 +300,7 @@ How can the same structure support both <a href="https://www.helsenorge.no/en/me
   </li>
 </ul>
 
-<p>While the first category is part of the IDMP data model and detailed in the <a href="https://hl7.org/fhir/uv/emedicinal-product-info/STU1/">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</a>, the other categories are not yet standardized.</p>
+<p>While the first category is part of the IDMP data model and also detailed in the <a href="https://hl7.org/fhir/uv/emedicinal-product-info/STU1/">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</a>, the other categories are not yet standardized.</p>
 
 <p>Candidates and previous implementations:</p>
 
@@ -318,15 +320,13 @@ How can the same structure support both <a href="https://www.helsenorge.no/en/me
 
 <h4 id="prerequisites-1">Prerequisites</h4>
 
-<p>Get your API keys in advance for the services you are interested in testing.</p>
-
 <p>Read the service documentations and the API specifications.</p>
 
 <h5 id="noma-h-prescription-fhir-service">NoMA H-prescription FHIR Service</h5>
 
-<p>Email <a href="mailto:fest@dmp.no">fest@dmp.no</a> to request an API key.
-Specify that you request access to the H-prescription production API,
-endpoint <code class="language-plaintext highlighter-rouge">https://api.legemiddelverket.no/fhir-r4-hresept</code>.</p>
+<p>An API key will be provided for participants at the hackathon.
+This key will only be valid on the day of the hackathon and will be revoked after the event.
+Participants can use this key for testing and do not need to contact NoMA in advance for a personal API key.</p>
 
 
 
@@ -347,7 +347,7 @@ endpoint <code class="language-plaintext highlighter-rouge">https://api.legemidd
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 21, 2026 13:13+0000">2026-09-21</span>
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.4.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 8, 2026 11:04+0000">2026-10-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <a href="privacy.html">Privacy information</a> |

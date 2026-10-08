@@ -1,4 +1,4 @@
-# Artifacts Summary - Norwegian FHIR Hackathon 2026 v1.4.1
+# Artifacts Summary - Norwegian FHIR Hackathon 2026 v1.4.2
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

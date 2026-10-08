@@ -1,4 +1,4 @@
-# NHN services - Norwegian FHIR Hackathon 2026 v1.4.1
+# NHN services - Norwegian FHIR Hackathon 2026 v1.4.2
 
 * [**Table of Contents**](toc.md)
 * **NHN services**
@@ -22,7 +22,7 @@ Norsk helsenett (NHN) is a national provider maintaining API services for exchan
 The participants should:
 
 * have some knowledge of different FHIR resources,
-* explore the API in advance of the workshop by e.g. looking at [the documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-planer) and [Swagger UI](https://planer.dev.nhn.no/api/swagger/).
+* explore the API in advance of the workshop by e.g. looking at [the documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-planer) and [Swagger UI](https://planer.dev.nhn.no/api/personnel/swagger/index.html).
 
 #### Learning goals
 
