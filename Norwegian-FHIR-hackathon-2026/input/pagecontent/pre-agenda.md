@@ -25,9 +25,9 @@ Presentation: TBA
 
 | Time | Title                                                | Presenter          |
 |------|------------------------------------------------------|--------------------|
-| TBA  | Welcome                                              | Thomas T Rosenlund |
-| TBA  | Separate meetings for each track (breakout sessions) | All                |
-| TBA  | End of meeting                                       | All                |
+| 09:00-09:15 | Welcome                                      | Thomas T Rosenlund |
+| 09:15-11:00 | Separate meetings for each track (breakout sessions) | All       |
+| 11:00 | End of meeting                               | All                |
 {: .grid .table-striped}
 
 #### Breakout sessions for each track
@@ -37,12 +37,12 @@ meeting links for the different track intro meetings are provided in the table:
 
 | Title                 | Meeting link |
 |-----------------------|--------------|
-| NHN services          | TBA          |
-| Medication Definition | TBA          |
-| IHE documents         | TBA          |
+| Modeling Patient care plans as FHIR | TBA          |
+| Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA | TBA          |
+| Document sharing for IHE MHD | TBA          |
 | SMART on FHIR         | TBA          |
-| EHDS track            | TBA          |
-| FHIR 101              | TBA          |
+| EHDS patient summary  | TBA          |
+| FHIR 101: Introduction to HL7 FHIR with practical assignments | TBA          |
 {: .grid .table-striped}
 
 ### Virtual meeting invite
