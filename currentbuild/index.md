@@ -1,4 +1,4 @@
-# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.4.2
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.4.3
 
 * [**Table of Contents**](toc.md)
 * **Norwegian FHIR Hackathon 2026**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.2 |
-| Active as of 2026-10-08 | *Computable Name*:NorwegianFHIRHackathon2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.3 |
+| Active as of 2026-10-15 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
 
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
@@ -95,11 +95,11 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "1.4.2",
-  "name" : "NorwegianFHIRHackathon2026",
+  "version" : "1.4.3",
+  "name" : "Norwegian FHIR Hackathon 2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-10-08T11:04:50+00:00",
+  "date" : "2026-10-15T16:59:25+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -563,6 +563,15 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
         }],
         "nameUrl" : "privacy.html",
         "title" : "Privacy Information",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "pre-agenda.html"
+        }],
+        "nameUrl" : "pre-agenda.html",
+        "title" : "Pre-agenda",
         "generation" : "markdown"
       }]
     },

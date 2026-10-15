@@ -1,20 +1,20 @@
 {
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "name" : "NorwegianFHIRHackathon2026",
+  "name" : "Norwegian FHIR Hackathon 2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "description" : "Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026",
   "status" : "active",
   "package-id" : "hl7.fhir.no.hackathon.2026",
-  "ig-ver" : "1.4.2",
-  "date" : "Thu, 08 Oct, 2026 11:04:50 +0000",
-  "dateISO8601" : "2026-10-08T11:04:50+00:00",
+  "ig-ver" : "1.4.3",
+  "date" : "Thu, 15 Oct, 2026 16:59:25 +0000",
+  "dateISO8601" : "2026-10-15T16:59:25+00:00",
   "errs" : 1,
-  "warnings" : 14,
+  "warnings" : 15,
   "hints" : 7,
-  "broken-links" : 42,
+  "broken-links" : 7,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 903021728
+  "maxMemory" : 891645304
 }

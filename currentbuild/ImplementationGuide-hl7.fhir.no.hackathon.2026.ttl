@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "hl7.fhir.no.hackathon.2026"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2026</b></p><a name=\"hl7.fhir.no.hackathon.2026\"> </a><a name=\"hchl7.fhir.no.hackathon.2026\"> </a><h2>NorwegianFHIRHackathon2026</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2026</b></p><a name=\"hl7.fhir.no.hackathon.2026\"> </a><a name=\"hchl7.fhir.no.hackathon.2026\"> </a><h2>Norwegian FHIR Hackathon 2026</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026</p>\n</div></div>"
   ] ;
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026"] ;
-  fhir:ImplementationGuide.version [ fhir:value "1.4.2"] ;
-  fhir:ImplementationGuide.name [ fhir:value "NorwegianFHIRHackathon2026"] ;
+  fhir:ImplementationGuide.version [ fhir:value "1.4.3"] ;
+  fhir:ImplementationGuide.name [ fhir:value "Norwegian FHIR Hackathon 2026"] ;
   fhir:ImplementationGuide.title [ fhir:value "Norwegian FHIR Hackathon 2026"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-08T11:04:50+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-15T16:59:25+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Norge"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -533,6 +533,16 @@
          ] ;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "privacy.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Privacy Information" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 10 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "pre-agenda.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "pre-agenda.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Pre-agenda" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ] ;
