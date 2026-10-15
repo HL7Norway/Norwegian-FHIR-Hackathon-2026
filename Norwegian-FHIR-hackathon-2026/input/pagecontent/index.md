@@ -6,7 +6,7 @@ The Norwegian FHIR hackathon is a free event sponsored by HL7 Norway and is part
 
 The hackathon is a in-person event (there will be no live streaming or online meeting from the Hackathon).  
 
-* **Place:** Rebel in Oslo  
+* **Place:** Rebel in Oslo, auditorium 0010  
 * **Date:** November 9, 2026  
 * **Time:** 0900-1700  
 

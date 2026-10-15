@@ -2,7 +2,23 @@
 
 ## 2026-10-15 Planleggingsmøte
 
-Tilstede: 
+### Tilstede
+
+Thomas Tveit Rosenlund
+Linn Brandt
+Sigurd Ringbakken (Gjest)
+Ingvar Sørlien (Gjest)
+Espen Stranger Seland
+Michal Jan Warecki (Ekstern)
+Kristine Aasen (Ekstern)
+Jan Bjørndalen (Innleid) (Ekstern)
+Karin Drivenes
+Tim Mortensen (Ekstern)
+Nikolai Meldre Nordby (Ekstern)
+Øyvind Aassve (Ekstern)
+Nino Lo Cascio (Ekstern)
+Bjørnar Selvén (Ekstern)
+Michal Cermak (Ekstern)
 
 ### Agenda
 
@@ -55,6 +71,7 @@ Track leads bør være tilstede foreløpig liste.
 * Etter møtet - må i forhåndsbestille noe? Spør om vi trenger å bestille plass noe sted
 * Holder det med håndsopprekning rundt lunch?
 * Thomas kontakter lokale om etterfest og fasilitetetr til ca 70 personer
+  * Mail sendt
 
 ### Neste møte
 
