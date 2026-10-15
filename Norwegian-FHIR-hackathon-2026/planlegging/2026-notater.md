@@ -9,44 +9,52 @@ Tilstede:
 1. Diskutere påmeldingslisten og påmeldingen fra Algerie
    1. Nesten fullt, venteliste
 2. Videre promotering?
-3. EHIN resutlater - prøve å koble dette til datadelingssporet på A4.
+3. EHIN resultater - prøve å koble dette til datadelingssporet på A4.
 4. Påmelding for arrangører, vedlikehold av track lead listen.
 5. Eventuelt.
 
-Thomas sender NHN listen til Michal +4 for å dobbeltsjekke, Team dokumentdeling er track lead med gruppen 
-Linn og Ingvvar er EHDS 
-Jeg ønsker å delta, men adresse er tieto.com, og sett "Bedre Delt" som Affiliate
-Thomas sender listen ut til track leads etter møtet.
-Elin kommer kanskje med en intro om SAFEST innhold.
+### Notater
 
-### Agenda
+* OK: Thomas sender NHN listen til Michal  
+  * Michal dobbeltsjekker om noen fra team dokumentdeling har meldt seg på via ordinær påmelding.
+  * Team dokumentdeling i NHN er track lead med gruppen  
+* OK: Linn og Ingvar er EHDS patient summary ansvarlige  
+* OK: Nino: Jeg ønsker å delta, men adresse er tieto.com, og sett "Bedre Delt" som Affiliate  
+* OK: Thomas sender listen over påmeldte ut til track leads etter møtet.  
+* Elin kommer kanskje med en intro om SAFEST innhold.  
+  * Kristine avklarer: Passer denne til pre-meeting eller skal den holdes på selve hackathon?  
 
-Vi trenger forslag på introforedrag tenk 20 minutter bolker. I tillegg 
+#### Hackathon agenda
+
+Vi trenger forslag på introforedrag tenk 20 minutter bolker. I tillegg til track intro for hver track (3-5 min)  
+
+Diskusjon om hva som skal være tema for 20 minuttersbolkene.
 
 * CarePlan og Observations - ikke like fremtredende for alle tracks  
 * SMART on FHIR track'en?  
 * Observation ligger i patient summary og de andre profilene - internasjonal orientering er viktig.  
 * Europeiske orintering - unngå mapping og sømløs integrasjon mellom hele verdikjeden  
 
-Tone from the top - inspirasjonsforedrag/status
-Track intro pr. track-lead
-Kravene er nasjonale krav fra EU
-EU krav og formater er ikke klare ennå. Problemer med innføring og usikkerhet
+* Tone from the top - inspirasjonsforedrag/status
+* Track intro pr. track-lead
+* Kravene er nasjonale krav fra EU
+* EU krav og formater er ikke klare ennå. Problemer med innføring og usikkerhet
 
-### EHIN oppsummering
+#### Oppsummering på EHIN
 
 Track leads bør være tilstede foreløpig liste.
+
 * Sigurd
 * Nino
 * Thomas
 * Kari
-* Lea-Andreas om resultater Thomas spør
+* Lea-Andreas om resultater fra SMART (Thomas spør)
 
-### Lokaler, Mat og drikke
+#### Lokaler, Mat og drikke
 
-Etter møtet - må i forhåndsbestille noe? Spør om vi trenger å bestille plass noe sted
-Holder det med håndsopprekning rundt lunch?
-Thomas kontakter lokale om etterfest og fasilitetetr til ca 70 personer
+* Etter møtet - må i forhåndsbestille noe? Spør om vi trenger å bestille plass noe sted
+* Holder det med håndsopprekning rundt lunch?
+* Thomas kontakter lokale om etterfest og fasilitetetr til ca 70 personer
 
 ### Neste møte
 

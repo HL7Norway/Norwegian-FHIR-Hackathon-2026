@@ -40,16 +40,16 @@ A list of people involved in the organization of the hackathon and track leads, 
 | FHIR 101      | Thomas Tveit Rosenlund      | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101      | Espen Stranger Seland       | [Espen.Stranger.Seland@helsedir.no](mailto:Espen.Stranger.Seland@helsedir.no>)                                              | Helsedirektoratet           |
 | SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
-| IHE document sharing | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
-| IHE document sharing | Michal Cermak        | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
+
+| IHE document sharing | Michal Cermak + 4 NHN document sharing team      | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
+| EHDS Patient summary | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
 | EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
 | Medication Definition | Karin Drivenes        | [karin.drivenes@helsedir.no](mailto:karin.drivenes@helsedir.no)               | Helsedirektoratet |
 | Medication Definition | Ádám Z. Kövér         | [adam.kover@dmp.no](mailto:adam.kover@dmp.no)         | NoMA   |
 | Medication Definition | Nikolai Meldre Nordby | [nikolai.nordby@dmp.no](mailto:nikolai.nordby@dmp.no)                         | NoMA              |
 | Medication Definition | Kristine Aasen        | [kristine.aasen@dmp.no](mailto:kristine.aasen@dmp.no)                         | NoMA              |
-| Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)             | Tietoevry         |
+| Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tieto.com)                 | Bedredelt         |
 | Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
-| Partner       | Line Andreassen Sæle        | [LineAndreassen.Saele@fhi.no](mailto:LineAndreassen.Saele@fhi.no)               | FHI               |
 {: .grid .table-striped}
 
 #### Demo summary and discussions
