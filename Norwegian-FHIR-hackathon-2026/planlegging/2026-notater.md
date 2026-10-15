@@ -1,5 +1,57 @@
 # Notater planlegging 2026
 
+## 2026-10-15 Planleggingsmøte
+
+Tilstede: 
+
+### Agenda
+
+1. Diskutere påmeldingslisten og påmeldingen fra Algerie
+   1. Nesten fullt, venteliste
+2. Videre promotering?
+3. EHIN resutlater - prøve å koble dette til datadelingssporet på A4.
+4. Påmelding for arrangører, vedlikehold av track lead listen.
+5. Eventuelt.
+
+Thomas sender NHN listen til Michal +4 for å dobbeltsjekke, Team dokumentdeling er track lead med gruppen 
+Linn og Ingvvar er EHDS 
+Jeg ønsker å delta, men adresse er tieto.com, og sett "Bedre Delt" som Affiliate
+Thomas sender listen ut til track leads etter møtet.
+Elin kommer kanskje med en intro om SAFEST innhold.
+
+### Agenda
+
+Vi trenger forslag på introforedrag tenk 20 minutter bolker. I tillegg 
+
+* CarePlan og Observations - ikke like fremtredende for alle tracks  
+* SMART on FHIR track'en?  
+* Observation ligger i patient summary og de andre profilene - internasjonal orientering er viktig.  
+* Europeiske orintering - unngå mapping og sømløs integrasjon mellom hele verdikjeden  
+
+Tone from the top - inspirasjonsforedrag/status
+Track intro pr. track-lead
+Kravene er nasjonale krav fra EU
+EU krav og formater er ikke klare ennå. Problemer med innføring og usikkerhet
+
+### EHIN oppsummering
+
+Track leads bør være tilstede foreløpig liste.
+* Sigurd
+* Nino
+* Thomas
+* Kari
+* Lea-Andreas om resultater Thomas spør
+
+### Lokaler, Mat og drikke
+
+Etter møtet - må i forhåndsbestille noe? Spør om vi trenger å bestille plass noe sted
+Holder det med håndsopprekning rundt lunch?
+Thomas kontakter lokale om etterfest og fasilitetetr til ca 70 personer
+
+### Neste møte
+
+29. oktober klokken 13
+
 ## 2026-09-21 Planleggingsmøte
 
 ### Forslag til agenda
@@ -21,7 +73,7 @@
 
 Alle sender linkedinposter til gruppen så vi får litt oppmerksomhet om innslagene.
 
-* NHN poster på Linkedin kanalen.  
+* NHN poster på Linkedin kanalen. 
 * Bedredelt på linkedin og tietoevry.  
 * DMP LinkedIn og personlig info.  
 * HL7 norge Zulip, linkedin, hjemmeside og info maillisten.  
@@ -36,7 +88,7 @@ Yellow box - andre punkter med interoperabilitet bør vurderes med kryss markeds
 * Yellow box er ikke optimalt, hadde vært bedre å få noe i tillegg som var en del av en track.  
 * EHDS biten - burde vi si noe om implementasjonsguider og hvordan dette henger sammen.  
 * Se på mulighetene og meld fra om hvor dette kan fungere.
-Time and date må inn på forsiden.
+* Time and date må inn på forsiden. OK
 
 ### Neste møte
 
