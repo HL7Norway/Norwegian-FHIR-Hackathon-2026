@@ -12,6 +12,16 @@ Web app hosted on a Windows PC for checking in attendees arriving at the Norwegi
 * Track leads must also check in using the app, following the same confirmation and email workflow as other attendees.
 * Authorized staff can manually register and check in someone missing from both the staff roster and the Google Sheet attendee list.
 
+## Source code repository
+
+* Generate and maintain the application source code in a separate Git repository named `hackaton-registration-app`.
+* The local repository location is `D:\Programdisk-2\GitRepo\hackaton-registration-app`, alongside this planning repository, not inside it.
+* Keep frontend, backend, import scripts, email worker, tests and local Medplum deployment configuration in the application repository.
+* Keep this specification and the 2026 FHIR IG artifacts in the current repository. The application should consume the generated IG package for validation rather than maintain duplicate profile definitions.
+* Document setup, configuration and Windows startup instructions in the application repository. Do not commit real attendee data, runtime databases or secrets to either repository.
+* Provide `scripts\Install-Prerequisites.ps1` in the application repository to install missing Windows prerequisites (Git, Node.js LTS with npm, and Docker Desktop with Compose) through WinGet and check the Docker Linux engine. Support a non-installing `-CheckOnly` mode and explicit failures for missing tools or incomplete setup.
+* Once application manifests and deployment files exist, extend setup to validate supported versions, install locked npm dependencies, pull pinned Medplum and supporting service images, and document configuration and health checks. Prerequisite installation alone must not be reported as a runnable application.
+
 ## Goal
 
 * Keep track of everyone that actually attends the Hackathon  
@@ -199,6 +209,8 @@ Manual override bypasses roster membership only, not validation, duplicate prote
 * Preserve expected event roles in roster entry flags after organizer review. Neither import creates Practitioners; those resources are created only on successful check-in.
 
 ## Implementation and verification
+
+Perform application implementation in the separate repository at `D:\Programdisk-2\GitRepo\hackaton-registration-app`; maintain the FHIR profiles and terminology in the existing 2026 IG.
 
 1. Prove the local Medplum FHIR server, its resource use, phone connectivity and Brevo test email on the Windows PC.
 2. Define and validate the Person, Practitioner, List and Task profiles, participation-role terminology and track terminology.
