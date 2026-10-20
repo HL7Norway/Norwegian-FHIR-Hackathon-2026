@@ -1,4 +1,4 @@
-# Privacy Information - Norwegian FHIR Hackathon 2026 v1.4.4
+# Privacy Information - Norwegian FHIR Hackathon 2026 v1.4.5
 
 * [**Table of Contents**](toc.md)
 * **Privacy Information**

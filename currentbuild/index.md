@@ -1,4 +1,4 @@
-# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.4.4
+# Norwegian FHIR Hackathon 2026 - Norwegian FHIR Hackathon 2026 v1.4.5
 
 * [**Table of Contents**](toc.md)
 * **Norwegian FHIR Hackathon 2026**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.4 |
-| Active as of 2026-10-19 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.5 |
+| Active as of 2026-10-20 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
 
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
@@ -26,10 +26,11 @@ Check the [Agenda](hack-agenda.md) page for detailed information about the event
 
 ### Registration
 
-**[Registration is now open](https://forms.gle/GTzisAWFD8CL3z6Z9)**
+The event is currently fully booked. Please contact us for a spot on the waiting list for the event.
 
-Please fill in the [registration form](https://forms.gle/GTzisAWFD8CL3z6Z9) to secure you spot on the event.
- By registering you agree to the [privacy policy](privacy.md) for the event.
+**[Register on waiting list](https://forms.gle/GTzisAWFD8CL3z6Z9)**
+
+By registering you agree to the [privacy policy](privacy.md) for the event.
 
 ### Tracks
 
@@ -95,11 +96,11 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2026",
   "url" : "http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026",
-  "version" : "1.4.4",
+  "version" : "1.4.5",
   "name" : "Norwegian FHIR Hackathon 2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-10-19T06:01:06+00:00",
+  "date" : "2026-10-20T10:48:32+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",

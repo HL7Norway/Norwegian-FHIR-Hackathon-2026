@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026"/>
-  <version value="1.4.4"/>
+  <version value="1.4.5"/>
   <name value="Norwegian FHIR Hackathon 2026"/>
   <title value="Norwegian FHIR Hackathon 2026"/>
   <status value="active"/>
-  <date value="2026-10-19T06:01:06+00:00"/>
+  <date value="2026-10-20T10:48:32+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
