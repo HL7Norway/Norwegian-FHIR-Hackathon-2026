@@ -202,7 +202,7 @@ Manual override bypasses roster membership only, not validation, duplicate prote
 * `localhost` is usable only on the hosting PC. Phones need a reachable venue-network address and HTTPS with a certificate trusted by their devices.
 * Verify venue Wi-Fi permits phone-to-PC connections. Expose only the application port through Windows Firewall; keep the FHIR server and databases private.
 * Provide a QR code for the check-in URL and keep a staffed kiosk as fallback.
-* Never commit real attendee rosters, databases, exports or secrets to GitHub. Only synthetic FHIR examples belong in the public IG.
+* Never commit private Google Sheet attendee rosters, databases, exports or secrets to GitHub. The public agenda-derived staff roster may be distributed with the app as CSV and preloaded Persons; keep it separate from the public IG, which uses synthetic examples only.
 * Extend the [2026 privacy notice](../input/pagecontent/privacy.md) to cover check-in timestamps, Brevo processing and a concrete retention/deletion schedule before using real data.
 
 ## Other scripts
@@ -210,7 +210,9 @@ Manual override bypasses roster membership only, not validation, duplicate prote
 * Import a manual CSV export from the 2026 Google Sheet into Persons and the advance-sign-up List.
 * Validate columns, report invalid rows and ambiguous duplicates, and preserve stable attendee IDs across repeat imports.
 * Do not import dietary information or other fields unnecessary for check-in.
-* Import staff names, affiliations and track associations from the agenda table into Persons and the staff List so track leads can check in without a Google Sheet entry. Resolve grouped entries with an organizer before any person-level import; do not invent individual records from team descriptions.
+* Treat the agenda's **Track leads and partners** table as the master staff source. Provide a generator in the app repository that produces a bundled CSV, matching preloaded Person instances and source/review metadata. Preload the staff List on first startup only when empty; refresh existing projects explicitly after regenerating.
+* Map track-associated rows to track leads and Partner rows to attendees. For grouped entries, import the explicitly named person only and warn about unnamed members; never invent identities. Use mailto targets for email and flag any discrepancy with displayed contact text for organizer review.
+* Include additional synthetic attendee examples in the IG covering track choices, no track selected and a linked checked-in attendee. Do not use real staff contacts as IG examples.
 * Preserve expected event roles in roster entry flags after organizer review. Neither import creates Practitioners; those resources are created only on successful check-in.
 
 ## Implementation and verification
