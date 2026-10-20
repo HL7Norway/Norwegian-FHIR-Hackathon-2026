@@ -17,7 +17,10 @@ Web app hosted on a Windows PC for checking in attendees arriving at the Norwegi
 * Generate and maintain the application source code in a separate Git repository named `hackaton-registration-app`.
 * The local repository location is `D:\Programdisk-2\GitRepo\hackaton-registration-app`, alongside this planning repository, not inside it.
 * Keep frontend, backend, import scripts, email worker, tests and local Medplum deployment configuration in the application repository.
-* Keep this specification and the 2026 FHIR IG artifacts in the current repository. The application should consume the generated IG package for validation rather than maintain duplicate profile definitions.
+* Keep this planning specification in the current repository.
+* Maintain all application-specific FHIR source artifacts in `D:\Programdisk-2\GitRepo\hackaton-registration-app`, including FSH profiles, extensions, CodeSystems, ValueSets, synthetic examples and the configuration/documentation needed to build the application's IG package.
+* The application repository is the source of truth for its FHIR definitions. Use its generated IG package for validation; the event IG may reference that package rather than maintain duplicate definitions. Unrelated event IG content remains in the current repository.
+* The application IG title and package ID are `hackathon-attendance-registration-app`; its FHIR machine-readable name is `HackathonAttendanceRegistrationApp` and its canonical URL is `https://hl7.no/fhir/ig/hackathon-attendance-registration-app`.
 * Document setup, configuration and Windows startup instructions in the application repository. Do not commit real attendee data, runtime databases or secrets to either repository.
 * Provide `scripts\Install-Prerequisites.ps1` in the application repository to install missing Windows prerequisites (Git, Node.js LTS with npm, and Docker Desktop with Compose) through WinGet and check the Docker Linux engine. Support a non-installing `-CheckOnly` mode and explicit failures for missing tools or incomplete setup.
 * Once application manifests and deployment files exist, extend setup to validate supported versions, install locked npm dependencies, pull pinned Medplum and supporting service images, and document configuration and health checks. Prerequisite installation alone must not be reported as a runnable application.
@@ -63,7 +66,7 @@ Use stable local codes in a track `CodeSystem` and `ValueSet`. The display label
 
 ## Proposed FHIR model and dashboard API
 
-Use FHIR R4 (4.0.1), matching the existing IG configuration. Define profiles, extensions, terminology and synthetic examples with FSH in the 2026 IG.
+Use FHIR R4 (4.0.1), matching the event IG's FHIR version. Define profiles, extensions, terminology and synthetic examples with FSH in the application repository, together with the application's IG build configuration.
 
 ### Expected participant: Person
 
@@ -100,11 +103,11 @@ Propose a profiled **FHIR List resource** as the main attendance-status resource
 
 Maintain three Lists:
 
-| Proposed resource ID | Purpose |
+| Logical List identifier | Purpose |
 |----------------------|---------|
-| `List/hackathon-2026-roster` | Advance sign-ups, with `entry.item` references to attendee Persons |
-| `List/hackathon-2026-staff` | Staff roster from the agenda, including track leads, with `entry.item` references to Persons |
-| `List/hackathon-2026-checkins` | Actual arrivals, with `entry.item` references to checked-in Practitioners and `entry.date` recording each check-in time |
+| `hackathon-2026-roster` | Advance sign-ups, with `entry.item` references to attendee Persons |
+| `hackathon-2026-staff` | Staff roster from the agenda, including track leads, with `entry.item` references to Persons |
+| `hackathon-2026-checkins` | Actual arrivals, with `entry.item` references to checked-in Practitioners and `entry.date` recording each check-in time |
 
 For all three Lists, use `status = current`, `mode = working`, a stable event-specific identifier, a descriptive title and a locally defined `code` distinguishing the purposes. Update `List.date` when the list changes.
 
@@ -113,12 +116,14 @@ On check-in entries created by manual override, use a profile-defined boolean ex
 The dashboard retrieves:
 
 ```http
-GET [fhir-base]/List/hackathon-2026-roster
-GET [fhir-base]/List/hackathon-2026-staff
-GET [fhir-base]/List/hackathon-2026-checkins
+GET [fhir-base]/List?identifier=https://hl7.no/fhir/ig/hackathon-attendance-registration-app/identifier/list|hackathon-2026-roster
+GET [fhir-base]/List?identifier=https://hl7.no/fhir/ig/hackathon-attendance-registration-app/identifier/list|hackathon-2026-staff
+GET [fhir-base]/List?identifier=https://hl7.no/fhir/ig/hackathon-attendance-registration-app/identifier/list|hackathon-2026-checkins
 GET [fhir-base]/Person/[attendee-id]
 GET [fhir-base]/Practitioner/[checkin-practitioner-id]
 ```
+
+URL-encode the identifier search values in actual requests. Medplum assigns resource IDs; resolve each List by its stable identifier, then read the returned references. Do not require elevated credentials to assign custom IDs.
 
 Fetch referenced Persons and Practitioners as needed, or use supported batch reads. Compute the checked-in total from the check-in List and track totals from the referenced Practitioners' primary-track codes. Split attendance into attendees and track leads using the event-role slice of `Practitioner.qualification.code`, not other professional qualifications. Count unique Practitioner references, excluding entries marked `deleted`.
 
@@ -150,7 +155,7 @@ Brevo acceptance is not proof of delivery. Display attendance success independen
 
 ### Consistency and duplicate handling
 
-* Use stable Person and Practitioner IDs and one check-in entry per person. Derive or persist the Practitioner ID from the stable event identity so repeated submissions reuse the same resource and return the existing confirmation rather than creating another arrival or email job.
+* Use stable event identifiers and one check-in entry per person. Let Medplum assign Person and Practitioner resource IDs and persist their link. Use conditional creates by identifier and transaction-local references for new resources so repeated submissions reuse the existing identity and return its confirmation rather than creating another arrival or email job.
 * Reconcile people appearing in both imported rosters to the same Person; flag ambiguous matches for staff review instead of merging automatically.
 * Save the Practitioner with its event-role qualification, Person changes including its Practitioner link, the check-in List update and the email Task in a FHIR transaction Bundle before reporting success.
 * Save the attendee's confirmed primary track on both Person and Practitioner in that transaction, including any change from the imported preference. Use the confirmed choice for dashboard track totals and the confirmation email. Changing track does not change the participant's event-role qualification.
@@ -210,7 +215,7 @@ Manual override bypasses roster membership only, not validation, duplicate prote
 
 ## Implementation and verification
 
-Perform application implementation in the separate repository at `D:\Programdisk-2\GitRepo\hackaton-registration-app`; maintain the FHIR profiles and terminology in the existing 2026 IG.
+Perform application implementation and maintain all application-specific FHIR profiles, extensions, terminology, examples and IG build sources in the separate repository at `D:\Programdisk-2\GitRepo\hackaton-registration-app`.
 
 1. Prove the local Medplum FHIR server, its resource use, phone connectivity and Brevo test email on the Windows PC.
 2. Define and validate the Person, Practitioner, List and Task profiles, participation-role terminology and track terminology.
