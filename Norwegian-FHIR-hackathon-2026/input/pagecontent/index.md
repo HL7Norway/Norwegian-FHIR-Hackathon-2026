@@ -14,9 +14,11 @@ Check the [Agenda](hack-agenda.html) page for detailed information about the eve
 
 ### Registration
 
-**[Registration is now open](https://forms.gle/GTzisAWFD8CL3z6Z9)**  
+The event is currently fully booked. Please contact us for a spot on the waiting list for the event.  
 
-Please fill in the [registration form](https://forms.gle/GTzisAWFD8CL3z6Z9) to secure you spot on the event.  
+**[Register on waiting list](https://forms.gle/GTzisAWFD8CL3z6Z9)**  
+
+<!--Please fill in the [registration form](https://forms.gle/GTzisAWFD8CL3z6Z9) to secure you spot on the event.  -->
 By registering you agree to the [privacy policy](privacy.html) for the event.  
 
 ### Tracks
