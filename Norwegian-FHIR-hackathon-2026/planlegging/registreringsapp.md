@@ -26,7 +26,6 @@ Web app, running on localhost, for registering attendees showing up at the 2026 
   * Run a lightweight FHIR server e.g. Medplum
 * Use Brevo to send actual emails  
 
-
 ## UI for the users
 
 * Use your phone or a stationary computer located at the venue to input name, affiliate and main track.  
