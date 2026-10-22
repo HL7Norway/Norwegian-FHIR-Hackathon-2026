@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.5 |
-| Active as of 2026-10-21 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
+| Active as of 2026-10-22 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
 
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
@@ -38,7 +38,7 @@ The various tracks of the hackathon cover a wide range of current interoperabili
 
 * [Modeling Patient care plans as FHIR](nhn-track.md) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.md) - NAV, Leo-Andreas Ervik
-* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.md) - NoMA/Helsedirektoratet
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.md) - Helsedirektoratet/NoMA/Sykehuspartner
 * [Document sharing for IHE MHD](ihe-track.md) - IHE Norge, Ingvar Sørlien and Michal Cermak
 * [EHDS patient summary](ehds-track.md) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.md) - HL7 Norge, Thomas Rosenlund og Espen Seland
@@ -100,7 +100,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "name" : "Norwegian FHIR Hackathon 2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-10-21T06:42:54+00:00",
+  "date" : "2026-10-22T14:20:57+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",

@@ -51,7 +51,7 @@ A list of people involved in the organization of the hackathon and track leads, 
 | EHDS Patient summary | Linn Brandt | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no) | Helsedirektoratet |
 | Medication Definition | Karin Drivenes | [karin.drivenes@helsedir.no](mailto:karin.drivenes@helsedir.no) | Helsedirektoratet |
 | Medication Definition | Ádám Z. Kövér | [adam.kover@dmp.no](mailto:adam.kover@dmp.no) | NoMA |
-| Medication Definition | Nikolai Meldre Nordby | [nikolai.nordby@dmp.no](mailto:nikolai.nordby@dmp.no) | NoMA |
+| Medication Definition | Elin May Merry | [elmerr@sykehuspartner.no](mailto:elmerr@sykehuspartner.no) | Sykehuspartner |
 | Medication Definition | Kristine Aasen | [kristine.aasen@dmp.no](mailto:kristine.aasen@dmp.no) | NoMA |
 | Partner | Nino Lo Cascio | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tieto.com) | Bedredelt |
 | Partner | Øyvind Aassve | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no) | Sykehuspartner |
