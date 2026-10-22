@@ -26,7 +26,7 @@ The various tracks of the hackathon cover a wide range of current interoperabili
 
 * [Modeling Patient care plans as FHIR](nhn-track.html) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.html) - NAV, Leo-Andreas Ervik
-* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.html) - NoMA/Helsedirektoratet
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.html) - Helsedirektoratet/NoMA/Sykehuspartner
 * [Document sharing for IHE MHD](ihe-track.html) - IHE Norge, Ingvar Sørlien and Michal Cermak
 * [EHDS patient summary](ehds-track.html) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.html) - HL7 Norge, Thomas Rosenlund og Espen Seland
