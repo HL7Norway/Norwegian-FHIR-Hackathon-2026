@@ -1,4 +1,4 @@
-# Pre-agenda - Norwegian FHIR Hackathon 2026 v1.4.5
+# Pre-agenda - Norwegian FHIR Hackathon 2026 v1.4.6
 
 * [**Table of Contents**](toc.md)
 * **Pre-agenda**
