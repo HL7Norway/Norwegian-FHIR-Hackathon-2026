@@ -6,8 +6,8 @@
   "status" : "active",
   "package-id" : "hl7.fhir.no.hackathon.2026",
   "ig-ver" : "1.4.6",
-  "date" : "Tue, 27 Oct, 2026 20:13:33 +0000",
-  "dateISO8601" : "2026-10-27T20:13:33+00:00",
+  "date" : "Tue, 27 Oct, 2026 20:44:55 +0000",
+  "dateISO8601" : "2026-10-27T20:44:55+00:00",
   "errs" : 1,
   "warnings" : 15,
   "hints" : 7,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 778118600
+  "maxMemory" : 808980368
 }
