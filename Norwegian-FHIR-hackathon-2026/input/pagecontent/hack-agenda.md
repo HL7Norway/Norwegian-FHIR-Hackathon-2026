@@ -41,6 +41,10 @@ A list of people involved in the organization of the hackathon and track leads, 
 | FHIR 101      | Espen Stranger Seland       | [Espen.Stranger.Seland@helsedir.no](mailto:Espen.Stranger.Seland@helsedir.no>)                                              | Helsedirektoratet           |
 | SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
 | IHE document sharing | Michal Cermak + 4 NHN document sharing team      | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
+|IHE document sharing | Tim Mortensen | tim.mortensen@nhn.no | NHN |
+|IHE document sharing | Kurt Inge Grønbech | kurt.gronbech@nhn.no | NHN |
+|IHE document sharing | Frank Soli | frank.soli@nhn.no | NHN |
+|IHE document sharing | Nina Norberg | nina.norberg@nhn.no | NHN |
 | EHDS Patient summary | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
 | EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
 | Medication Definition | Karin Drivenes | [karin.drivenes@helsedir.no](mailto:karin.drivenes@helsedir.no)               | Helsedirektoratet |
