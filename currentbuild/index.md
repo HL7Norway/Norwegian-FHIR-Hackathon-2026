@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2026/ImplementationGuide/hl7.fhir.no.hackathon.2026 | *Version*:1.4.6 |
-| Active as of 2026-10-27 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
+| Active as of 2026-10-28 | *Computable Name*:Norwegian FHIR Hackathon 2026 |
 
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
@@ -100,7 +100,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "name" : "Norwegian FHIR Hackathon 2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-10-27T20:44:55+00:00",
+  "date" : "2026-10-28T07:21:52+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -138,7 +138,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.3.0"
+    "version" : "5.4.0"
   }],
   "definition" : {
     "extension" : [{

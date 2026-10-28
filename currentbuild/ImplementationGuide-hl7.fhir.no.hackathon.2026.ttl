@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "Norwegian FHIR Hackathon 2026"] ;
   fhir:ImplementationGuide.title [ fhir:value "Norwegian FHIR Hackathon 2026"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-27T20:44:55+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-28T07:21:52+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Norge"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -71,7 +71,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.3.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.4.0" ]
   ] ;
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
