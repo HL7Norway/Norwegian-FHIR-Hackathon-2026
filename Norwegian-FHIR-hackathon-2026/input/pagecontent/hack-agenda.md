@@ -7,13 +7,14 @@ Proposed agenda for the hackathon on 9. November.
 |-----|-----|---------|
 |0900|Welcome and Introductions (plenary)|Partners|
 |0930|Intro to tracks|All track leads|
+|1015|Coffee break|All|
 |1030|Working in tracks|All|
 |1200|Lunch|All|
 |1300|Working in tracks|All|
 |1430|Coffee break|All|
 |1445|Working in tracks|All|
 |1530|Demo summary and discussions (plenary)|Track leads + all|
-|1630|Food and drinks ()|All|
+|1630|Food and drinks (some bar/restaurant nearby)|Voluntary/at your own expense|
 {: .grid .table-striped}
 
 #### Track introductions
