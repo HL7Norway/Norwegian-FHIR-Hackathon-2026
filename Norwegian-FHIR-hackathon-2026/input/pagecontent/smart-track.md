@@ -13,7 +13,7 @@ further notice.**
 * [What this track is about](#what-this-track-is-about)
 * [Terms and abbreviations](#terms-and-abbreviations)
 * [What the track provides](#what-the-track-provides)
-* [About the skeletons](#about-the-skeletons)
+* [About the skeleton](#about-the-skeleton)
 * [Prerequisites](#prerequisites)
 * [Learning goals](#learning-goals)
 * [Use-cases and assignments](#use-cases-and-assignments)
@@ -90,23 +90,23 @@ English while the systems and identifiers we work with are Norwegian. This is th
 * **Synthetic Norwegian patient data**: patients with fødselsnummer and d-nummer, clinicians with
   HPR-nummer, organisations with organisasjonsnummer, consultations, diagnoses coded with ICPC-2 and
   ICD-10, and measurements.
-* **Starter skeletons**, one per client authentication type, with the SMART launch sequence laid out
-  as numbered `TODO`s for you to fill in.
-* **Credentials** on the day: your team's `client_id`, secret or key pair, a test clinician to log
-  in as, and a list of patients.
+* A **starter repository** with a `public/` exercise containing numbered `TODO`s and finished
+  templates in `client-secret/`, `private-key-jwt/` and `backend-services/`.
+* **Credentials** on the day: the shared public `client_id` (`hackathon-public`), a test clinician
+  to log in as, and a list of patients. Mentors register secret or key clients on request.
 * Mentors circulating throughout the day.
 
-### About the skeletons
+### About the skeleton
 
-The skeletons implement the SMART launch from scratch, server-side. They do not use an off-the-shelf
-SMART client library, for two reasons:
+The `public/` skeleton implements the SMART launch from scratch, server-side. It does not use an
+off-the-shelf SMART client library, for two reasons:
 
 1. You learn more by making the discovery request, generating the PKCE verifier, validating the
    token and extracting the launch context yourself than by calling `authorize()`.
-2. The common browser-side libraries keep tokens in local storage. The skeletons keep them on the
-   server and show you how.
+2. The common browser-side libraries keep tokens in local storage. The skeleton keeps them on the
+   server and shows you how.
 
-Reference implementations are provided for when you get stuck.
+A reference implementation is provided for when you get stuck.
 
 ### Prerequisites
 
@@ -121,7 +121,7 @@ What you need on the day:
 | A laptop         | Any operating system. You will be writing and running code on it.                                                          |
 | A code editor    | Visual Studio Code, IntelliJ IDEA or whichever you already use. Either is fine.                                            |
 | A GitHub account | You will clone the starter repository and push your team's work.                                                           |
-| Node 22          | Only if you want to run locally. A one-click GitHub Codespace is provided, which needs nothing installed beyond a browser. |
+| Node 22          | For running the starter locally.                                                                                         |
 | A charger        | ⚡️                                                                                                                         |
 {: .grid .table-striped}
 
@@ -170,8 +170,6 @@ network tab and explain each redirect to someone else in the room.
 * **Scope detective**: request narrower scopes than the skeleton does. Decode the access token and
   the ID-token. Prove what you were granted versus what you asked for, and demonstrate the FHIR API
   refusing a request outside your scopes.
-* **Confidential client**: redo the launch using a client secret instead of a public client. Explain
-  what changed, and why an EPJ vendor would insist on it.
 
 ### Gold
 
@@ -179,8 +177,10 @@ network tab and explain each redirect to someone else in the room.
 
 * **Write-back**: create a document or a measurement in the EPJ from your application, and watch it
   appear in the journal.
-* **Asymmetric client authentication**: implement `private_key_jwt` end to end.
-* **Backend services**: a system-to-system SMART flow, with no user present at all.
+* **Asymmetric client authentication**: implement `private_key_jwt` end to end. Ask a mentor to
+  register a client.
+* **Backend services**: a system-to-system SMART flow, with no user present at all. Ask a mentor to
+  register a client.
 * **Break it**: attack your own application. Tamper with `state`. Replay a `code`. Send a token with
   the wrong `aud`. Use an expired token. Ask for a resource outside your scopes. Document what the
   server correctly rejected, and what it did not.
@@ -202,6 +202,7 @@ network tab and explain each redirect to someone else in the room.
 * [Scopes and launch context](https://hl7.org/fhir/smart-app-launch/scopes-and-launch-context.html)
 * [Conformance and `.well-known/smart-configuration`](https://hl7.org/fhir/smart-app-launch/conformance.html)
 * [SMART App Launcher](https://launch.smarthealthit.org), public sandbox used as fallback environment
+* [navikt/smart-on-fhir-templates](https://github.com/navikt/smart-on-fhir-templates), starter exercise and finished templates
 * [navikt/smart-on-fhir](https://github.com/navikt/smart-on-fhir), Nav's server-only SMART on FHIR library
 * [navikt/smart-on-fhir-validator](https://github.com/navikt/smart-on-fhir-validator), validates a SMART/FHIR implementation against Nav's requirements
 * [HL7 FHIR R4 resource list](https://hl7.org/fhir/R4/resourcelist.html)
