@@ -15,18 +15,36 @@
    1. Sigurd
    2. Nino
    3. Thomas
-   4. Kari
-   5. Leo-Andreas
+   4. Karin
+   5. Leo-Andreas (OK)
 6. Sted for øl/mat etter hackathon. Hvor mange track-leads blir med?
 7. Eventuelt
 
 ### Notater
 
-
+1. Plan for selve Hackathon: velkommen og intro til tracks til sammen 75 minutter, alt i plenum
+   1. Thomas ønsker velkommen
+   2. Bente har en kort innflygning på 10 minutter
+   3. EHDS eller MedicationDefinition intro på 10-15 minutter
+   4. Kort intro til hvert track (5 minutter pr. track)
+2. Alle track leads legger lenke til breakoutsession i tabellen på premøte agenda.
+3. Kontroll på alle arrangører som står på listen nå, unntatt Sigurd sine, Thomas Tar dialog med Sigurd.
+4. forslag til barer
+   1. 9 arrangører bekrefter deltakelse på etter øl og mat
+   2. Rør bar,  Cafe Amsterdam (kanskje litt vanskelig å prate), Justisen i universitetsgata, Tekehtopa og Pincho Nation
+5. Presentasjon på EHIN
+   1. Sigurd
+   2. Nino
+   3. Thomas
+   4. Karin/Adam
+   5. Ingvar
+   6. Leo-Andreas (OK)
+6. Eventuelt
+   1. Ingen saker på eventuelt
 
 ### Neste møte
 
-Tordag 5. november?
+Tordag 5. november
 
 ## 2026-10-15 Planleggingsmøte
 

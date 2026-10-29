@@ -42,7 +42,7 @@ meeting links for the different track intro meetings are provided in the table:
 | Document sharing for IHE MHD | TBA          |
 | SMART on FHIR         | TBA          |
 | EHDS patient summary  | TBA          |
-| FHIR 101: Introduction to HL7 FHIR with practical assignments | TBA          |
+| FHIR 101: Introduction to HL7 FHIR with practical assignments | [Pre meeting and FHIR 101](https://teams.microsoft.com/meet/33144680058999?p=hkCS8xAe5FfJZm6qwY) |
 {: .grid .table-striped}
 
 ### Virtual meeting invite
