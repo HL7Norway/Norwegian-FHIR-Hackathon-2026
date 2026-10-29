@@ -10,7 +10,8 @@
 2. Plan for formøtet 2. november, alle track leads må opprette et teamsmøte for breakout-session til sin track.
 3. Diskusjon om deltakere vs arrangører. Hackathon er fulltegnet og vi har en litt spesiell fordeling mellom arrangører og deltakere, 60 deltakere og over 20 arrangører. Vi har foreløpig 12 på venteliste. Vi kan kanskje få med flere deltakere hvis vi kutter litt i antall arrangører, samtidig er det ikke noe poeng så lenge de som står på arrangørlista deltar og bidrar til at det blir gjort viktig arbeid på Hackathon.
 4. Vi må ha bindende påmelding for alle på arrangørlisten snarest siden vi må levere endelig antall til Rebel neste uke.
-5. Hvem skal med på resultatfremlegget på EHIN 10. november foreløpig liste: 
+   > Absolutt, frist for minimum antall er 2 uker før, etter det har dere mulighet og øke i antall frem til 4-5 dager før arrangementet.   
+5. Hvem skal med på resultatfremlegget på EHIN 10. november foreløpig liste:  
    1. Sigurd
    2. Nino
    3. Thomas
