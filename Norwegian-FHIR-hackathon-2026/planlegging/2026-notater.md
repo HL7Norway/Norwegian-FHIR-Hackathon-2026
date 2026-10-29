@@ -44,7 +44,7 @@
 
 ### Neste møte
 
-Tordag 5. november
+Tordag 5. november 12-13
 
 ## 2026-10-15 Planleggingsmøte
 
