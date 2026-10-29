@@ -1,5 +1,32 @@
 # Notater planlegging 2026
 
+## 2026-10-29 Planleggingsmøte
+
+### Tilstede
+
+### Agenda
+
+1. Diskutere agenda for selve Hackathon. Divisjonsdirektør Bente Andresen Sundlo kommer og innleder med ca 10 minutter om viktigheten av standardisering og semantisk interoperabilitet. Andre innledere utover en kort intro til hver track?
+2. Plan for formøtet 2. november, alle track leads må opprette et teamsmøte for breakout-session til sin track.
+3. Diskusjon om deltakere vs arrangører. Hackathon er fulltegnet og vi har en litt spesiell fordeling mellom arrangører og deltakere, 60 deltakere og over 20 arrangører. Vi har foreløpig 12 på venteliste. Vi kan kanskje få med flere deltakere hvis vi kutter litt i antall arrangører, samtidig er det ikke noe poeng så lenge de som står på arrangørlista deltar og bidrar til at det blir gjort viktig arbeid på Hackathon.
+4. Vi må ha bindende påmelding for alle på arrangørlisten snarest siden vi må levere endelig antall til Rebel neste uke.
+5. Hvem skal med på resultatfremlegget på EHIN 10. november foreløpig liste: 
+   1. Sigurd
+   2. Nino
+   3. Thomas
+   4. Kari
+   5. Leo-Andreas
+6. Sted for øl/mat etter hackathon. Hvor mange track-leads blir med?
+7. Eventuelt
+
+### Notater
+
+
+
+### Neste møte
+
+Tordag 5. november?
+
 ## 2026-10-15 Planleggingsmøte
 
 ### Tilstede
@@ -72,6 +99,7 @@ Track leads bør være tilstede foreløpig liste.
 * Holder det med håndsopprekning rundt lunch?
 * Thomas kontakter lokale om etterfest og fasilitetetr til ca 70 personer
   * Mail sendt
+  * Ikke så gode muligheter på Rebel, koster mye
 
 ### Neste møte
 
