@@ -37,7 +37,7 @@ meeting links for the different track intro meetings are provided in the table:
 
 | Title                 | Meeting link |
 |-----------------------|--------------|
-| Modeling Patient care plans as FHIR | TBA          |
+| Modeling Patient care plans as FHIR | [CarePlans](https://teams.microsoft.com/meet/3667644764302927?p=gvfYVS2tU48m3TI9e5)          |
 | Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA | TBA          |
 | Document sharing for IHE MHD | TBA          |
 | SMART on FHIR         | TBA          |
