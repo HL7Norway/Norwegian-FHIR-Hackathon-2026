@@ -8,11 +8,11 @@ The Medication Definition track will discuss two main topics:
 In this topic, we will take a closer look at R5's Medication Definition module,
 and how the resources are used to create IDMP-compatible representations of medication data with FHIR.
 
-We will explore the public API of EMA's PMS, now in public beta, and NoMA's FHIR service.
+We will explore the public API of EMA's PMS, now in public beta, and NOMA's FHIR service.
 
-* How to get access to the service
-* What data is available in the service
-* How can the service be connected to other data sources (e.g., national medication databases, warnings or guidelines)
+* How to get access to the services
+* What data is available in the services
+* How can the services be connected to other data sources (e.g., national medication databases, warnings or guidelines)
 * How to visualize the data for end users
 * How to get related terminology through APIs
 
@@ -39,15 +39,17 @@ The available endpoints and parameters are described in the PMS [OpenAPI Specifi
 The specification also includes a test interface for running queries
 and the data elements returned by the service.
 
-##### NoMA's FHIR Service
+##### NOMA's FHIR Service
 
-NoMA's FHIR Service is available both in production and a test environment.
-Read [How to Access the FHIR Service](https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service).
+NOMA's FHIR Service is available both in production and a test environment.
+Read [How to Access the FHIR Service](https://www.dmp.no/en/about-us/distribution-of-data-on-medicinal-products/FHIR-service/how-to-access-the-fhir-service) for information on accessing the production API.
 An API key will be provided for participants at the hackathon.
 This key will only be valid on the day of the hackathon and will be revoked after the event.
-Participants can use this key for testing and do not need to contact NoMA in advance for a personal API key.
+Participants can use this key for testing and do not need to contact NOMA in advance for a personal API key.
 
- The use and content of the service is documented in the [Implementation Guide for NOMA's FHIR API v2.0](https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current).
+ The use and content of the service in production is documented in the [Implementation Guide for NOMA's FHIR API v2.0](https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current).
+
+We will also have access to a pre-release version of the service on the hackathon. The necessary API key and documentation will be provided to participants.
 
 ### Reimbursement data and decision support
 
@@ -93,8 +95,8 @@ How can the data be made available for EHRs on a decision support API?
 
 Read the service documentations and the API specifications.
 
-##### NoMA H-prescription FHIR Service
+##### NOMA H-prescription FHIR Service
 
 An API key will be provided for participants at the hackathon.
 This key will only be valid on the day of the hackathon and will be revoked after the event.
-Participants can use this key for testing and do not need to contact NoMA in advance for a personal API key.
+Participants can use this key for testing and do not need to contact NOMA in advance for a personal API key.
