@@ -4,7 +4,7 @@
 
 "Learn FHIR" as (fhir) #red
 "FHIR IG\nbuilding" as (build) #pink
-"FHIR IG\nauthoiring" as (authoring) #pink
+"FHIR IG\nauthoring" as (authoring) #pink
 'rectangle "test" as rect {
 "Interoperability\nin healthcare" as (learn) #pink
 "Learning by doing" as (doing) #pink
