@@ -41,6 +41,7 @@ A list of people leading tracks on the hackathon, including contact information.
 | FHIR 101      | Thomas Tveit Rosenlund      | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101      | Espen Stranger Seland       | [Espen.Stranger.Seland@helsedir.no](mailto:Espen.Stranger.Seland@helsedir.no)                                               | Helsedirektoratet           |
 | SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
+| SMART on FHIR | Jørn-Are Klubben Flaten | [Jørn-Are Klubben Flaten](mailto:jorn-are.klubben.flaten@nav.no) | NAV |
 | IHE document sharing | Michal Cermak | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
 | IHE document sharing | Tim Mortensen | [tim.mortensen@nhn.no](mailto:tim.mortensen@nhn.no) | NHN |
 | IHE document sharing | Kurt Inge Grønbech | [kurt.gronbech@nhn.no](mailto:kurt.gronbech@nhn.no) | NHN |
