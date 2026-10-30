@@ -28,9 +28,9 @@ Track introductions
 * Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA (Adam/Kristine ++)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
-#### Track leads and partners
+#### Track leads 
 
-A list of people involved in the organization of the hackathon and track leads, including contact information.  
+A list of people leading tracks on the hackathon, including contact information.  
 
 | Track         | Name                        | Contact                                                                  | Affiliate         |
 |---------------|-----------------------------|------------------------------------------------------------------------------|-------------------|
@@ -52,8 +52,17 @@ A list of people involved in the organization of the hackathon and track leads, 
 | Medication Definition | Ádám Z. Kövér  | [adam.kover@dmp.no](mailto:adam.kover@dmp.no)                                 | NoMA              |
 | Medication Definition | Elin May Merry | [elmerr@sykehuspartner.no](mailto:elmerr@sykehuspartner.no)                   | Sykehuspartner    |
 | Medication Definition | Kristine Aasen | [kristine.aasen@dmp.no](mailto:kristine.aasen@dmp.no)                         | NoMA              |
-| Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)             | Bedredelt         |
 | Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
+{: .grid .table-striped}
+
+### Partners
+
+Partners involved in planning and organizing the hackathon.  
+
+| Role          | Name                        | Contact                                                                  | Affiliate             |
+|---------------|-----------------------------|------------------------------------------------------------------------------|-------------------|
+| Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)          | Bedredelt         |
+| Partner       | Line Andreassen Sæle        | [Line Andreassen Sæle](lineandreassen.saele@fhi.no)                          | HL7 Norge         |
 {: .grid .table-striped}
 
 #### Demo summary and discussions
