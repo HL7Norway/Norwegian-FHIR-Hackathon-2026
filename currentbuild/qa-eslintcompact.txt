@@ -1,6 +1,7 @@
 Norwegian FHIR Hackathon 2026
 =========================================
 
+Generic: line 0, col 0, Error - The link 'lineandreassen.saele@fhi.no' for "Line Andreassen Sæle" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'index.html#preparations-for-participants' for "HL7 FHIR video resources" cannot be resolved (valid targets: [why-you-should-participate, publish-box, segment-post-footer, time-and-date, markdown-toc-why-you-should-participate, top, stripe, recommended-preparation, segment-footer, logo, segment-content, norwegian-fhir-hackathon-2026, markdown-toc-time-and-date, markdown-toc-contact-information, markdown-toc-recommended-preparation, segment-header, markdown-toc-registration, bottom, hl7-logo, contact-information, markdown-toc-tracks, tracks, markdown-toc-background, family-nav, ig-status, markdown-toc, background, hl7-nav, registration, segment-navbar, segment-breadcrumb]) (NOTFOUND)
 Generic: line 0, col 0, Error - The page skips a heading level: <h5> 'EU Health Data API' (id=eu-health-data-api) follows <h3> 'API Access and Document Sharing in Norwegian and European...' (id=api-access-and-document-sharing-in-norwegian-and-european-context), so it should be <h4>. Heading levels must not skip a level going down (WCAG compliance test) (STRUCTURE)
 Generic: line 0, col 0, Error - The link 'capability-discovery.html' for "Capability Discovery" cannot be resolved (NOTFOUND)
@@ -32,5 +33,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient.json: line 1, col 9928, Info - There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language (INVALID)
 /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient.json: line 0, col 0, Info - The resource StructureDefinition/mal-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
 
-err = 1, warn = 15, info = 7, broken links = 7
+err = 1, warn = 15, info = 7, broken links = 8
 IG Publisher Version: 3.0.1

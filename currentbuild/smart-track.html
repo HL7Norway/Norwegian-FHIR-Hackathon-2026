@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>SMART on FHIR - Norwegian FHIR Hackathon 2026 v1.4.6</title>
+    <title>SMART on FHIR - Norwegian FHIR Hackathon 2026 v1.4.7</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -68,7 +68,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Norwegian FHIR Hackathon 2026</span>
             <br/>
-            <span style="display:inline-block;">1.4.6 - ci-build
+            <span style="display:inline-block;">1.4.7 - ci-build
 
 
 
@@ -185,7 +185,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.4.6) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/hackathon/2026/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Norwegian FHIR Hackathon 2026 - Local Development build (v1.4.7) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/hackathon/2026/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>SMART on FHIR</h2>
   
 
@@ -208,7 +208,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="#what-this-track-is-about" id="markdown-toc-what-this-track-is-about">What this track is about</a></li>
   <li><a href="#terms-and-abbreviations" id="markdown-toc-terms-and-abbreviations">Terms and abbreviations</a></li>
   <li><a href="#what-the-track-provides" id="markdown-toc-what-the-track-provides">What the track provides</a></li>
-  <li><a href="#about-the-skeletons" id="markdown-toc-about-the-skeletons">About the skeletons</a></li>
+  <li><a href="#about-the-skeleton" id="markdown-toc-about-the-skeleton">About the skeleton</a></li>
   <li><a href="#prerequisites" id="markdown-toc-prerequisites">Prerequisites</a></li>
   <li><a href="#learning-goals" id="markdown-toc-learning-goals">Learning goals</a></li>
   <li><a href="#use-cases-and-assignments" id="markdown-toc-use-cases-and-assignments">Use-cases and assignments</a></li>
@@ -239,7 +239,7 @@ further notice.</strong></p>
   <li><a href="#what-this-track-is-about">What this track is about</a></li>
   <li><a href="#terms-and-abbreviations">Terms and abbreviations</a></li>
   <li><a href="#what-the-track-provides">What the track provides</a></li>
-  <li><a href="#about-the-skeletons">About the skeletons</a></li>
+  <li><a href="#about-the-skeleton">About the skeleton</a></li>
   <li><a href="#prerequisites">Prerequisites</a></li>
   <li><a href="#learning-goals">Learning goals</a></li>
   <li><a href="#use-cases-and-assignments">Use-cases and assignments</a></li>
@@ -405,26 +405,26 @@ launches your application.</li>
   <li><strong>Synthetic Norwegian patient data</strong>: patients with fødselsnummer and d-nummer, clinicians with
 HPR-nummer, organisations with organisasjonsnummer, consultations, diagnoses coded with ICPC-2 and
 ICD-10, and measurements.</li>
-  <li><strong>Starter skeletons</strong>, one per client authentication type, with the SMART launch sequence laid out
-as numbered <code class="language-plaintext highlighter-rouge">TODO</code>s for you to fill in.</li>
-  <li><strong>Credentials</strong> on the day: your team's <code class="language-plaintext highlighter-rouge">client_id</code>, secret or key pair, a test clinician to log
-in as, and a list of patients.</li>
+  <li>A <strong>starter repository</strong> with a <code class="language-plaintext highlighter-rouge">public/</code> exercise containing numbered <code class="language-plaintext highlighter-rouge">TODO</code>s and finished
+templates in <code class="language-plaintext highlighter-rouge">client-secret/</code>, <code class="language-plaintext highlighter-rouge">private-key-jwt/</code> and <code class="language-plaintext highlighter-rouge">backend-services/</code>.</li>
+  <li><strong>Credentials</strong> on the day: the shared public <code class="language-plaintext highlighter-rouge">client_id</code> (<code class="language-plaintext highlighter-rouge">hackathon-public</code>), a test clinician
+to log in as, and a list of patients. Mentors register secret or key clients on request.</li>
   <li>Mentors circulating throughout the day.</li>
 </ul>
 
-<h3 id="about-the-skeletons">About the skeletons</h3>
+<h3 id="about-the-skeleton">About the skeleton</h3>
 
-<p>The skeletons implement the SMART launch from scratch, server-side. They do not use an off-the-shelf
-SMART client library, for two reasons:</p>
+<p>The <code class="language-plaintext highlighter-rouge">public/</code> skeleton implements the SMART launch from scratch, server-side. It does not use an
+off-the-shelf SMART client library, for two reasons:</p>
 
 <ol>
   <li>You learn more by making the discovery request, generating the PKCE verifier, validating the
 token and extracting the launch context yourself than by calling <code class="language-plaintext highlighter-rouge">authorize()</code>.</li>
-  <li>The common browser-side libraries keep tokens in local storage. The skeletons keep them on the
-server and show you how.</li>
+  <li>The common browser-side libraries keep tokens in local storage. The skeleton keeps them on the
+server and shows you how.</li>
 </ol>
 
-<p>Reference implementations are provided for when you get stuck.</p>
+<p>A reference implementation is provided for when you get stuck.</p>
 
 <h3 id="prerequisites">Prerequisites</h3>
 
@@ -456,7 +456,7 @@ the <a href="101-track.html">FHIR 101 track</a> in the morning.</p>
     </tr>
     <tr>
       <td>Node 22</td>
-      <td>Only if you want to run locally. A one-click GitHub Codespace is provided, which needs nothing installed beyond a browser.</td>
+      <td>For running the starter locally.</td>
     </tr>
     <tr>
       <td>A charger</td>
@@ -515,8 +515,6 @@ clinician would actually glance at. A trend, a summary, a flag.</li>
   <li><strong>Scope detective</strong>: request narrower scopes than the skeleton does. Decode the access token and
 the ID-token. Prove what you were granted versus what you asked for, and demonstrate the FHIR API
 refusing a request outside your scopes.</li>
-  <li><strong>Confidential client</strong>: redo the launch using a client secret instead of a public client. Explain
-what changed, and why an EPJ vendor would insist on it.</li>
 </ul>
 
 <h3 id="gold">Gold</h3>
@@ -526,8 +524,10 @@ what changed, and why an EPJ vendor would insist on it.</li>
 <ul>
   <li><strong>Write-back</strong>: create a document or a measurement in the EPJ from your application, and watch it
 appear in the journal.</li>
-  <li><strong>Asymmetric client authentication</strong>: implement <code class="language-plaintext highlighter-rouge">private_key_jwt</code> end to end.</li>
-  <li><strong>Backend services</strong>: a system-to-system SMART flow, with no user present at all.</li>
+  <li><strong>Asymmetric client authentication</strong>: implement <code class="language-plaintext highlighter-rouge">private_key_jwt</code> end to end. Ask a mentor to
+register a client.</li>
+  <li><strong>Backend services</strong>: a system-to-system SMART flow, with no user present at all. Ask a mentor to
+register a client.</li>
   <li><strong>Break it</strong>: attack your own application. Tamper with <code class="language-plaintext highlighter-rouge">state</code>. Replay a <code class="language-plaintext highlighter-rouge">code</code>. Send a token with
 the wrong <code class="language-plaintext highlighter-rouge">aud</code>. Use an expired token. Ask for a resource outside your scopes. Document what the
 server correctly rejected, and what it did not.</li>
@@ -553,6 +553,7 @@ code systems, and will confidently invent both.</li>
   <li><a href="https://hl7.org/fhir/smart-app-launch/scopes-and-launch-context.html">Scopes and launch context</a></li>
   <li><a href="https://hl7.org/fhir/smart-app-launch/conformance.html">Conformance and <code class="language-plaintext highlighter-rouge">.well-known/smart-configuration</code></a></li>
   <li><a href="https://launch.smarthealthit.org">SMART App Launcher</a>, public sandbox used as fallback environment</li>
+  <li><a href="https://github.com/navikt/smart-on-fhir-templates">navikt/smart-on-fhir-templates</a>, starter exercise and finished templates</li>
   <li><a href="https://github.com/navikt/smart-on-fhir">navikt/smart-on-fhir</a>, Nav's server-only SMART on FHIR library</li>
   <li><a href="https://github.com/navikt/smart-on-fhir-validator">navikt/smart-on-fhir-validator</a>, validates a SMART/FHIR implementation against Nav's requirements</li>
   <li><a href="https://hl7.org/fhir/R4/resourcelist.html">HL7 FHIR R4 resource list</a></li>
@@ -583,7 +584,7 @@ track channel.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.4.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 28, 2026 07:21+0000">2026-10-28</span>
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.4.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 30, 2026 07:46+0000">2026-10-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <a href="privacy.html">Privacy information</a> |

@@ -1,4 +1,4 @@
-# Pre-agenda - Norwegian FHIR Hackathon 2026 v1.4.6
+# Pre-agenda - Norwegian FHIR Hackathon 2026 v1.4.7
 
 * [**Table of Contents**](toc.md)
 * **Pre-agenda**
@@ -38,8 +38,8 @@ Each track will have their own Teams meeting link for the track specific intro/d
 | Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA | TBA |
 | Document sharing for IHE MHD | TBA |
 | SMART on FHIR | TBA |
-| EHDS patient summary | TBA |
-| FHIR 101: Introduction to HL7 FHIR with practical assignments | TBA |
+| EHDS patient summary | [Join Teams Meeting](https://teams.microsoft.com/meet/3959813690727032?p=yVBbRZLHwbLnsixALu) |
+| FHIR 101: Introduction to HL7 FHIR with practical assignments | [Pre meeting and FHIR 101](https://teams.microsoft.com/meet/33144680058999?p=hkCS8xAe5FfJZm6qwY) |
 
 ### Virtual meeting invite
 
