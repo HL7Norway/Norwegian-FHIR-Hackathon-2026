@@ -8,7 +8,9 @@ FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challeng
 
 There is no need for prior knowledge on HL7 FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer.  
 
-Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.  
+Basic knowledge of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
+
+Some valuable video resources about HL7 FHIR are listed in [recommended preparation](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html#recommended-preparation).  
 
 #### Learning goals
 
