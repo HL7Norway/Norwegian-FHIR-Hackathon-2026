@@ -51,7 +51,7 @@ To get the most out of the hackathon, we advise participants to prepare in advan
 * Attend the online hackathon kick-off meeting **November 2, 2026 09:00-11:00 (online only)**.  
 
 Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite.  
-The [FHIR 101 track](101-track.html) is dedicated to an introduction to FHIR.  
+The [FHIR 101 track](101-track.html) is dedicated to an introduction to FHIR.  See also the [resources page from HL7 Norway Best Practices](https://hl7norway.github.io/best-practice/docs/resources.html).
 
 HL7 International also provides some great video resources for this purpose:  
 
