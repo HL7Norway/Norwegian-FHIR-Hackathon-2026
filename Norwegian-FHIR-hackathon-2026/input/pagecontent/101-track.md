@@ -6,12 +6,13 @@ FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challeng
 
 #### Prerequisites and preparations
 
-There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer. 
+There is no need for prior knowledge on HL7 FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer.  
 
-Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
+Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.  
 
 #### Learning goals
 
+* Basic understanding of HL7 FHIR standard and FHIR Restful  
 * Basic understanding of the role of FHIR profiling
 * Know the necessary tools for building FHIR IG's
   * IG publisher
@@ -26,12 +27,6 @@ Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case 
 
 ### Basic use cases
 
-The basic use cases are described over.
-
-### Advanced use cases
-
-Some advanced assignments.
-
 #### Generate IG and publish on GitHub
 
 1. Make sure you have a GitHub account
@@ -39,6 +34,8 @@ Some advanced assignments.
 3. Upload or write your FHIR profiles based in FHIR Shorthand (FSH)
 4. Set up the publishing enviroment with GitHub Pages functionality
 5. Run the publisher action
+
+### Advanced use cases
 
 #### Install enviroment for IG publisher on your computer
 
