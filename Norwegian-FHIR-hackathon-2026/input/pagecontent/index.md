@@ -1,6 +1,6 @@
 Welcome to the Norwegian FHIR Hackathon 2026. Join the Norwegian healthcare informatics community for a day of learning, collaboration, and problem-solving. Discuss use cases, test ideas, share experiences, or dive into the technology with hands-on coding exercises.
 
-The Norwegian FHIR hackathon is a free event sponsored by HL7 Norway and is part of the EHIN pre-conference program. HL7 Norway cooperates with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NoMA](https://www.dmp.no/en/) and IHE Norge to make the hackathon happen.
+The Norwegian FHIR hackathon is a free event sponsored by HL7 Norway and is part of the EHIN pre-conference program. HL7 Norway cooperates with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NOMA](https://www.dmp.no/en/) and IHE Norge to make the hackathon happen.
 
 ### Time and date
 
@@ -26,7 +26,7 @@ The various tracks of the hackathon cover a wide range of current interoperabili
 
 * [Modeling Patient care plans as FHIR](nhn-track.html) - NHN, Michal Jan Warecki and Tormod Haugane
 * [SMART on FHIR](smart-track.html) - NAV, Leo-Andreas Ervik
-* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA](medication-definition.html) - Helsedirektoratet/NoMA/Sykehuspartner
+* [Medication Definition on FHIR - Exploration of FHIR services from EMA and NOMA](medication-definition.html) - Helsedirektoratet/NOMA/Sykehuspartner
 * [Document sharing for IHE MHD](ihe-track.html) - IHE Norge, Ingvar Sørlien and Michal Cermak
 * [EHDS patient summary](ehds-track.html) - HL7 Norge Ingvar Sørlien and Linn Brandt
 * [FHIR 101: Introduction to HL7 FHIR with practical assignments](101-track.html) - HL7 Norge, Thomas Rosenlund og Espen Seland
@@ -67,7 +67,7 @@ We recognize that interoperability requires more than technology. To connect sys
 
 ### Contact information
 
-The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NoMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
+The Norwegian FHIR Hackathon 2026 is a part of the [EHiN](https://ehin.no/) pre-conference and is hosted by [HL7 Norge](https://www.hl7.no/) in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [NAV](https://www.nav.no/), [NOMA](https://www.dmp.no/en/), IHE Norge, and [EHiN](https://ehin.no/).
 
 Participation in the hackathon is free of charge.
 

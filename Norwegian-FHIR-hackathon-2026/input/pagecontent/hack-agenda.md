@@ -25,7 +25,7 @@ Track introductions
 * SMART on FHIR (Leo-Andreas)
 * Document sharing for IHE MHD (Ingvar/Michal C)
 * EHDS patient summary (Ingvar/Linn)
-* Medication Definition on FHIR - Exploration of FHIR services from EMA to NOMA (Adam/Kristine ++)
+* Medication Definition on FHIR - Exploration of FHIR services from EMA and NOMA (Adam/Elin)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads 
@@ -48,10 +48,10 @@ A list of people leading tracks on the hackathon, including contact information.
 | IHE document sharing | Nina Norberg | [nina.norberg@nhn.no](mailto:nina.norberg@nhn.no) | NHN |
 | EHDS Patient summary | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
 | EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
-| Medication Definition | Karin Drivenes | [karin.drivenes@helsedir.no](mailto:karin.drivenes@helsedir.no)               | Helsedirektoratet |
-| Medication Definition | Ádám Z. Kövér  | [adam.kover@dmp.no](mailto:adam.kover@dmp.no)                                 | NoMA              |
-| Medication Definition | Elin May Merry | [elmerr@sykehuspartner.no](mailto:elmerr@sykehuspartner.no)                   | Sykehuspartner    |
-| Medication Definition | Kristine Aasen | [kristine.aasen@dmp.no](mailto:kristine.aasen@dmp.no)                         | NoMA              |
+| Medication Definition | Øyvind A. Bjørhus | [oyvinb@netcompany.com](mailto:oyvinb@netcompany.com)           | Netcompany        |
+| Medication Definition | Karin Drivenes    | [karin.drivenes@helsedir.no](mailto:karin.drivenes@helsedir.no) | Helsedirektoratet |
+| Medication Definition | Ádám Z. Kövér     | [adam.kover@dmp.no](mailto:adam.kover@dmp.no)                   | NOMA              |
+| Medication Definition | Elin May Merry    | [elmerr@sykehuspartner.no](mailto:elmerr@sykehuspartner.no)     | Sykehuspartner    |
 | Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
 {: .grid .table-striped}
 
