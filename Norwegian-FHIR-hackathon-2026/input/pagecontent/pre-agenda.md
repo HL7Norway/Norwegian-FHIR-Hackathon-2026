@@ -41,7 +41,7 @@ meeting links for the different track intro meetings are provided in the table:
 | Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA | TBA          |
 | Document sharing for IHE MHD | TBA          |
 | SMART on FHIR         | TBA          |
-| EHDS patient summary  | TBA          |
+| EHDS patient summary  | [Join Teams Meeting](https://teams.microsoft.com/meet/3959813690727032?p=yVBbRZLHwbLnsixALu )        |
 | FHIR 101: Introduction to HL7 FHIR with practical assignments | [Pre meeting and FHIR 101](https://teams.microsoft.com/meet/33144680058999?p=hkCS8xAe5FfJZm6qwY) |
 {: .grid .table-striped}
 
