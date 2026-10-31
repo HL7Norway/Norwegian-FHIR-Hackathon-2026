@@ -13,7 +13,9 @@ FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challeng
 
 There is no need for prior knowledge on HL7 FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer.
 
-Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
+Basic knowledge of HL7 FHIR standard is helpful. We encurage everyone to have an idea of a practical/clinical use-case to explore during the workshop.
+
+Some valuable video resources about HL7 FHIR are listed in [recommended preparation](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html#recommended-preparation).
 
 #### Learning goals
 
@@ -32,9 +34,11 @@ Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case 
 * Learn how to use the tools for FHIR IG authoring
 * Learn how to present a draft IG using Github.io or Simplifier.net
 
-### Basic use cases
+### Tooling use cases
 
-#### Generate IG and publish on GitHub
+Explore different tooling option. Github workflow is recommended to get started fast. Local installation of IG-publisher and Forge is optional.
+
+#### RECOMMENDED: Generate IG and publish on GitHub
 
 1. Make sure you have a GitHub account
 1. Go to[ig-mal](https://github.com/HL7Norway/ig-mal)and follow the instructions
@@ -42,9 +46,7 @@ Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case 
 1. Set up the publishing enviroment with GitHub Pages functionality
 1. Run the publisher action
 
-### Advanced use cases
-
-#### Install enviroment for IG publisher on your computer
+#### OPTIONAL: Install enviroment for IG publisher on your computer
 
 You must have necessary rights to install and run software.
 
@@ -54,7 +56,7 @@ You must have necessary rights to install and run software.
 1. Run the publisher
 1. Optional: Use Sushi for FSH Projects
 
-#### Using Firely Forge and Simplifier for Collaborative IG Development
+#### OPTIONAL: Using Firely Forge and Simplifier
 
 You must have necessary rights to install and run software.
 
@@ -62,4 +64,24 @@ You must have necessary rights to install and run software.
 1. Upload and manage IG content on Simplifier.net
 1. Collaborate with others, track changes, and validate content using Firely Terminal
 1. Learn how to sync local work with Simplifier and use versioning
+
+### Practical/clinical use cases
+
+* Your own idea
+* Pasientens måledata
+* Pasientens planer
+
+#### Practical assignment
+
+description
+
+### Vibe code a FHIR client application
+
+Use AI tools to develop an example app that stores/exchanges data using HL7 FHIR. Use the use-cases
+
+#### Possible FHIR backends
+
+* Pasientens måledata
+* Pasientens planer
+* [HAPI testserver](https://hapi.fhir.org/baseR4)
 

@@ -205,8 +205,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#track-fhir-101" id="markdown-toc-track-fhir-101">Track: FHIR 101</a></li>
-  <li><a href="#basic-use-cases" id="markdown-toc-basic-use-cases">Basic use cases</a></li>
-  <li><a href="#advanced-use-cases" id="markdown-toc-advanced-use-cases">Advanced use cases</a></li>
+  <li><a href="#tooling-use-cases" id="markdown-toc-tooling-use-cases">Tooling use cases</a></li>
+  <li><a href="#practicalclinical-use-cases" id="markdown-toc-practicalclinical-use-cases">Practical/clinical use cases</a></li>
+  <li><a href="#vibe-code-a-fhir-client-application" id="markdown-toc-vibe-code-a-fhir-client-application">Vibe code a FHIR client application</a></li>
 </ul>
 
 </div>
@@ -220,7 +221,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>There is no need for prior knowledge on HL7 FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer.</p>
 
-<p>Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.</p>
+<p>Basic knowledge of HL7 FHIR standard is helpful. We encurage everyone to have an idea of a practical/clinical use-case to explore during the workshop.</p>
+
+<p>Some valuable video resources about HL7 FHIR are listed in <a href="https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html#recommended-preparation">recommended preparation</a>.</p>
 
 <h4 id="learning-goals">Learning goals</h4>
 
@@ -245,9 +248,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Learn how to present a draft IG using Github.io or Simplifier.net</li>
 </ul>
 
-<h3 id="basic-use-cases">Basic use cases</h3>
+<h3 id="tooling-use-cases">Tooling use cases</h3>
 
-<h4 id="generate-ig-and-publish-on-github">Generate IG and publish on GitHub</h4>
+<p>Explore different tooling option. Github workflow is recommended to get started fast. Local installation of IG-publisher and Forge is optional.</p>
+
+<h4 id="recommended-generate-ig-and-publish-on-github">RECOMMENDED: Generate IG and publish on GitHub</h4>
 
 <ol>
   <li>Make sure you have a GitHub account</li>
@@ -257,9 +262,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Run the publisher action</li>
 </ol>
 
-<h3 id="advanced-use-cases">Advanced use cases</h3>
-
-<h4 id="install-enviroment-for-ig-publisher-on-your-computer">Install enviroment for IG publisher on your computer</h4>
+<h4 id="optional-install-enviroment-for-ig-publisher-on-your-computer">OPTIONAL: Install enviroment for IG publisher on your computer</h4>
 
 <p>You must have necessary rights to install and run software.</p>
 
@@ -271,7 +274,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Optional: Use Sushi for FSH Projects</li>
 </ol>
 
-<h4 id="using-firely-forge-and-simplifier-for-collaborative-ig-development">Using Firely Forge and Simplifier for Collaborative IG Development</h4>
+<h4 id="optional-using-firely-forge-and-simplifier">OPTIONAL: Using Firely Forge and Simplifier</h4>
 
 <p>You must have necessary rights to install and run software.</p>
 
@@ -281,6 +284,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Collaborate with others, track changes, and validate content using Firely Terminal</li>
   <li>Learn how to sync local work with Simplifier and use versioning</li>
 </ol>
+
+<h3 id="practicalclinical-use-cases">Practical/clinical use cases</h3>
+
+<ul>
+  <li>Your own idea</li>
+  <li>Pasientens måledata</li>
+  <li>Pasientens planer</li>
+</ul>
+
+<h4 id="practical-assignment">Practical assignment</h4>
+
+<p>description</p>
+
+<h3 id="vibe-code-a-fhir-client-application">Vibe code a FHIR client application</h3>
+
+<p>Use AI tools to develop an example app that stores/exchanges data using HL7 FHIR. Use the use-cases</p>
+
+<h4 id="possible-fhir-backends">Possible FHIR backends</h4>
+
+<ul>
+  <li>Pasientens måledata</li>
+  <li>Pasientens planer</li>
+  <li><a href="https://hapi.fhir.org/baseR4">HAPI testserver</a></li>
+</ul>
 
 
 
@@ -301,7 +328,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.4.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 30, 2026 11:18+0000">2026-10-30</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.4.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 31, 2026 08:34+0000">2026-10-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <a href="privacy.html">Privacy information</a> |
