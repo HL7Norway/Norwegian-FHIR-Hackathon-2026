@@ -38,7 +38,7 @@ meeting links for the different track intro meetings are provided in the table:
 | Title                 | Meeting link |
 |-----------------------|--------------|
 | Modeling Patient care plans as FHIR | [CarePlans](https://teams.microsoft.com/meet/3667644764302927?p=gvfYVS2tU48m3TI9e5)          |
-| Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA | TBA          |
+| Medication Definition on FHIR - Exploration of FHIR services from EMA and NoMA | [Join Teams Meeting](https://teams.microsoft.com/meet/3669830526726393?p=E9HfIuo2azAEajakqX)          |
 | Document sharing for IHE MHD | TBA          |
 | SMART on FHIR         | TBA          |
 | EHDS patient summary  | [Join Teams Meeting](https://teams.microsoft.com/meet/3959813690727032?p=yVBbRZLHwbLnsixALu )        |
