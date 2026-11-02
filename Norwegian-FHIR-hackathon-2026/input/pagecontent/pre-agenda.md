@@ -19,7 +19,7 @@ in the breakout sessions.
 
 Date: 2. November 2026
 Time: 0900 - 1100
-Presentation: [Preemeeting agenda and FHIR 101](2026-11-02-FHIR-101-premeeting.pdf)  
+Presentation: [Pre-meeting agenda and FHIR 101](2026-11-02-FHIR-101-premeeting.pdf)  
 
 #### Agenda
 
