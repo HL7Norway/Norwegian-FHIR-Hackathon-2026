@@ -15,7 +15,7 @@ The hackathon event is a live, in-person event only. No video links or streaming
 |1430|Coffee break|All|
 |1445|Working in tracks|All|
 |1530|Demo summary and discussions (plenary)|Track leads + all|
-|1630|Food and drinks (some bar/restaurant nearby)|Voluntary/at your own expense|
+|1630|Food and drinks at [Røør](https://maps.app.goo.gl/CzvQVuHxToQLXzKC9)|Voluntary/at your own expense|
 {: .grid .table-striped}
 
 #### Track introductions
