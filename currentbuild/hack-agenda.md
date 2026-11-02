@@ -1,4 +1,4 @@
-# Hackathon agenda - Norwegian FHIR Hackathon 2026 v1.4.8
+# Hackathon agenda - Norwegian FHIR Hackathon 2026 v1.4.9
 
 * [**Table of Contents**](toc.md)
 * **Hackathon agenda**
@@ -12,6 +12,7 @@ Proposed agenda for the hackathon on 9. November.
 
 | | | |
 | :--- | :--- | :--- |
+| 0810 | Check-in opens | All |
 | 0900 | Welcome and Introductions (plenary) | Partners |
 | 0930 | Intro to tracks | All track leads |
 | 1015 | Coffee break | All |
