@@ -5,6 +5,7 @@ The hackathon event is a live, in-person event only. No video links or streaming
 
 |Time|Title|Presenter|
 |-----|-----|---------|
+|0810|Check-in opens|All|
 |0900|Welcome and Introductions (plenary)|Partners|
 |0930|Intro to tracks|All track leads|
 |1015|Coffee break|All|

@@ -8,7 +8,7 @@ The hackathon is a in-person event (there will be no live streaming or online me
 
 * **Place:** Rebel in Oslo, auditorium 0010  
 * **Date:** November 9, 2026  
-* **Time:** 0900-1700  
+* **Time:** 0900-1700 (check-in opens just after 0800 in the auditorium)  
 
 Check the [Agenda](hack-agenda.html) page for detailed information about the event.  
 
