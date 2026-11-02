@@ -25,6 +25,9 @@ Time: 0900 - 1100
 Presentations from the pre-meeting:
 
 * [Pre-meeting agenda and FHIR 101](2026-11-02-FHIR-101-premeeting.pdf)  
+* [Medication Definition presentation](2026-11-02-Medication-Definition-premeeting.pdf)
+* [Medication Definition Breakout room presentation](2026-11-02-Medication-Definition-premeeting-breakout.pdf)
+
 
 #### Agenda
 
