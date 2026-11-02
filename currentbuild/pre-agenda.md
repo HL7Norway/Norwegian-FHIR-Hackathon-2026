@@ -18,7 +18,13 @@ The goal of the pre-Hackathon meeting is to give a quick introduction to the dif
 
 The meeting will contain a short introduction. Each participant will present themselves and say what track they want to focus on. We will then split up in different tracks meetings (choose the one you are most interested in/want to start out with working on) and disuss track specific issues in the breakout sessions.
 
-Date: 2. November 2026 Time: 0900 - 1100 Presentation: [Pre-meeting agenda and FHIR 101](2026-11-02-FHIR-101-premeeting.pdf)
+Date: 2. November 2026 Time: 0900 - 1100
+
+### Presentations
+
+Presentations from the pre-meeting:
+
+* [Pre-meeting agenda and FHIR 101](2026-11-02-FHIR-101-premeeting.pdf)
 
 #### Agenda
 

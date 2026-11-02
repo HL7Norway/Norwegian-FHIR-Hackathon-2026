@@ -3,17 +3,17 @@
 ## Pages
 
 * [](index.md)
-* [Artifacts Summary](artifacts.md)
-* [SMART on FHIR](smart-track.md)
-* [EHDS track](ehds-track.md)
-* [Privacy Information](privacy.md)
 * [Pre-agenda](pre-agenda.md)
-* [Hackathon agenda](hack-agenda.md)
-* [FHIR-101](101-track.md)
+* [Artifacts Summary](artifacts.md)
+* [Pictures from 2025](2025-bilder.md)
 * [IHE documents](ihe-track.md)
 * [NHN services](nhn-track.md)
-* [Pictures from 2025](2025-bilder.md)
+* [Privacy Information](privacy.md)
+* [Hackathon agenda](hack-agenda.md)
+* [FHIR-101](101-track.md)
+* [EHDS track](ehds-track.md)
 * [Medication Definition](medication-definition.md)
+* [SMART on FHIR](smart-track.md)
 
 ## Resources
 
