@@ -100,7 +100,7 @@ The Norwegian FHIR Hackathon is a part of a Norwegian initiative to host [Health
   "name" : "Norwegian FHIR Hackathon 2026",
   "title" : "Norwegian FHIR Hackathon 2026",
   "status" : "active",
-  "date" : "2026-11-02T10:24:26+00:00",
+  "date" : "2026-11-02T10:24:55+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
