@@ -1,5 +1,24 @@
 # Notater planlegging 2026
 
+## 2026-11-05
+
+### Tilstede
+
+### Status
+
+Status påmeldinger:
+
+* 68 deltakere påmeldt pr. dato.
+* 21 track leads
+* Totalt 89 personer (sendt beskjed til Rebel)
+
+### Agenda
+
+1. Diskutere endelig agenda og tidfordeling på innledning  
+2. Sted for øl og mat etter hackathon, Thomas undersøker med Tekehtopa, Pincho nation og Røør (ikke mat, evt takeaway).  
+3. Resultater etter Hackathon  
+4. Eventuelt  
+
 ## 2026-10-29 Planleggingsmøte
 
 ### Tilstede
