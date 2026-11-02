@@ -1,7 +1,7 @@
 ### Agenda for the Hackathon
 
 Proposed agenda for the hackathon on 9. November.  
-**NOTE! The agenda is currently under active development and changes will occur without further notice.**  
+The hackathon event is a live, in-person event only. No video links or streaming will be available.    
 
 |Time|Title|Presenter|
 |-----|-----|---------|

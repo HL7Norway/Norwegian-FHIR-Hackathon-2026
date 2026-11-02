@@ -27,7 +27,7 @@ Some valuable video resources about HL7 FHIR are listed in [recommended preparat
 * Learn how to use the tools for FHIR IG authoring
 * Learn how to present a draft IG using Github.io or Simplifier.net
 
-### Tooling use cases
+### ASSIGNMENT 1: Tooling use cases
 
 Explore different tooling option. Github workflow is recommended to get started fast. Local installation of IG-publisher and Forge is optional.  
 
@@ -58,22 +58,36 @@ You must have necessary rights to install and run software.
 3. Collaborate with others, track changes, and validate content using Firely Terminal
 4. Learn how to sync local work with Simplifier and use versioning
 
-### Practical/clinical use cases
+### ASSIGNMENT 2: Practical/clinical use cases
 
-* Your own idea
-* Pasientens måledata
-* Pasientens planer
+Explore practical/clinical uses cases and document user needs and requirements in a FHIR IG.
 
-#### Practical assignment
+Possible use-cases to explore:
 
-description
+* Your own idea, against a FHIR test server, or a local FHIR server of choice.  
+* Pasientens måledata  
+* Pasientens planer  
+
+#### Practical assignments
+
+Descriptions can be text, images and model artifacts.  
+
+* Describe the use-case in text.  
+  * Actors and roles  
+  * The main use-case for each actor  
+* Functional requirements for different actors.  
+* Non-functional requirements for the actors.  
+* Describe one or more processes (process steps) that different actors are involved in  
+* Describe the most usefull information for each actor to support the processes
+* What information is needed by different actors at stages of the process?  
+* Describe a FHIR model for information exchange  
 
 ### Vibe code a FHIR client application  
 
-Use AI tools to develop an example app that stores/exchanges data using HL7 FHIR. Use the use-cases  
+Use AI tools to develop an example app that stores/exchanges data using HL7 FHIR. Use the use-cases from the practical use-case exploration.  
 
 #### Possible FHIR backends  
 
-* Pasientens måledata
-* Pasientens planer
+* [Pasientens måledata](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata)
+* [Pasientens planer](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-planer)
 * [HAPI testserver](https://hapi.fhir.org/baseR4)
