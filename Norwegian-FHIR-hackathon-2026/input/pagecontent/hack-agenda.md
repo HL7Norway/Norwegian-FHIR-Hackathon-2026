@@ -39,14 +39,16 @@ A list of people leading tracks on the hackathon, including contact information.
 | Digital home monitoring | Sigurd Ringbakken           | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)           | NHN               |
 | Digital home monitoring | Bjørnar Selvén              | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)                 | NHN               |
 | Digital home monitoring | Tormod Haugene              | [Tormod.Haugene@nhn.no](mailto:Tormod.Haugene@nhn.no)                 | NHN               |
+| Digital home monitoring | Vinh Phan Tran              | [Vinh.Tran@nhn.no](mailto:Vinh.Tran@nhn.no)                                  | NHN               |
+| Digital home monitoring | Jan Bjørndalen              | [jan.bjorndalen@nhn.no](mailto:jan.bjorndalen@nhn.no)                        | NHN               |
 | FHIR 101      | Thomas Tveit Rosenlund      | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101      | Espen Stranger Seland       | [Espen.Stranger.Seland@helsedir.no](mailto:Espen.Stranger.Seland@helsedir.no)                                               | Helsedirektoratet           |
 | SMART on FHIR | Leo-Andreas Ervik           | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no)                     | Nav               |
-| SMART on FHIR | Jørn-Are Klubben Flaten | [Jørn-Are Klubben Flaten](mailto:jorn-are.klubben.flaten@nav.no) | NAV |
+| SMART on FHIR | Jørn-Are Klubben Flaten | [jorn-are.klubben.flaten@nav.no](mailto:jorn-are.klubben.flaten@nav.no) | NAV |
 | IHE document sharing | Michal Cermak | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
 | IHE document sharing | Tim Mortensen | [tim.mortensen@nhn.no](mailto:tim.mortensen@nhn.no) | NHN |
 | IHE document sharing | Kurt Inge Grønbech | [kurt.gronbech@nhn.no](mailto:kurt.gronbech@nhn.no) | NHN |
-| IHE document sharing | Frank Soli | [frank.soli@nhn.no](mailto:frank.soli@nhn.no) | NHN |
+| IHE document sharing | Frank Soli | [frank.solli@nhn.no](mailto:frank.solli@nhn.no) | NHN |
 | IHE document sharing | Nina Norberg | [nina.norberg@nhn.no](mailto:nina.norberg@nhn.no) | NHN |
 | EHDS Patient summary | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
 | EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
