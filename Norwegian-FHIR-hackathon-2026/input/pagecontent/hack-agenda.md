@@ -1,7 +1,9 @@
 ### Agenda for the Hackathon
 
 Proposed agenda for the hackathon on 9. November.  
-The hackathon event is a live, in-person event only. No video links or streaming will be available.    
+The hackathon event is a live, in-person event only. No video links or streaming will be available.  
+
+Everyone registered have receive an outlook invite for the Hackathon event. [Please contact organizer](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html#contact-information) if you have not received this invite but believe you are registred for the event.  
 
 |Time|Title|Presenter|
 |-----|-----|---------|
@@ -29,7 +31,7 @@ Track introductions
 * Medication Definition on FHIR - Exploration of FHIR services from EMA and NOMA (Adam/Elin)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
-#### Track leads 
+#### Track leads  
 
 A list of people leading tracks on the hackathon, including contact information.  
 
@@ -75,4 +77,4 @@ The track leads presents the main results from the day in a plenary presentation
 
 #### Introduction to FHIR
 
-Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](index.html#preparations-for-participants)
+Intro to FHIR, IG and FHIR RESTful can be given on demand as part of the FHIR 101 track. Please review the [HL7 FHIR video resources](index.html#preparations-for-participants)

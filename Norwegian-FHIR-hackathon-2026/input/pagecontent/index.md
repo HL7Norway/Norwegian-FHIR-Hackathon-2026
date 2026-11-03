@@ -8,13 +8,15 @@ The hackathon is a in-person event (there will be no live streaming or online me
 
 * **Place:** Rebel in Oslo, auditorium 0010  
 * **Date:** November 9, 2026  
-* **Time:** 0900-1700 (check-in opens just after 0800 in the auditorium)  
+* **Time:** 0900-1700 (check-in at 0800 in the auditorium)  
 
 Check the [Agenda](hack-agenda.html) page for detailed information about the event.  
 
 ### Registration
 
 The event is currently fully booked. Please contact us for a spot on the waiting list for the event.  
+
+Everyone registered have receive an outlook invite for the Hackathon event. **[Please contact organizer](mailto:thomas.tveit.rosenlund@helsedir.no)** if you have not received this invite but believe you are registred for the event.
 
 **[Register on waiting list](mailto:thomas.tveit.rosenlund@helsedir.no)**  
 
