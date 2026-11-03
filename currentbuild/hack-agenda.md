@@ -1,4 +1,4 @@
-# Hackathon agenda - Norwegian FHIR Hackathon 2026 v1.4.9
+# Hackathon agenda - Norwegian FHIR Hackathon 2026 v1.4.10
 
 * [**Table of Contents**](toc.md)
 * **Hackathon agenda**
@@ -10,9 +10,11 @@
 Proposed agenda for the hackathon on 9. November.
  The hackathon event is a live, in-person event only. No video links or streaming will be available.
 
+Everyone registered have receive an outlook invite for the Hackathon event. [Please contact organizer](https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html#contact-information) if you have not received this invite but believe you are registred for the event.
+
 | | | |
 | :--- | :--- | :--- |
-| 0810 | Check-in opens | All |
+| 0800 | Check-in opens | All |
 | 0900 | Welcome and Introductions (plenary) | Partners |
 | 0930 | Intro to tracks | All track leads |
 | 1015 | Coffee break | All |
@@ -22,7 +24,7 @@ Proposed agenda for the hackathon on 9. November.
 | 1430 | Coffee break | All |
 | 1445 | Working in tracks | All |
 | 1530 | Demo summary and discussions (plenary) | Track leads + all |
-| 1630 | Food and drinks (some bar/restaurant nearby) | Voluntary/at your own expense |
+| 1630 | Food and drinks at[Røør](https://maps.app.goo.gl/CzvQVuHxToQLXzKC9) | Voluntary/at your own expense |
 
 #### Track introductions
 
@@ -45,14 +47,16 @@ A list of people leading tracks on the hackathon, including contact information.
 | Digital home monitoring | Sigurd Ringbakken | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no) | NHN |
 | Digital home monitoring | Bjørnar Selvén | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no) | NHN |
 | Digital home monitoring | Tormod Haugene | [Tormod.Haugene@nhn.no](mailto:Tormod.Haugene@nhn.no) | NHN |
+| Digital home monitoring | Vinh Phan Tran | [Vinh.Tran@nhn.no](mailto:Vinh.Tran@nhn.no) | NHN |
+| Digital home monitoring | Jan Bjørndalen | [jan.bjorndalen@nhn.no](mailto:jan.bjorndalen@nhn.no) | NHN |
 | FHIR 101 | Thomas Tveit Rosenlund | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101 | Espen Stranger Seland | [Espen.Stranger.Seland@helsedir.no](mailto:Espen.Stranger.Seland@helsedir.no) | Helsedirektoratet |
 | SMART on FHIR | Leo-Andreas Ervik | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no) | Nav |
-| SMART on FHIR | Jørn-Are Klubben Flaten | [Jørn-Are Klubben Flaten](mailto:jorn-are.klubben.flaten@nav.no) | NAV |
+| SMART on FHIR | Jørn-Are Klubben Flaten | [jorn-are.klubben.flaten@nav.no](mailto:jorn-are.klubben.flaten@nav.no) | NAV |
 | IHE document sharing | Michal Cermak | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no) | IHE Norge |
 | IHE document sharing | Tim Mortensen | [tim.mortensen@nhn.no](mailto:tim.mortensen@nhn.no) | NHN |
 | IHE document sharing | Kurt Inge Grønbech | [kurt.gronbech@nhn.no](mailto:kurt.gronbech@nhn.no) | NHN |
-| IHE document sharing | Frank Soli | [frank.soli@nhn.no](mailto:frank.soli@nhn.no) | NHN |
+| IHE document sharing | Frank Soli | [frank.solli@nhn.no](mailto:frank.solli@nhn.no) | NHN |
 | IHE document sharing | Nina Norberg | [nina.norberg@nhn.no](mailto:nina.norberg@nhn.no) | NHN |
 | EHDS Patient summary | Ingvar Sørlien | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no) | IHE Norge |
 | EHDS Patient summary | Linn Brandt | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no) | Helsedirektoratet |
@@ -77,5 +81,5 @@ The track leads presents the main results from the day in a plenary presentation
 
 #### Introduction to FHIR
 
-Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](index.md#preparations-for-participants)
+Intro to FHIR, IG and FHIR RESTful can be given on demand as part of the FHIR 101 track. Please review the [HL7 FHIR video resources](index.md#preparations-for-participants)
 
