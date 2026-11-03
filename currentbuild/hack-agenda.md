@@ -44,11 +44,11 @@ A list of people leading tracks on the hackathon, including contact information.
 | | | | |
 | :--- | :--- | :--- | :--- |
 | Digital home monitoring | Michal Jan Warecki | [michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no) | NHN |
-| Digital home monitoring | Sigurd Ringbakken | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no) | NHN |
-| Digital home monitoring | Bjørnar Selvén | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no) | NHN |
 | Digital home monitoring | Tormod Haugene | [Tormod.Haugene@nhn.no](mailto:Tormod.Haugene@nhn.no) | NHN |
 | Digital home monitoring | Vinh Phan Tran | [Vinh.Tran@nhn.no](mailto:Vinh.Tran@nhn.no) | NHN |
 | Digital home monitoring | Jan Bjørndalen | [jan.bjorndalen@nhn.no](mailto:jan.bjorndalen@nhn.no) | NHN |
+| Digital home monitoring | Sigurd Ringbakken | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no) | NHN |
+| Digital home monitoring | Astrid Gundersen | [astrid.gundersen@nhn.no](mailto:astrid.gundersen@nhn.no) | NHN |
 | FHIR 101 | Thomas Tveit Rosenlund | [Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no) | Helsedirektoratet |
 | FHIR 101 | Espen Stranger Seland | [Espen.Stranger.Seland@helsedir.no](mailto:Espen.Stranger.Seland@helsedir.no) | Helsedirektoratet |
 | SMART on FHIR | Leo-Andreas Ervik | [leo-andreas.ervik@nav.no](mailto:leo-andreas.ervik@nav.no) | Nav |
