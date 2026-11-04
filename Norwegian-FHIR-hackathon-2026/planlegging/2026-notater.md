@@ -8,9 +8,10 @@
 
 Status påmeldinger:
 
-* 70 deltakere påmeldt pr. dato. (Øyvind forsøker å få inn to til fra TSK)
+* 71 deltakere påmeldt pr. dato. (inkludert Øyvind sine 2)
 * 22 track leads
-* Totalt 91 personer (sendt beskjed til Rebel)
+* Totalt 93 personer (sendt beskjed til Rebel om 88 stk, forventer noen sykdom/etc.)
+* Én person på venteliste
 
 ### Agenda
 
@@ -19,9 +20,13 @@ Status påmeldinger:
    2. Bente
    3. Praktisk info ved Thomas
    4. 10 min pr track IKKE ET SEKUND EKSTRA
-2. Sted for øl og mat etter hackathon, Thomas undersøker med Tekehtopa, Pincho nation og Røør (ikke mat, evt takeaway).  
+2. Sted for øl og mat Røør (ikke mat, bestill eller ta med takeaway)  
 3. Resultater etter Hackathon  
 4. Eventuelt  
+
+### Notater
+
+
 
 ## 2026-10-29 Planleggingsmøte
 
