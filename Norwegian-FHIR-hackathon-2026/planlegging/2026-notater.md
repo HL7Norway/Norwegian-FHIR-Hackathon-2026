@@ -8,13 +8,17 @@
 
 Status påmeldinger:
 
-* 68 deltakere påmeldt pr. dato.
-* 21 track leads
-* Totalt 89 personer (sendt beskjed til Rebel)
+* 70 deltakere påmeldt pr. dato. (Øyvind forsøker å få inn to til fra TSK)
+* 22 track leads
+* Totalt 91 personer (sendt beskjed til Rebel)
 
 ### Agenda
 
 1. Diskutere endelig agenda og tidfordeling på innledning  
+   1. Velkommen
+   2. Bente
+   3. Praktisk info ved Thomas
+   4. 10 min pr track IKKE ET SEKUND EKSTRA
 2. Sted for øl og mat etter hackathon, Thomas undersøker med Tekehtopa, Pincho nation og Røør (ikke mat, evt takeaway).  
 3. Resultater etter Hackathon  
 4. Eventuelt  
