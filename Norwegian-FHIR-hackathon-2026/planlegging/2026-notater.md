@@ -4,29 +4,55 @@
 
 ### Tilstede
 
+
+
 ### Status
 
 Status påmeldinger:
 
-* 71 deltakere påmeldt pr. dato. (inkludert Øyvind sine 2)
+* 70 deltakere påmeldt pr. dato. (inkludert Øyvind sine 2)
 * 22 track leads
-* Totalt 93 personer (sendt beskjed til Rebel om 88 stk, forventer noen sykdom/etc.)
+* Totalt 92 personer (sendt beskjed til Rebel om 88 stk, forventer noen sykdom/etc.)
 * Én person på venteliste
 
 ### Agenda
 
-1. Diskutere endelig agenda og tidfordeling på innledning  
-   1. Velkommen
-   2. Bente
-   3. Praktisk info ved Thomas
-   4. 10 min pr track IKKE ET SEKUND EKSTRA
-2. Sted for øl og mat Røør (ikke mat, bestill eller ta med takeaway)  
-3. Resultater etter Hackathon  
-4. Eventuelt  
+1. Status  
+2. Diskutere forslag til innledning og tidsfordeling.
+   1. Thomas ønsker velkommen og informerer om partnere og sponsing fra HL7 Norge.
+   2. Divisjonsdirektør Bente Andersen Sundlo holder et motivasjonsforedrag på ti minutter.
+   3. Thomas gir praktisk informasjon i omtrent ti minutter, og oppfordrer deltakerne til frivillig å forberede en kort presentasjon av resultatene sine mot slutten av dagen.
+   4. Hvert spor får en utvidet introduksjon i plenum på maksimalt ti minutter. Introduksjonene skal vise bredden i arbeidet og kan inspirere deltakerne til å utforske temaer på tvers av sporene.
+   5. Diskutere om det finnes et godt faglig innlegg som bør holdes i stedet for introduksjonene til sporene.
+3. Sted for øl og mat Røør (ikke mat, bestill eller ta med takeaway)  
+4. Resultater etter Hackathon  
+5. Eventuelt  
 
 ### Notater
 
-
+1. Status
+   1. 1 på venteliste, vi inviterer ham  
+   1. Bordinndeling send til Rebel, Thomas (mail sendt)  
+   2. Den store gruppen (SMART) øverst i lokalet (i mail til rebel)  
+   3. Spørreskjema for evaluering, Thomas utformer  
+2. Forslag til innledning
+   1. Thomas ønsker velkommen og informerer om partnerne og sponsingen fra HL7 Norge.
+   2. Bente holder et motivasjonsforedrag på ti minutter.
+   3. Thomas bruker omtrent ti minutter på praktisk informasjon og oppfordrer deltakerne til å forberede en kort, frivillig presentasjon av resultatene sine mot slutten av dagen.
+   4. Hvert spor får en utvidet introduksjon i plenum på maksimalt ti minutter, slik at deltakerne får innblikk i bredden i arbeidet og mulighet til å bli inspirert på tvers av sporene.
+   5. Adam og Elin for Medication, Michal C for Document Sharing, Ingvar for EHDS, Michal W for CarePlan, Leo-Andreas for SMART og Thomas og Espen for 101
+3. Vi møtes på Røør for mat og drikke etter Hackathon  
+4. Resultater fra Hackathon på EHIN
+   1. Leo-Andreas sender en foil om SMART sporet og resultatene derfra
+   2. Adam presenterer Medication Definition resultater
+   3. Thomas 101
+   4. Nino
+   5. Sigurd
+   6. Ingvar (Thomas snakker med Ingvar om 1515 på yellow box), både dokumentdeling og EHDS, Mail sendt
+   7. (Michal stiller med underlag til Ingvar)
+5. Eventuelt
+   1. Når stenger check-in? Ca ved lunch.  
+   2. Thomas fikser Bordplakater med gruppenavn.  
 
 ## 2026-10-29 Planleggingsmøte
 
