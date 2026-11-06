@@ -185,11 +185,11 @@ them out loud to each other: open your browser's network tab and explain each re
 `iss`, `launch`, `state`, `code_verifier`, `aud` and `code` protect against. The prompts help you
 explain the flow. They do not make your app certified or secure.
 
-If you are stuck, follow the [Stuck section](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#stuck) of the starter README. It has three levels:
-the hint and the why, then reading and comparing the solved step on GitHub (paste it only if the
-helpers it uses exist in your code), then a separate full solved app.
+If you are stuck, follow the [Stuck section](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#stuck) of the starter README. Start with the hint and the why on the
+checklist, then compare your code with the solved step on GitHub, or run the full solved app in a
+separate folder.
 
-* **Experienced with SMART?** Skip Bronze and start from the solved public app. It has no checklist,
+* **Experienced with SMART?** Skip Bronze and start from the solved public app. It may not show the checklist,
   so work through the static [Before you build](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#before-you-build) prompts in the README instead.
 * **Not through Bronze before lunch?** Switch to the solved app and build after lunch. See
   [skip Bronze and pacing](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#skip-bronze-and-pacing).
