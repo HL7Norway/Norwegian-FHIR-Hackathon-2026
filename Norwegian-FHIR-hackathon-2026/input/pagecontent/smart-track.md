@@ -162,11 +162,9 @@ By the end of the day you should be able to:
 
 ### Use-cases and assignments
 
-The day is self-guided: learn SMART, then build. After the shared intro there is no
-presenter and no scheduled checkpoint. Your team teaches itself from the browser checklist (the why,
-the hints and the rescue options for each TODO) and from the discussion prompts in the starter
-README.
-Mentors help when you get stuck.
+After the shared intro there is no presenter and no scheduled checkpoint. Learn SMART, then build,
+using the browser checklist (why, hints and rescue for each TODO), the discussion prompts in the
+starter README and the pacing rule below. Mentors help when you get stuck.
 
 Assignments come in three tiers. Pick the one that matches your team and move up during the day.
 This is a learning track, not a competition. There are no prizes, and helping the team next to you
@@ -213,9 +211,7 @@ helpers it uses exist in your code), then a separate full solved app.
 
 *It writes back, or it does something nobody expected.*
 
-Write-back is the default goal for the build phase: an innovative app that creates a document or a
-measurement in the EPJ and shows it in the journal. The authentication options below are optional
-extensions, not requirements.
+Write-back is the default goal for the build phase; authentication options are optional extensions.
 
 * **Write-back** (default): create a document or a measurement in the EPJ from your application, and
   watch it appear in the journal. The EPJ accepts specific shapes, listed under
