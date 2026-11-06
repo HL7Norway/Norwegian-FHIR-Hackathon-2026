@@ -164,7 +164,8 @@ By the end of the day you should be able to:
 
 The day is self-guided: learn SMART, then build. After the shared intro there is no
 presenter and no scheduled checkpoint. Your team teaches itself from the browser checklist (the why,
-the hints and the rescue options for each TODO) and from the discussion prompts it shows at the end.
+the hints and the rescue options for each TODO) and from the discussion prompts in the starter
+README.
 Mentors help when you get stuck.
 
 Assignments come in three tiers. Pick the one that matches your team and move up during the day.
@@ -172,8 +173,8 @@ This is a learning track, not a competition. There are no prizes, and helping th
 is encouraged.
 
 Your team chooses the clinical workflow it builds for. You can take one of the optional
-[problem cards](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/EXERCISES.md#problem-cards), which are starting hypotheses rather than
-confirmed clinical needs, or bring your own idea.
+[problem cards](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/EXERCISES.md#problem-cards),
+which are starting hypotheses rather than confirmed clinical needs, or bring your own idea.
 
 ### Bronze
 
@@ -183,18 +184,19 @@ Launch the skeleton from the EPJ, complete the authorization code exchange on th
 display the patient's name and age together with the active consultation. The skeleton has 10
 numbered TODOs and the checklist tracks them.
 
-When all 10 are done, the checklist shows a "Before you build" box with discussion prompts. Answer them out loud to each other:
-open your browser's network tab and explain each redirect, and say what `iss`, `launch`, `state`,
-`code_verifier`, `aud` and `code` protect against. The prompts help you explain the flow. They do not
-make your app certified or secure.
+When all 10 are done, the checklist shows a "Before you build" box with discussion prompts. Answer
+them out loud to each other: open your browser's network tab and explain each redirect, and say what
+`iss`, `launch`, `state`, `code_verifier`, `aud` and `code` protect against. The prompts help you
+explain the flow. They do not make your app certified or secure.
 
-If you are stuck, follow the [Stuck section](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#stuck) of the starter README:
-hint, then the solved step, then the solved app.
+If you are stuck, follow the [Stuck section](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#stuck) of the starter README. It has three levels:
+the hint and the why, then reading and comparing the solved step on GitHub (paste it only if the
+helpers it uses exist in your code), then a separate full solved app.
 
-* **Experienced with SMART?** Skip Bronze: fetch the solved public app and go straight to building.
-  Still work through the discussion prompts.
-* **Not through Bronze before lunch?** Use the rescue, fetch the solved app, and build after lunch.
-  See [skip Bronze and pacing](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#skip-bronze-and-pacing).
+* **Experienced with SMART?** Skip Bronze and start from the solved public app. It has no checklist,
+  so work through the static [Before you build](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#before-you-build) prompts in the README instead.
+* **Not through Bronze before lunch?** Switch to the solved app and build after lunch. See
+  [skip Bronze and pacing](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#skip-bronze-and-pacing).
 
 ### Silver
 
