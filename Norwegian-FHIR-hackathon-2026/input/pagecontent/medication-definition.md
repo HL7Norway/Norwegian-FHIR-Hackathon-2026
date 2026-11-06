@@ -49,7 +49,8 @@ Participants can use this key for testing and do not need to contact NOMA in adv
 
  The use and content of the service in production is documented in the [Implementation Guide for NOMA's FHIR API v2.0](https://simplifier.net/guide/Implementation-guide-for-NoMA-s-FHIR-API-2.0.0/Home/The-NOMA-FHIR-API/Introduction.page.md?version=current).
 
-We will also have access to a pre-release version of the service on the hackathon. The necessary API key and documentation will be provided to participants.
+We will also have access to a pre-release version of the service on the hackathon. The necessary API key will be provided to participants.
+This version is documented in the [Implementation Guide for NOMA's FHIR API v3.1 (complete MPD)](https://simplifier.net/guide/implementation-guide-for-noma-s-fhir-api-v3.1?version=3.1).
 
 ### Reimbursement data and decision support
 
