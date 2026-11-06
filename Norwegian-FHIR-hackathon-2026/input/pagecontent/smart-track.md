@@ -162,7 +162,7 @@ By the end of the day you should be able to:
 
 ### Use-cases and assignments
 
-The day is self-guided: learn SMART, then build. After the shared 10-minute intro there is no
+The day is self-guided: learn SMART, then build. After the shared intro there is no
 presenter and no scheduled checkpoint. Your team teaches itself from the browser checklist (the why,
 the hints and the rescue options for each TODO) and from the discussion prompts it shows at the end.
 Mentors help when you get stuck.
