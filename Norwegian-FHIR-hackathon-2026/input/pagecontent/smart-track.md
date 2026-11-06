@@ -4,9 +4,7 @@
 > In this track you build the plug.
 
 Track lead: Leo-Andreas Ervik, Nav.
-
-**NOTE! The track description is currently under active development and changes will occur without
-further notice.**
+Co-host: Jørn-Are Klubben Flaten, Nav.
 
 ### Start here
 
