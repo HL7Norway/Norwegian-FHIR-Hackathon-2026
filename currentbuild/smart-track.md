@@ -9,7 +9,9 @@
 
 > FHIR is the data. SMART is what makes an app safe to plug into someone else's journal system. In this track you build the plug.
 
-Track lead: Leo-Andreas Ervik, Nav. Co-host: Jørn-Are Klubben Flaten, Nav.
+Track lead: Leo-Andreas Ervik, Nav.
+
+Co-host: Jørn-Are Klubben Flaten, Nav.
 
 ### Start here
 
