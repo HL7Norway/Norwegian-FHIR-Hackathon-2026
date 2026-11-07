@@ -9,12 +9,18 @@
 
 > FHIR is the data. SMART is what makes an app safe to plug into someone else's journal system. In this track you build the plug.
 
-Track lead: Leo-Andreas Ervik, Nav.
+Track lead: Leo-Andreas Ervik, Nav. Co-host: Jørn-Are Klubben Flaten, Nav.
 
-**NOTE! The track description is currently under active development and changes will occur without further notice.**
+### Start here
+
+1. Form a team of 2 to 4 people. Pick your teammates yourselves.
+1. Create your team's repository from the[starter](https://github.com/navikt/smart-on-fhir-templates)and follow its`public/README.md`.
+1. Log in to the EPJ with your own test clinician login.
+1. Open the browser checklist. It marks the 10 TODOs as you finish them, and explains why each one matters.
 
 ### Table of Contents
 
+* [Start here](#start-here)
 * [What this track is about](#what-this-track-is-about)
 * [Terms and abbreviations](#terms-and-abbreviations)
 * [What the track provides](#what-the-track-provides)
@@ -25,6 +31,7 @@ Track lead: Leo-Andreas Ervik, Nav.
 * [Bronze](#bronze)
 * [Silver](#silver)
 * [Gold](#gold)
+* [Team roles](#team-roles)
 * [Practical](#practical)
 * [Reference material](#reference-material)
 * [Questions](#questions)
@@ -35,7 +42,7 @@ Most of us know FHIR as "resources and a REST API". Far fewer have worked with t
 
 By the end of the day you will have built a working SMART application and launched it from an EPJ provided by the track, against synthetic Norwegian patients.
 
-No prior SMART or FHIR experience is needed. You do not need to be a developer to contribute, see [Roles for non-developers](#roles-for-non-developers).
+No prior SMART or FHIR experience is needed. Teams mix developers and low-code or no-code builders, see [Team roles](#team-roles).
 
 ### Terms and abbreviations
 
@@ -84,6 +91,7 @@ The track mixes Norwegian and international terminology, because the specificati
 * **Synthetic Norwegian patient data**: patients with fødselsnummer and d-nummer, clinicians with HPR-nummer, organisations with organisasjonsnummer, consultations, diagnoses coded with ICPC-2 and ICD-10, and measurements.
 * A **starter repository** with a `public/` exercise containing numbered `TODO`s and finished templates in `client-secret/`, `private-key-jwt/` and `backend-services/`.
 * **Credentials** on the day: the shared public `client_id` (`hackathon-public`), a test clinician to log in as, and a list of patients. Mentors register secret or key clients on request.
+* A browser checklist that tells you what to fix, why it matters, and what to try when you are stuck.
 * Mentors circulating throughout the day.
 
 ### About the skeleton
@@ -91,7 +99,7 @@ The track mixes Norwegian and international terminology, because the specificati
 The `public/` skeleton implements the SMART launch from scratch, server-side. It does not use an off-the-shelf SMART client library, for two reasons:
 
 1. You learn more by making the discovery request, generating the PKCE verifier, validating the token and extracting the launch context yourself than by calling`authorize()`.
-1. The common browser-side libraries keep tokens in local storage. The skeleton keeps them on the server and shows you how.
+1. A token held in the browser can be read by any script running on the page. The skeleton keeps tokens on the server and shows you how.
 
 A reference implementation is provided for when you get stuck.
 
@@ -128,36 +136,58 @@ By the end of the day you should be able to:
 
 ### Use-cases and assignments
 
+After the shared intro there is no presenter and no scheduled checkpoint. Learn SMART, then build, using the browser checklist (why, hints and rescue for each TODO), the discussion prompts in the starter README and the pacing rule below. Mentors help when you get stuck.
+
 Assignments come in three tiers. Pick the one that matches your team and move up during the day. This is a learning track, not a competition. There are no prizes, and helping the team next to you is encouraged.
+
+Your team chooses the clinical workflow it builds for. You can take one of the optional [problem cards](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/EXERCISES.md#problem-cards), which are starting hypotheses rather than confirmed clinical needs, or bring your own idea.
 
 ### Bronze
 
 **It launched.** Target: every team, before lunch.
 
-Launch the skeleton from the EPJ, complete the authorization code exchange on the server, and display the patient's name and age together with the active consultation. Then open your browser's network tab and explain each redirect to someone else in the room.
+Launch the skeleton from the EPJ, complete the authorization code exchange on the server, and display the patient's name and age together with the active consultation. The skeleton has 10 numbered TODOs and the checklist tracks them.
+
+When all 10 are done, the checklist shows a "Before you build" box with discussion prompts. Answer them out loud to each other: open your browser's network tab and explain each redirect, and say what `iss`, `launch`, `state`, `code_verifier`, `aud` and `code` protect against. The prompts help you explain the flow. They do not make your app certified or secure.
+
+If you are stuck, follow the [Stuck section](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#stuck) of the starter README. Start with the hint and the why on the checklist, then compare your code with the solved step on GitHub, or run the full solved app in a separate folder.
+
+* **Experienced with SMART?** Skip Bronze and start from the solved public app. It may not show the checklist, so work through the static [Before you build](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#before-you-build) prompts in the README instead.
+* **Not through Bronze before lunch?** Switch to the solved app and build after lunch. See [skip Bronze and pacing](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/README.md#skip-bronze-and-pacing).
 
 ### Silver
 
 **It is useful, and it is honest.** Pick one.
 
-* **Clinical mini-app**: read the patient's diagnoses and measurements and render something a clinician would actually glance at. A trend, a summary, a flag.
+* **Clinical mini-app**: read the patient's diagnoses and measurements and render something a clinician would actually glance at. A trend, a summary, a flag. Use your chosen workflow or a problem card.
 * **Scope detective**: request narrower scopes than the skeleton does. Decode the access token and the ID-token. Prove what you were granted versus what you asked for, and demonstrate the FHIR API refusing a request outside your scopes.
 
 ### Gold
 
-**It writes back, or it does something nobody expected.** Pick one.
+**It writes back, or it does something nobody expected.**
 
-* **Write-back**: create a document or a measurement in the EPJ from your application, and watch it appear in the journal.
+Write-back is the default goal for the build phase; authentication options are optional extensions.
+
+* **Write-back** (default): create a document or a measurement in the EPJ from your application, and watch it appear in the journal. The EPJ accepts specific shapes, listed under [write-back shapes](https://github.com/navikt/smart-on-fhir-templates/blob/main/public/EXERCISES.md#write-back-shapes).
 * **Asymmetric client authentication**: implement `private_key_jwt` end to end. Ask a mentor to register a client.
 * **Backend services**: a system-to-system SMART flow, with no user present at all. Ask a mentor to register a client.
 * **Break it**: attack your own application. Tamper with `state`. Replay a `code`. Send a token with the wrong `aud`. Use an expired token. Ask for a resource outside your scopes. Document what the server correctly rejected, and what it did not.
+
+### Team roles
+
+Roles are for people who build in different ways, whether they write code or use low-code and no-code tools. Every team member can contribute without writing the OAuth flow by hand. Swap roles during the day, and in a team of two, share them.
+
+* **Navigator**: reads the hints and the why-text aloud, keeps the checklist, and asks the discussion prompts.
+* **Problem owner**: owns the clinical question for your chosen workflow or problem card, and decides what the clinician needs to see or save.
+* **Break-it tester**: attacks the app and the EPJ with `curl` and the browser, as described under Break it in [Gold](#gold), and keeps notes on what was rejected.
+* **UI/demo builder**: builds the screens, preferably in the solved app's pages, and prepares the README and screenshot.
 
 ### Practical
 
 * **Language**: the track is facilitated in Norwegian. All written material, code and documentation is in English, with Norwegian terms kept where they are the actual names of things. See [Terms and abbreviations](#terms-and-abbreviations).
 * **AI tools**: GitHub Copilot, Claude, Cursor and similar are welcome. They are good at OAuth boilerplate and at reading HTTP error responses. They know very little about HelseID and Norwegian code systems, and will confidently invent both.
-* **Organization**: work in teams or individually. OAuth is complicated, we recommend pairing.
-* **Results**: each team publishes a repository with a short README.
+* **Organization**: teams form themselves, 2 to 4 people. OAuth is complicated, so we recommend not working alone.
+* **Results**: each team publishes a repository with a short README and a screenshot. The track lead picks a few short demos to show in the shared plenary, so not every team will get a demo slot.
 
 ### Reference material
 

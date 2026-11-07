@@ -17,7 +17,6 @@ Generic: line 0, col 0, Warning - The html source is not well formed: Found "</d
 Generic: line 0, col 0, Warning - The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20 (STRUCTURE)
 Generic: line 0, col 0, Warning - The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16 (STRUCTURE)
 Generic: line 0, col 0, Warning - The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12 (STRUCTURE)
-Generic: line 0, col 0, Error - The link '#roles-for-non-developers' for "Roles for non-developers" cannot be resolved (valid targets: 47 targets) (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
@@ -33,5 +32,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient.json: line 1, col 9929, Info - There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language (INVALID)
 /__w/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-Hackathon-2026/Norwegian-FHIR-hackathon-2026/fsh-generated/resources/StructureDefinition-mal-patient.json: line 0, col 0, Info - The resource StructureDefinition/mal-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
 
-err = 1, warn = 15, info = 7, broken links = 8
+err = 1, warn = 15, info = 7, broken links = 7
 IG Publisher Version: 3.0.3
