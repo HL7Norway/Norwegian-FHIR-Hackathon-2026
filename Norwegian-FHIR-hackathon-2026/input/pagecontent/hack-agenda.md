@@ -31,6 +31,10 @@ Track introductions
 * Medication Definition on FHIR - Exploration of FHIR services from EMA and NOMA (Adam/Elin)
 * FHIR 101: Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
+#### Demo summary and discussions
+
+The track leads presents the main results from the day in a plenary presentation. All participants are welcome to demo things they have built during the day. Presentable results can be everything from workable client/server software, via curl/Postman transactions to implementation guides and FHIR conformance resources.
+
 #### Track leads  
 
 A list of people leading tracks on the hackathon, including contact information.  
@@ -50,7 +54,7 @@ A list of people leading tracks on the hackathon, including contact information.
 | IHE document sharing | Michal Cermak | [michal.cermak@nhn.no](mailto:michal.cermak@nhn.no)                                    | IHE Norge         |
 | IHE document sharing | Tim Mortensen | [tim.mortensen@nhn.no](mailto:tim.mortensen@nhn.no) | NHN |
 | IHE document sharing | Kurt Inge Grønbech | [kurt.gronbech@nhn.no](mailto:kurt.gronbech@nhn.no) | NHN |
-| IHE document sharing | Frank Soli | [frank.solli@nhn.no](mailto:frank.solli@nhn.no) | NHN |
+| IHE document sharing | Frank Solli | [frank.solli@nhn.no](mailto:frank.solli@nhn.no) | NHN |
 | IHE document sharing | Nina Norberg | [nina.norberg@nhn.no](mailto:nina.norberg@nhn.no) | NHN |
 | EHDS Patient summary | Ingvar Sørlien       | [ingvar.sorlien@sykehuspartner.no](mailto:ingvar.sorlien@sykehuspartner.no)            | IHE Norge         |
 | EHDS Patient summary | Linn Brandt          | [Linn.Brandt@helsedir.no](mailto:Linn.Brandt@helsedir.no)                              | Helsedirektoratet |
@@ -61,7 +65,7 @@ A list of people leading tracks on the hackathon, including contact information.
 | Partner       | Øyvind Aassve               | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)                     | Sykehuspartner    |
 {: .grid .table-striped}
 
-### Partners
+#### Partners
 
 Partners involved in planning and organizing the hackathon.  
 
@@ -70,10 +74,6 @@ Partners involved in planning and organizing the hackathon.
 | Partner       | Nino Lo Cascio              | [nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)          | Bedredelt         |
 | Partner       | Line Andreassen Sæle        | [Line Andreassen Sæle](lineandreassen.saele@fhi.no)                          | HL7 Norge         |
 {: .grid .table-striped}
-
-#### Demo summary and discussions
-
-The track leads presents the main results from the day in a plenary presentation. All participants are welcome to demo things they have built during the day. Presentable results can be everything from workable client/server software, via curl/Postman transactions to implementation guides and FHIR conformance resources.
 
 #### Introduction to FHIR
 
