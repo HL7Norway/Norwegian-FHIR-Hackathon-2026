@@ -9,12 +9,53 @@ Co-host: Jørn-Are Klubben Flaten, Nav.
 
 ### Start here
 
-1. Form a team of 2 to 4 people. Pick your teammates yourselves.
+1. Your group is the table you sit at, 4 to 6 people.
 2. Create your team's repository from the [starter](https://github.com/navikt/smart-on-fhir-templates)
    and follow its `public/README.md`.
-3. Log in to the EPJ with your own test clinician login.
+3. Open [nav-epj](https://epj.ekstern.dev.nav.no/). On the HelseID login page, choose **TestIDP**,
+   manually enter the **fødselsnummer** (personal identifier) of a Syntpop test clinician from your
+   group below, and log in.
 4. Open the browser checklist. It marks the 10 TODOs as you finish them, and explains why each one
    matters.
+
+**Syntpop test clinicians**
+
+Each group shares its six test clinicians. Use a clinician from your group's rows below. Enter all
+11 digits of the fødselsnummer, including any leading zero. These are synthetic test identities.
+
+| Group | Fødselsnummer | Name |
+|-------|---------------|------|
+| 1 | `28677509882` | LØSNINGSORIENTERT DIAMETER |
+| 1 | `22728131350` | BESTEMT FOTNOTE |
+| 1 | `21687739091` | GØYAL FATTET DUE |
+| 1 | `27717523763` | RETT BYTTE |
+| 1 | `12775015754` | FORSKJELLIG JOURNAL |
+| 1 | `25725696917` | PASSIV RAVGUL OPPVASKMASKIN |
+| 2 | `04685611959` | KOMPATIBEL MÅNE |
+| 2 | `05687536179` | INKONSEKVENT KORTSTOKK |
+| 2 | `06676340007` | RETT DEKLARASJON |
+| 2 | `08695717505` | UKJENT LITEN AGG |
+| 2 | `04667408313` | ÄNDLÖS VOTT |
+| 2 | `06705502321` | OPPFARENDE FABRIKKPIPE |
+| 3 | `13747390929` | COMÚN LIGGESTOL |
+| 3 | `03726112907` | VÅKEN EVALUERING |
+| 3 | `08775501708` | FINTFØLENDE SLAPP FARESKILT |
+| 3 | `25687490072` | PÅLITELIG TREGRENSE |
+| 3 | `17707948426` | UROLIG HUSBÅT |
+| 3 | `22667416691` | RASTLØS BIOGRAF |
+| 4 | `20716600700` | TREIG HEST |
+| 4 | `10697019362` | VARSOM TUNFISK |
+| 4 | `15765612710` | KUNSTIG ONSDAG |
+| 4 | `12675904675` | ARITMETISK NØYTRAL FJELLKJEDE |
+| 4 | `23736428482` | HANDLENDE AKADEMISK BOOM |
+| 4 | `06745732826` | PRODUKTIV SVALE |
+| 5 | `31666735709` | JUSTERBAR FASE |
+| 5 | `28695936569` | TRIST TROMMIS |
+| 5 | `30745547741` | UGJENNOMSIKTIG BIOLOGI |
+| 5 | `08685422981` | UMAKE FUNKSJONÆR |
+| 5 | `25727599404` | VARSOM SERVITUTT |
+| 5 | `20665046924` | OPPSTEMT FLØYTE |
+{: .grid .table-striped}
 
 ### Table of Contents
 
@@ -95,15 +136,15 @@ English while the systems and identifiers we work with are Norwegian. This is th
 
 ### What the track provides
 
-* An **EPJ** with its own SMART authorization server and a FHIR R4 API. This is the system that
-  launches your application.
+* [**nav-epj**](https://epj.ekstern.dev.nav.no/), an EPJ with its own SMART authorization server and
+  a FHIR R4 API. This is the system that launches your application.
 * **Synthetic Norwegian patient data**: patients with fødselsnummer and d-nummer, clinicians with
   HPR-nummer, organisations with organisasjonsnummer, consultations, diagnoses coded with ICPC-2 and
   ICD-10, and measurements.
 * A **starter repository** with a `public/` exercise containing numbered `TODO`s and finished
   templates in `client-secret/`, `private-key-jwt/` and `backend-services/`.
-* **Credentials** on the day: the shared public `client_id` (`hackathon-public`), a test clinician
-  to log in as, and a list of patients. Mentors register secret or key clients on request.
+* **Credentials** on the day: the shared public `client_id` (`hackathon-public`), a set of test
+  clinicians per group, and a list of patients. Mentors register secret or key clients on request.
 * A browser checklist that tells you what to fix, why it matters, and what to try when you are
   stuck.
 * Mentors circulating throughout the day.
@@ -227,7 +268,7 @@ Write-back is the default goal for the build phase; authentication options are o
 
 Roles are for people who build in different ways, whether they write code or use low-code and
 no-code tools. Every team member can contribute without writing the OAuth flow by hand. Swap roles
-during the day, and in a team of two, share them.
+during the day. Several people can share a role.
 
 * **Navigator**: reads the hints and the why-text aloud, keeps the checklist, and asks the discussion
   prompts.
@@ -246,8 +287,7 @@ during the day, and in a team of two, share them.
 * **AI tools**: GitHub Copilot, Claude, Cursor and similar are welcome. They are good at OAuth
   boilerplate and at reading HTTP error responses. They know very little about HelseID and Norwegian
   code systems, and will confidently invent both.
-* **Organization**: teams form themselves, 2 to 4 people. OAuth is complicated, so we recommend not
-  working alone.
+* **Organization**: about 5 groups of 4 to 6 people, one group per table.
 * **Results**: each team publishes a repository with a short README and a screenshot. The track lead
   picks a few short demos to show in the shared plenary, so not every team will get a demo slot.
 
