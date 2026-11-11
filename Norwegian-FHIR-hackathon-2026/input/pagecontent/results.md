@@ -12,6 +12,7 @@ On EHIN the day after Sigurd Ringbakken, Adam Kover, Ingvar Sørlien and Thomas 
 
 Everyone managed to produce a FHIR IG. Several different use-cases where documented including:  
 
+* [Study finder IG](https://paulrylandsholm.github.io/ig-mal/currentbuild/)  
 * Skin wound assessment  
 * Encounter reporting modeling  
 * Several kinds of observation profiling  
