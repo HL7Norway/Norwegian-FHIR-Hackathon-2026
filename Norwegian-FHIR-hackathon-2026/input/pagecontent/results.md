@@ -1,8 +1,8 @@
 ### Results from the Hackathon
 
-Overall the hackathon was a great success with about 90 participants gathered at Rebel in Oslo. We worked in the six annonced tracks and had great results from all the tracks presented in the summary at the end of the day. The social gathering at Røør after the actual Hackathon was also great, about 25 persons participated.  
+Overall the hackathon was a great success. About 90 participants gathered at Rebel in Oslo on monday 9th 2026 to work on health interoperability. The participants  worked in the six annonced tracks and presented great results in the summary session at the end of the day. After the hackathon we invited to the traditional FHIR-beer, a social gathering this time hosted at Røør.  
 
-On EHIN the day after Sigurd Ringbakken, Adam Kover, Ingvar Sørlien and Thomas Tveit Rosenlund gave a presentation summarizing the results from this years event.
+The day after the actual Hackathon Sigurd Ringbakken, Adam Kover, Ingvar Sørlien and Thomas Tveit Rosenlund gave a presentation summarizing the results from this years event.  
 
 * [EHIN presentation on the results from the Hackathon](2026-11-10-FHIR-Hackathon-2026-resultater.pdf)  
 
