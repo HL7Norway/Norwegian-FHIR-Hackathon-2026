@@ -1,5 +1,51 @@
 # Notater planlegging 2026
 
+## 2026-11-13 review
+
+### Tilstede
+
+### Agenda
+
+1. Inntrykk
+2. Tilbakemeldinger
+3. Justeringer til neste år
+4. Eventuelt
+
+### Notater  
+
+Notater fra møtet.
+
+#### Inntrykk  
+
+Nino - mye skjedde og mye energi. Mye bedre enn i fjor. Veldig bra stemning. Starte hackathon med en pasientgruppe/bruker kan være en ide til neste gang? Yellow box fungerer ikke, samhandlingsstand er det han ønsker seg.  
+Kristine - utrolig god stemning, kollegial stemning, alle har felles interesse. Entusiasme.  
+Michal - god håndtering av akuttsituasjon, ambulansen kom. På tirsdag sa en leverandør at de var klare for å gå i produksjon, leverandører blir fort klare.  
+Linn - får ikke koble seg til kjernejournal fra ambulansen. Husket ikke medisinen sin osv.  
+Sigurd - mange gode resultater som ble presentert mange med gode ideer og stå på vilje. Noen spor som handler om fri hacking. Veldig god stemning, gode faglige diskusjoner. grusom presentasjon på EHIN.  
+Espen - Morsom med en intro og større case som man kan implementere sammen.  
+Kristine - Møtes fysisk er viktig. Nye kontakter og det gir umiddelbart effekt av.  
+Espen - demo på samhandling for 2 år siden.  
+Adam - HL7 standen kan kanskje brukes.  
+
+#### Justeringer neste år takeaway
+
+* Praktisk interoperabilitet - hvordan videreutvikle kjøre et connectathon?  
+* Hvordan få til cross track utveksling  
+* Yellow box og EHIN, yellow box fungerer ikke veldig bra for å legge frem resultater.  
+* Venue og breakout rooms  
+* Premier og konkurranser - hackathon konkurranse?  
+* Felles pizza fra en sponsor - dårlig tid man kan få pizza på stedet hvor man hacker  
+* Interoperabilitet i praksis ved bruk av API'ene i et generelt  
+* Hva er veien videre - for hackathon og interoperabilitet hackathon  
+* Er mandag viktig?  
+* Spørre om deltakerne om de har noe å presenter epå fagforum.  
+* Nærhelsereformen - samhandling på tvers av nivåer.  
+* Bruk av AI for utvikling.  
+* Hva med helsepersonell som kan utfordre til noen praktiske øvelser?  
+* Infrastruktur tilgjengelig til neste år for basis for use-caser. Vi kan antakelig jobbe videre med dette.
+  
+**Hvordan trekke sammen data fra mange kilder til en nyttig løsning for innbygger, helsevirksomhet eller helsepersonell?**
+
 ## 2026-11-05
 
 ### Tilstede
