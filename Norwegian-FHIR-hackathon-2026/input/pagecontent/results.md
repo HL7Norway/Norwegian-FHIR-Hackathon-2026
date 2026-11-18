@@ -1,6 +1,6 @@
 ### Results from the Hackathon
 
-Overall the hackathon was a great success. About 90 participants gathered at Rebel in Oslo on monday 9th 2026 to work on
+Overall the hackathon was a great success. 87 participants gathered at Rebel in Oslo on monday 9th 2026 to work on
 health interoperability. The participants worked in the six annonced tracks and presented great results in the summary
 session at the end of the day. After the hackathon we invited to the traditional FHIR-beer, a social gathering this time
 hosted at Røør.
@@ -50,4 +50,4 @@ Takeaways from this session:
   macOS.
 * Some proprietary work-pcs are more locked down than others, therefore the participants must be warned of this before.
   attending.
-* A track attendee limit must be set and number of facilitators should be requested based on that number.
+* A track attendee limit must be set and number of facilitators should be requested based on that number.  
