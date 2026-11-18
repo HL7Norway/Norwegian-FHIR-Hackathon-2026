@@ -210,9 +210,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="results-from-the-hackathon">Results from the Hackathon</h3>
 
-<p>Overall the hackathon was a great success. About 90 participants gathered at Rebel in Oslo on monday 9th 2026 to work on health interoperability. The participants  worked in the six annonced tracks and presented great results in the summary session at the end of the day. After the hackathon we invited to the traditional FHIR-beer, a social gathering this time hosted at Røør.</p>
+<p>Overall the hackathon was a great success. 87 participants gathered at Rebel in Oslo on monday 9th 2026 to work on
+health interoperability. The participants worked in the six annonced tracks and presented great results in the summary
+session at the end of the day. After the hackathon we invited to the traditional FHIR-beer, a social gathering this time
+hosted at Røør.</p>
 
-<p>The day after the actual Hackathon Sigurd Ringbakken, Adam Kover, Ingvar Sørlien and Thomas Tveit Rosenlund gave a presentation summarizing the results from this years event.</p>
+<p>The day after the actual Hackathon Sigurd Ringbakken, Adam Kover, Ingvar Sørlien and Thomas Tveit Rosenlund gave a
+presentation summarizing the results from this years event.</p>
 
 <ul>
   <li><a href="2026-11-10-FHIR-Hackathon-2026-resultater.pdf">EHIN presentation on the results from the Hackathon</a></li>
@@ -231,6 +235,39 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Several kinds of observation profiling</li>
   <li>CarePlan client app-demo</li>
   <li>Improvements to <a href="https://thomiz.github.io/hackathon-check-in-app/">The check-in kiosk app with demo</a></li>
+</ul>
+
+<h4 id="smart-on-fhir">SMART on FHIR</h4>
+
+<p>~30 people participated on the track.</p>
+
+<p>Most managed to get a SMART on FHIR application
+from <a href="https://github.com/navikt/smart-on-fhir-templates">Navs template repository</a> using the <code class="language-plaintext highlighter-rouge">public</code> launch method.</p>
+
+<p>Some experimented using <code class="language-plaintext highlighter-rouge">backend-services</code> and <code class="language-plaintext highlighter-rouge">client-secret</code> which entailed a more secure launch with wider scopes and
+extended use-cases.</p>
+
+<p>Some other things that were accomplished:</p>
+
+<ul>
+  <li>Using patient data to show graphs of measurements and min/max thresholds to warn the doctor.</li>
+  <li>Writing back measurements and documents from the SMART app to the <a href="https://epj.ekstern.dev.nav.no/">mock EHR system</a>.</li>
+  <li>DigDir and Aidn were able to launch Førerrett SMART app from Aidn's EHR, which is a real-world usage scenario.</li>
+  <li>Some went as far as creating their own EHR systems and implemented SMART framework and FHIR strutured data to present
+SMART apps as they wished.</li>
+</ul>
+
+<p>Takeaways from this session:</p>
+
+<ul>
+  <li>SMART on FHIR is gaining in popularity and will be of great use for the EHR market to allow third party vendors.</li>
+  <li>Use of AI for development significantly speeds up the process, but infrastructure, OAuth and privacy must be
+understood by humans creating applications that deal with health records.</li>
+  <li>Variations in OS and backend/frontend expertise entail different setups, so we must facilitate for Windows, Linux and
+macOS.</li>
+  <li>Some proprietary work-pcs are more locked down than others, therefore the participants must be warned of this before.
+attending.</li>
+  <li>A track attendee limit must be set and number of facilitators should be requested based on that number.</li>
 </ul>
 
 
@@ -252,7 +289,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 13, 2026 09:31+0000">2026-11-13</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2026#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 18, 2026 08:06+0000">2026-11-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <a href="privacy.html">Privacy information</a> |
